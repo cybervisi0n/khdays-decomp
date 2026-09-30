@@ -9,7 +9,7 @@
  * animation 2) and hands over to Ov208_AiStep_QueueAction0OnAnimEnd; otherwise the travelled length accumulates
  * in +0x40 and past 15.0 the item bursts silently. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Obb { VecFx32 center; VecFx32 axisX; VecFx32 axisY; VecFx32 axisZ; int extent[3]; };
 

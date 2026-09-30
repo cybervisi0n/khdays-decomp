@@ -7,7 +7,7 @@
  * the index advances and, past the +0x70 count, the tick hands off to the release decision. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void VEC_Subtract(void *a, void *b, void *d);

@@ -30,7 +30,7 @@
  *    pre-load swap). Block-scoping the two pointers is the only thing that reassigns them.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 static inline void VEC_Set(VecFx32 *vec, int x, int y, int z) {
     vec->x = x;

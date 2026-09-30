@@ -11,7 +11,7 @@
  *
  * One of three byte-identical siblings (ov114/ov244/ov277). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned short a, b; } Ov114Pair;

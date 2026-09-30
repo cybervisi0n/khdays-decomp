@@ -5,7 +5,7 @@
  * reaction 0x154 fires at the +8 position, mode 7 for kind 0 and mode 9 otherwise. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 

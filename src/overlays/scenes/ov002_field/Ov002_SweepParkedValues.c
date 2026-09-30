@@ -2,7 +2,7 @@
  * accepts. Ghidra models the object as Ov002ParkOwner; the struct below is the
  * codegen view of the same fields. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     char pad0000[0x1434];

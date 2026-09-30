@@ -2,7 +2,7 @@
  * high-byte mask 0x82, stops the current action, starts resource 0x169 mode 6, and advances the
  * node. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);

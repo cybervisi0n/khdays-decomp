@@ -6,7 +6,7 @@
  * and position, and the model is submitted. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Effect {
     u8 pad0000;

@@ -5,7 +5,7 @@
  * their first hit, and the target is released. The tick then hands over to
  * Ov225_SlamLanding. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

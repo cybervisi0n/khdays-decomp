@@ -18,7 +18,7 @@
  * The ending clears the impulse (+0x1c = 0, +0x20 = -0x1800, +0x24 = 0), drops bit 0x40 of the
  * hw60 hi-byte (it HAS the trunc pair, so bitfield form) and hands off to Ov228_SlamTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct {

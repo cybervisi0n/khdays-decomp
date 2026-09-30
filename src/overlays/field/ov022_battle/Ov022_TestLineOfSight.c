@@ -2,7 +2,7 @@
  * cast from just above the player). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov022Actor {

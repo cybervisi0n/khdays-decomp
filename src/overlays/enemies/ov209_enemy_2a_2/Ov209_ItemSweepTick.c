@@ -9,7 +9,7 @@
  * the tick hands over to Ov209_TimerFlagFirePushTwice. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 

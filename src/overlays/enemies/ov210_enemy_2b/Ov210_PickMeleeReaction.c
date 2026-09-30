@@ -9,7 +9,7 @@
  * attack 2 and hand off to 020d10e8.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

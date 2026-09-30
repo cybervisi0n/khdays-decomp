@@ -9,7 +9,7 @@
  * effect 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { u8 b0 : 1; u8 b1 : 1; } Bits;

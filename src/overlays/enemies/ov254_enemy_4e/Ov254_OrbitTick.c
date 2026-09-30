@@ -1,7 +1,7 @@
 /* Orbit tick: the +0xc velocity is the +0x430 partner's +0x2c vector turned by the +0x30 yaw; once
  * the +4 item's +0xad byte clears the node moves to 020cfbdc. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

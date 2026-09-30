@@ -7,7 +7,7 @@
  * move is 2 when grounded (+0x17a bit 0) else 0xc, and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Flag17a { u8 b0 : 1; };
 struct BoxQuery {

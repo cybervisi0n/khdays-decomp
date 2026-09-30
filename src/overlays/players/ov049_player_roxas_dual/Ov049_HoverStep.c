@@ -10,7 +10,7 @@
  * callback when grounded, else state 2). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;

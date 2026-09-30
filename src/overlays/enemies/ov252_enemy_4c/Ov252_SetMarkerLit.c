@@ -3,7 +3,7 @@
  * the actor plays effect 0xb at the marker's +0x53c anchor. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 typedef struct { u8 lo : 4; u8 hi : 4; } NibblePair;

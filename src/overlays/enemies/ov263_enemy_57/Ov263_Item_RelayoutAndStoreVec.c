@@ -4,7 +4,7 @@
  * The callers (Ov263_AiFireVolleyTick) pass a fifth argument, a point, which the ROM puts on
  * the stack (`str r0, [sp]` before the call) and this function never reads. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 void Ov263_Item_RelayoutAndStoreVec(int muzzle, const VecFx32 *pos, const VecFx32 *dir,

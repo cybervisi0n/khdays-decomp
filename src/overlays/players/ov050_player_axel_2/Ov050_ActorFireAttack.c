@@ -18,7 +18,7 @@
  * comes out one register lower and thirteen instructions differ; that single missing
  * argument was the last residue in this function. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct ActorBits {

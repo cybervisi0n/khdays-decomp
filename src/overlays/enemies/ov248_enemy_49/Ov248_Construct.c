@@ -9,7 +9,7 @@
  * creates the eight +0x3c0 projectiles (020d02b4) and loads sound 0x146. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { int w[11]; } SrtTransform;

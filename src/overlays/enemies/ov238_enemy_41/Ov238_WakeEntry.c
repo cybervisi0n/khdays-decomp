@@ -2,7 +2,7 @@
  * fires at the origin, the +0xc velocity rests, +0x2c clears and the node moves on to 020d2dd0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 

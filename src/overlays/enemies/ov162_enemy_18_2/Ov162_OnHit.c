@@ -1,7 +1,7 @@
 /* Ov162_OnHit: hit handler of the ov161 enemy (x2), ported from the matched ov131 sibling; the health always drops here and a kind-4 hit keeps the stored impact point. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct HitState {
     char *pTarget;

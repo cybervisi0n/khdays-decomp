@@ -22,7 +22,7 @@
 /* Ov022HitSpec */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct HitSpec {
     int nBase;                   /* 0x00 */

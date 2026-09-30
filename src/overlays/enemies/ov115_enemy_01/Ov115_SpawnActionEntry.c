@@ -3,7 +3,7 @@
  * optional target, sets bit 2 of the owner's +0x5c flags and places the owner at the target's
  * +0x190 point (or its own +0x74 position without a target). Returns the spawn result. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int CreateRegistryEntry(int list, int a, int b, void *cb2, void *cb1, int **out);
 extern void Srt_SetTranslation(int dst, VecFx32 *src);

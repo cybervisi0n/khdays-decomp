@@ -8,7 +8,7 @@
  * placements on the +0x22c/+0x144 lists (+0x388/+0x38c) from the +0x64 pose, then loads sound
  * 0x132. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 

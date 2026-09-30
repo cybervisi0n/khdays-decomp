@@ -7,7 +7,7 @@
  * (+0x17a bit 1) or after 1.5 the tick requests sub-state 3; otherwise +0x3c is latched unless the
  * target is still more than 1.5 away and at most 0.5 above the +8 position. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct b2 { unsigned char b0 : 1, b1 : 1; };

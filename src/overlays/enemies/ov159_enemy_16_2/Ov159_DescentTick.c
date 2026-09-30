@@ -9,7 +9,7 @@
  * 0x150 mode 8 fires and the same hand-over happens; without, the +0x10 point tracks the +0x1c
  * x / +0x24 z while its y sinks by the probe and the +4 sub-object follows. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int q[4]; } Quat;

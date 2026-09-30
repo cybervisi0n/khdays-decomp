@@ -6,7 +6,7 @@
  * pos/off/out are block locals (that is what gives the ROM's stack slots and puts &off/&pos in
  * r5/r6), and `hit` / `i` are declared around `state` so world and the counter get sb/r8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void *Collision_CastRay(void *pColl, VecFx32 *pFrom, VecFx32 *pDir);
 extern void *Collision_CastSphere(void *pColl, VecFx32 *pFrom, VecFx32 *pDir, int nFlags);

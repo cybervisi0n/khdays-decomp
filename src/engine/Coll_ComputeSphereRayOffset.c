@@ -2,7 +2,7 @@
  * computes the offset along the direction to the far intersection; returns 0 when the ray misses.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *dst);
 extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);

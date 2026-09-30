@@ -1,6 +1,6 @@
 /* Ov220_DistanceToTarget: ported from a matched sibling family (same shape, constants and offsets adjusted). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/actor.h"
 
 extern int Ov107_FindNearestObject();

@@ -4,7 +4,7 @@
  * pose 0x11 plays, the +0x70/+0x74 clocks and the +0x79/+0x7b flags reset and 020cee94 runs next. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Flag17a { u8 b0 : 1; u8 b1 : 1; };

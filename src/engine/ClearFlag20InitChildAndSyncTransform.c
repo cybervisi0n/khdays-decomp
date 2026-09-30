@@ -2,7 +2,7 @@
  * arg2, arg3), and if bit 8 of *this is set copies the 3-word vec at this+0x13c into this+0xa8;
  * returns 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void RegisterSeqAndInit();
 

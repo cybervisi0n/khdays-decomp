@@ -5,7 +5,7 @@
  * the +0x74 mode + 2 and the node ends; otherwise the timer restarts with two charges and pose 9. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);

@@ -6,7 +6,7 @@
  * the face point moved to the box position (+0x2c), and the box's +0x24 tag (+0x80). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { fx16 x, y, z; } VecFx16;
 typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;

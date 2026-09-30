@@ -1,7 +1,7 @@
 /* Face the ov259 actor's +8 target: +0x7c becomes the heading of the flattened offset from the
  * actor's +0xb0 position to the target's +0x190 point. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern int VEC_Normalize(VecFx32 *v, VecFx32 *out);

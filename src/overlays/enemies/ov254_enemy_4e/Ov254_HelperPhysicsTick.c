@@ -6,7 +6,7 @@
  * velocity under 1/16 is zeroed and the bounce flag +0x44 is set. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Hw60 { u16 lo : 8; u16 hi : 8; };
 struct Flag17a { u8 b0 : 1; };

@@ -12,7 +12,7 @@
  * halfword instead of reusing a copy. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[16]; } IdTable;

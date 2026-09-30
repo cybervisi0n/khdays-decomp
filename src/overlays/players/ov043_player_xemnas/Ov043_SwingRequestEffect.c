@@ -6,7 +6,7 @@
  * angle less the bound. The effect's +0x1c offset rotated by the result is written to out. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } MtxFx33;
 

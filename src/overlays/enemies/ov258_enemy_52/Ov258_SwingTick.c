@@ -4,7 +4,7 @@
  * move is 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov258_SwingHitTest(int *node);
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);

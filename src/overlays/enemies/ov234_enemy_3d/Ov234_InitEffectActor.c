@@ -2,7 +2,7 @@
  * slots, and requests its resources. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov234Box {
     VecFx32 min;

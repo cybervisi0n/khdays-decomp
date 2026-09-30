@@ -2,7 +2,7 @@
 /* The path node this predicate belongs to; it is one of the step functions
  * Ov002_CreateTaskNodePath installs at +0x14. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov002TaskNodePath {
     void *pHook0;                       /* +0x00 */

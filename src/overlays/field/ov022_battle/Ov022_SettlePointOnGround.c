@@ -10,7 +10,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct CollCastParams {
     VecFx32 *pOrigin;         /* 0x00 */

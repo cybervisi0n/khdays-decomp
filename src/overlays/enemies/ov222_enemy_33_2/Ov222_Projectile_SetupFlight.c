@@ -25,7 +25,7 @@
  * {r3,r4,r5,lr}; using the parameter directly gives push {r4,lr} and a 4-byte-larger frame.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int owner, int kind);
 extern void Quat_FromTwoVectors(VecFx32 *curve, const VecFx32 *src, char *ap);

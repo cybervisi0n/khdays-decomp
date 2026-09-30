@@ -7,7 +7,7 @@
  * the range param_1[0x20].
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int VEC_Distance(void *a, void *b, int c);
 

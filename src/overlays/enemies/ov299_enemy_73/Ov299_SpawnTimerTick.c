@@ -5,7 +5,7 @@
  * the closest or the farthest to the actor's +0x74 position depending on a coin toss (3eb4).
  * The timer restarts from zero. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Bits40 { int b0 : 1, b1 : 1; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

@@ -17,7 +17,7 @@
  * it, the 0 is a free scratch value and lands in ip instead, which reads as an unbreakable
  * allocator coin-flip. It is not: it is a dropped argument (SKILL.md's phantom-args trap). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SetSubitemState(int a, int b, int c, int d);
 extern VecFx32 data_02041dc8;

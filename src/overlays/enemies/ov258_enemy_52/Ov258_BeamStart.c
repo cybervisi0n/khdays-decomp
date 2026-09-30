@@ -4,7 +4,7 @@
  * timers and the +0x48 flag clear and the brain waits on 020d0fe0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SrtTransform_SetIdentity(void *transform);
 extern void Srt_SetTranslation(void *transform, const VecFx32 *translation);

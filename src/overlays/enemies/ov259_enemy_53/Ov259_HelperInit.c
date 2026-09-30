@@ -8,7 +8,7 @@
  * set) and a second one into a +0x144 slot, also kept at +0x390. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned f : 8; } B8;

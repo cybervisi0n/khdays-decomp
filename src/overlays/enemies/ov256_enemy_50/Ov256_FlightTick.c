@@ -14,7 +14,7 @@
  * which gives the ROM's r1/r2 split between the mode byte and the flag. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Flag17a { u8 b0 : 1; u8 b1 : 1; };

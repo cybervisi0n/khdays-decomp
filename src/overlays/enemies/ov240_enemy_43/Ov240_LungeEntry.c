@@ -3,7 +3,7 @@
  * requests sub-state 2 and ends the state, else bit 0 of the actor's +0x1ae is raised,
  * animation 4 plays, the +0x38 timer and +0x3e flag reset and the tick hands off to cf0c8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(void *a, void *b, VecFx32 *d);

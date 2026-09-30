@@ -16,7 +16,7 @@
 /* Ov022VoiceCue */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct VoiceCue {
     u16 nVoice;                  /* 0x00 */

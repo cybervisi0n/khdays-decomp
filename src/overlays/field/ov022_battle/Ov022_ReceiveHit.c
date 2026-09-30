@@ -13,7 +13,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define ACTOR_FLAGS(p) (*(unsigned long long *)(p)->aFlags)
 #define ACTOR_FLAGS2(p) (*(unsigned long long *)(p)->aFlags2)

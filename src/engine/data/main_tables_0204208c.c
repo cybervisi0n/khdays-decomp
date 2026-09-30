@@ -1,5 +1,5 @@
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #include "game/class_descriptor.h"
 /* main .rodata 0x0204208c-0x02042124: NNS G3D material masks, matrix/quaternion helper constants

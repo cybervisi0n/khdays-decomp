@@ -5,7 +5,7 @@
  * state (+0x20 = 0, +0x24 = 0xc0, +0x2c = 0, +0x30 = 0x700, +0x38 = 1, +0x34 = 0) is armed before
  * the tick hands over to Ov233_AiDashWindup. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

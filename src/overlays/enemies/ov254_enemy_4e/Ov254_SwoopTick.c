@@ -3,7 +3,7 @@
  * quarter sine of the +0x54 drop over the timer, relative to the +8 track's height above the
  * +0x50 start. Once the +4 item's +0xad byte clears the next move is 0xb. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

@@ -1,7 +1,7 @@
 
 /* One entry of the session screen's marker table. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov002SessionMarker {

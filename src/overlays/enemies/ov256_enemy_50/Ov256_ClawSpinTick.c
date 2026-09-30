@@ -4,7 +4,7 @@
  * flag is set, the part takes motion 1 and the node moves on to 020d227c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, VecFx32 *v, VecFx32 *d);

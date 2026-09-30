@@ -29,7 +29,7 @@
  *    expressions mwcc loads +0xc twice, once predicated for the test and again for the call.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define va_start(ap, last) ((ap) = (char *)(&(last) + 1))
 /* Reach a vararg by its offset without keeping a live va_list. Using a held `ap` for these two

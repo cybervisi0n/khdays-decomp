@@ -5,7 +5,7 @@
  * a landed hit spawns effect 2 at the sphere, records the kind bit and fires reaction 0 mode 0x50
  * at the point. Once the owner's +0xad busy byte is clear, sub-state 8 is requested. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 c; int r; } Sphere;
 

@@ -13,7 +13,7 @@
 /* Ov022SweepContact */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct SweepContact {
     int nResult;                 /* 0x00 */

@@ -6,7 +6,7 @@
  * by data_ov237_020d1b7c turned by the +0x10 heading, and the throw sound (0x12d variant 7). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

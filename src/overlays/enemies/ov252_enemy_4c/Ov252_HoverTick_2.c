@@ -7,7 +7,7 @@
  * otherwise (guarded: +0x64 clears, +0x7c half a frame) +0xbc/+0x70/+0xb8 clear, pose 2 plays and the
  * node moves on to 020d1c7c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

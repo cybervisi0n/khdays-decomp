@@ -2,7 +2,7 @@
  * (*(param_2+4))+0x50, look up cos/sin in the shared trig table, build a Y-rotation
  * matrix, transform the vector in place and copy it to *out. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void MTX_RotY33_(void *mtx, int cos, int sin);
 extern void MTX_MultVec33(int *out, void *mtx, int *in);

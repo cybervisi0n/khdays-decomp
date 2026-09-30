@@ -10,7 +10,7 @@
  * animation entry 2 and the position data_ov027_02083e04. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

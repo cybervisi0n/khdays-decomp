@@ -2,7 +2,7 @@
  * bit 0 of its model's flag byte, resets the step vector from the constant default at data_02041dc8
  * and installs the queue-action-when-active step. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/ai_task.h"
 
 extern int SetIndexedSlot();

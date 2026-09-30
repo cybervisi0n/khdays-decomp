@@ -1,7 +1,7 @@
 /* Release entry of an ov259 helper: its +0x38c shape hides, the +0x394 owner is knocked back at the
  * helper's +0x74 position (mode 7) and the next move is 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 

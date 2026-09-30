@@ -33,7 +33,7 @@
 /* the 0x3c basis block built on the stack and handed to Ov107_HitShape_NewBox */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct ActorSpawnBasis {
     int scale;

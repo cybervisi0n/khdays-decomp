@@ -2,7 +2,7 @@
  * flag high byte, bit 0 of the +0x1ae halfword and bit 6 of the flag high byte, publishes the
  * +0x74 position with mode 0, zeroes the +0x38 clock and hands off to the retreat tick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int actor, int a, VecFx32 v, int b);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

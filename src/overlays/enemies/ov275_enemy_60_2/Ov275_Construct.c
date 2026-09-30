@@ -13,7 +13,7 @@
  * slots (+0x3b0), a capsule of height 0x1050 on the +0x144 list (+0x3b8) and placements of
  * scale 0xccc there (three) (+0x3bc / +0x3c0 / +0x3c4); sound 0x163 is loaded. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov274Pose {
     VecFx32 position;

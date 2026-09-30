@@ -4,7 +4,7 @@
  * track entries at +0xac4, position at +0x24). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Entity {
     u8   pad_00[0x24];

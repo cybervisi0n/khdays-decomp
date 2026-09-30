@@ -8,7 +8,7 @@
  * +0x460 partner flag comes from bit 2 of the save flags and picks sound 0x180 or 0x17b. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[43]; } IdTable43;

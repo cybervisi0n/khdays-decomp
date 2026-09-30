@@ -3,7 +3,7 @@
  * returns the actor to mode 0 or 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef int (*ActorHook)(int actor);

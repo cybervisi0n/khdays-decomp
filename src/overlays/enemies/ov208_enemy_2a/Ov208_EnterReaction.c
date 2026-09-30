@@ -2,7 +2,7 @@
  * clear bit 0 in the low byte of [+8] of the child slot at (*child)+0x388, copy the const
  * offset vector into (child)+0xc, and register the handler. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern const VecFx32 data_02041dc8;
 extern int SetIndexedSlot(int a, int b, void *handler);

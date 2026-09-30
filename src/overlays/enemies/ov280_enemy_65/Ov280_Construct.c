@@ -11,7 +11,7 @@
  * half-extents 0.5*2.56/0.25/0.5*2.56), and loads sound 0x168. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { void *node; int pad; } Slot;
 typedef struct { int w[8]; } KindTable;

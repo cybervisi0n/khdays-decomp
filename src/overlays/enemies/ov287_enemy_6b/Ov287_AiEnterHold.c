@@ -8,7 +8,7 @@
  *
  * One of three byte-identical siblings. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int obj, int a, VecFx32 v, int d);
 extern void Ov107_BuildAndSendUpdate(int obj, int a, int b, int c);

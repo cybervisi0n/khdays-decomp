@@ -10,7 +10,7 @@
  * node (+0xc0) follows.  0 while flying. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov021PlayerSub {
     u8   pad_000[0x70];

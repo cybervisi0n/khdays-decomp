@@ -6,7 +6,7 @@
  * also clears the face). The solved local point is mirrored back, rebuilt in world space from the
  * scaled axes and written to the optional out components; the returned value is the solver's. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct OrientedBox {
     VecFx32 centre;                     /* +0x00 */

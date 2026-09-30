@@ -2,7 +2,7 @@
  * locked, combines it with the ground-normal rotation into the model's SRT, speeds up while
  * flagged, and hands the step velocity to the actor (+0xf0), clearing it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Quat_FromTwoVectors(void *dst, void *src, int m);

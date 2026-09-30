@@ -3,7 +3,7 @@
  * effect 1 at the +8 point, fires reaction 0x138 mode 0xa at the actor's position and hands off
  * to cd980. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct LowByte32 { unsigned bits : 8; };

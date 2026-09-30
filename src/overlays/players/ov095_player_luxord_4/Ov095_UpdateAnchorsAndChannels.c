@@ -6,7 +6,7 @@
  * from +0x2c80) is driven, the attachment stepped, an idle attachment flags the local player's
  * bit 16 in both words, and the common post-update runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Ov002_WidgetScrollCommit(char *channel, char *config, int heading, int frame);

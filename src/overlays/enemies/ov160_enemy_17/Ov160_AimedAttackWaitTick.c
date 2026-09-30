@@ -7,7 +7,7 @@
  * item is idle (+0xad) the +0x44 delay is re-armed to a random value in [+0x224, +0x228],
  * sub-state 2 is queued and the state ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

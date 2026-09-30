@@ -4,7 +4,7 @@
  * chained zero assignment stores x, y, z in ascending stack order. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Slot_0201f468 { char pad0[12]; int nRequestId; } Slot_0201f468;
 typedef struct Ov002PeerObjectDesc { u8 bFlags,nArchiveMember; } Ov002PeerObjectDesc;

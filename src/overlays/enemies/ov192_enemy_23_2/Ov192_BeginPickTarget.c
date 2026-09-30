@@ -7,7 +7,7 @@
  * The candidate array is a block-scoped `int found[4] = {0, 0, 0, 0}` opened after the notify
  * call: the initialiser is what zeroes it through one base register, at that position. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned short a, b; } Pair;

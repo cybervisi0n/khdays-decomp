@@ -1,7 +1,7 @@
 
 /* The 0x14 placement record ov002_PlaceElementNode fills in. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     int nKind;                      /* +0x00 */

@@ -5,7 +5,7 @@
  * When the window opens (+0x42c clear) or closes (+0x42c set) the actor is told at the +0x10 point
  * (020c0b90 mode 0x11 / 0x10). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);
 

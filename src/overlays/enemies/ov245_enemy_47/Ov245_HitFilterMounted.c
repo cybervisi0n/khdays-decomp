@@ -7,7 +7,7 @@
  * reaction 0x11a at the +0xc anchor (unless the hit is the 0x88-flagged 0x80-kind one) with
  * the kind 2/3 (0x22-flagged) or 0/1 picked by the +0x4a parity bit, which flips. Returns 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Hit24 { unsigned int lo : 16, hi : 16; };
 struct Bit0 { unsigned char b0 : 1; };

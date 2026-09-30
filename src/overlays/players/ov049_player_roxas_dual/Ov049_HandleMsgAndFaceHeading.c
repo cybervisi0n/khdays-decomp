@@ -19,7 +19,7 @@
  *    the `next` variable plus `break` gives.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int VEC_Mag(const VecFx32 *v);
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *unit);

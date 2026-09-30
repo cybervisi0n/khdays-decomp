@@ -1,7 +1,7 @@
 /* Ov245_CarriedConstruct -- constructor of the ov245 carried object. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 struct w8 { unsigned int lo : 8, rest : 24; };

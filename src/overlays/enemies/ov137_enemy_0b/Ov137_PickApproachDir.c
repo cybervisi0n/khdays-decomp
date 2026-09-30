@@ -34,7 +34,7 @@
  * returns long long, so mwcc materialises -spread and adds it. Same mechanism as the `+ (v - v)`
  * copy artifact (deferred-ties.md) -- here the addend is real, so no dummy is needed. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *dst);

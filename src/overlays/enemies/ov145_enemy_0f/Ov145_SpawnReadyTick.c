@@ -6,7 +6,7 @@
  * yaws face the target, the lure flag is set and sub-state 7 is requested, otherwise the +0x1c9
  * fallback sub-state; the tick then hands off to a null callback. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

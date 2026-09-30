@@ -6,7 +6,7 @@
  * Once t reaches 1.0 the timer and +0x7c clear, effect 0x162 (kind 6) spawns at the anchor from
  * the +0x384 model and the node moves to 020d0d8c; otherwise the common 020d1364 step runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct m4 { int w[4]; };

@@ -5,7 +5,7 @@
  * self[0x50] == 1, forward the trailing vec (a,b,c) by value to 020d3cc8(self[0x214], abc).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void RefreshObjectCallbacks(int a, int b);

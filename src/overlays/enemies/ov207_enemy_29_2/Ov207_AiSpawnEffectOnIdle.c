@@ -7,7 +7,7 @@
  * the global actually survives. Finally the caller's action (+0x20) is dispatched through
  * SetIndexedSlot with Ov207_FallTick as the continuation. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct {

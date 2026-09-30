@@ -6,7 +6,7 @@
  * pieces 1/2 take the +0x3d4/+0x3d8 part's transform moved 0.5 back/forward and scaled out
  * sideways by that ratio. Finally the base pre-pass (020c7ca4) runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

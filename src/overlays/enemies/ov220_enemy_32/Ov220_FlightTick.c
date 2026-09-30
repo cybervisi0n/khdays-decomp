@@ -8,7 +8,7 @@
  * the velocity and the phase advances by the +0x50 rate, handing off to the wander state
  * (and running it) once it reaches 0x8000. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct Bits17a { unsigned char bit0 : 1, bit1 : 1; };

@@ -4,7 +4,7 @@
  * actor's +0x3cc bit 0, zero the +0x24 vector and the +0x58/+0x30 counters and advance to
  * Ov161_RecoilTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void SetIndexedSlot(void *node, int idx, void *cb);

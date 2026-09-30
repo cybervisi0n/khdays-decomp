@@ -8,7 +8,7 @@
  * (data_ov023_0208a784 byte 0) overrides with 0x197 / 0x1a3. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Entity {
     u8   pad_00[0xa8];

@@ -6,7 +6,7 @@
  * that radius -- is pushed through cf914 (mode 2). Once the +4 item is idle (+0xad) a finished
  * cf8e0 check with the +0x64 flag set clears it and queues sub-state 5, otherwise sub-state 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int actor, int effect, VecFx32 v, int flag);
 extern void Ov107_BuildAndSendUpdate(int actor, int id, int kind, void *anchor);

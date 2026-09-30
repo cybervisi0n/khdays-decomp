@@ -8,7 +8,7 @@
  * the quit line (slot 2, source row 3) only below room 10000. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

@@ -7,7 +7,7 @@
  * moves to the turn-and-step handler (020cd578); with it expired the same happens when the
  * target is under 6.0 or beyond the actor's +0x2d8 range. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);

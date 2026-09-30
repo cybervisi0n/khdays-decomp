@@ -6,7 +6,7 @@
  * ov002 56a98 mode 1) and sets the latch. With nothing counted the latch and both are turned
  * off. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Angle_TurnToward(int cur, int want, int step, int mode);
 extern void QuatFromAxisAngle(int *quat, const VecFx32 *axis, int angle);

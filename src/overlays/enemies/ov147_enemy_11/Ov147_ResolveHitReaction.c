@@ -3,7 +3,7 @@
  * separate set for flagged hits) and queues defeat (action 3) at zero or the knockback action (6)
  * for a flagged hit; returns 1 when it handled the hit. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct ReactionModes {
     unsigned char flagged[2];

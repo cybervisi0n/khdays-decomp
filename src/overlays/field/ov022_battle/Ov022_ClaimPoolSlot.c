@@ -9,7 +9,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define MODE_FIRST_FREE 0
 #define MODE_ROUND_ROBIN 1

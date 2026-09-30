@@ -4,7 +4,7 @@
  * Once the pillar's +0xad rig is idle its actions 0/2/4/1 are enabled, its animation stops and
  * 020ce734 follows. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Srt_SetTranslation(int srt, VecFx32 *pos);
 extern void Slot_Spawn(int id, int kind, VecFx32 *pos, int flag);

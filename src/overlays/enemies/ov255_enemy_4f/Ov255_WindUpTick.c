@@ -5,7 +5,7 @@
  * heads for it (Ov255_SteerToTarget); once it is within 4.0 or the +0x54 cooldown has run out,
  * the rig's +0xa8 byte clears and the tick hands over to Ov255_ApproachStartTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Ov107_BuildAndSendUpdate(int owner, int id, int mode, void *at);

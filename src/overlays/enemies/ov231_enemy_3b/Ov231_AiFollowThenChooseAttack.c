@@ -3,7 +3,7 @@
  * bit 1 in the low byte of [+8] of the child slot at (*child)+0x3bc and, if 020ccfb8 approves,
  * dispatch. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov231_rotateVecByOwnerYaw(void *out, int a, int b);
 extern void ScaleVec3Fx12(int a, int b, int c);

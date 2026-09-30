@@ -4,7 +4,7 @@
  * (020c5af8) and moves the node to 020d0fa0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct w8 { unsigned int lo : 8, rest : 24; };
 

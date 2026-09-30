@@ -3,7 +3,7 @@
  * and the actor's +0x390, and installs 020d1854 in the node's slot. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w8 { unsigned int lo : 8, rest : 24; };

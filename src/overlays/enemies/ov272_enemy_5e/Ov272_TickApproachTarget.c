@@ -7,7 +7,7 @@
  * +0x70/+0x50 clear, the facing is committed to +0xc and the tick hands over to
  * Ov272_SwipeHitWindow. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

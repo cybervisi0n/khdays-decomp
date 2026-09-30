@@ -2,7 +2,7 @@
  * (data_02041dc8), fires reaction 0x128 mode 9 at the +8 point, clears the +0x40 timer and the
  * +0x5a byte and hands off to the stagger tick (020d1c0c). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int actor, int a, VecFx32 v, int d);

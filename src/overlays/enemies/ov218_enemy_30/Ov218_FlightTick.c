@@ -8,7 +8,7 @@
  * the +0xc/+0x10 yaws follow the velocity and the phase advances by the +0x54 rate, handing off to the
  * circle state (and running it) once it reaches 0x8000. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct Bits17a { unsigned char bit0 : 1, bit1 : 1; };

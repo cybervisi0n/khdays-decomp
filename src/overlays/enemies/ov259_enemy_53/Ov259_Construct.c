@@ -8,7 +8,7 @@
  * created (+0x42c set in between), and sound 0x17d (variant) or 0x172 loads. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[13]; } IdTable13;

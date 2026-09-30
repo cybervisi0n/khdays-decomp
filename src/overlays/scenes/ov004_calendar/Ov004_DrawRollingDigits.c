@@ -1,7 +1,7 @@
 /* Draws the calendar's rolling day digits. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     unsigned char opaque000[0xa4];

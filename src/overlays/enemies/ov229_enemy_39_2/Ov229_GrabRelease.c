@@ -4,7 +4,7 @@
  * origin, reaction 0x12b mode 4 fires at the position, the +0x4c timer and +0x61 flag reset and
  * the tick hands off to d1d14. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(void *a, void *b, VecFx32 *d);

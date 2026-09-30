@@ -14,7 +14,7 @@
  * lays the struct out straddling sp so its first two words load into r2/r3 and the third already
  * sits in the outgoing stack slot at sp+0. Don't read the negative offset as a bug. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov265_AcquireTarget(int self);
 extern void Ov265_rotateVecByOwnerYaw(VecFx32 *out, int self, int ref);

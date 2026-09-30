@@ -46,7 +46,7 @@
  * FX_Div in NitroSDK terms. The name is kept because the symbol table says so.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);
 extern void SetIndexedSlot(int self, int slot, void (*cb)(void));

@@ -4,7 +4,7 @@
  * clip's +0x14 position with its +0x64 direction from the +0x3a8 to the +0x3ac position
  * (normalised, length at +0x70); likewise +0x3b4 -> +0x3a4 / +0x3c4 and +0x3b0 -> +0x3a0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct blk11 { int w[11]; };

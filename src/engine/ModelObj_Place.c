@@ -3,7 +3,7 @@
  * (flag 0x10) the +0x110 transform takes the position and is attached to the owner's scene; a free
  * object keeps the position in +0xa8. The object is marked placed (flag 8) and remembers `owner`. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     int field_00;

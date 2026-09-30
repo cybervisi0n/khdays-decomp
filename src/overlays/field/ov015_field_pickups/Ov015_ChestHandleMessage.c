@@ -7,7 +7,7 @@
  * open-request bit raised and the player byte recorded as the opener. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov015_ChestAckPlayer(void *pChest, int nPlayer);        /* Ov015_ChestAckPlayer */
 

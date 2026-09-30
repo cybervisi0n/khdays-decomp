@@ -12,7 +12,7 @@
  * 0xf8-byte frame, and declaring them as separate locals lets mwcc reorder them. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct SpawnRing4 {

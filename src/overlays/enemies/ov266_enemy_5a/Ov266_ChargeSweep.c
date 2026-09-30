@@ -5,7 +5,7 @@
  * copied to +0x5b4 -- and its bit is added. Then, unless the +0x5d8 flag is set, the segment is
  * cast against the world (a thin ray, then a swept sphere of 0x100) and a blocking hit sets it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 v; int r; } Sphere;
 

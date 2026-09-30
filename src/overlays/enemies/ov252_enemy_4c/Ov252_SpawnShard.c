@@ -4,7 +4,7 @@
  * Returns the node handle. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Shard { int owner; char *spawner; VecFx32 pos; VecFx32 vel; char pad20[4]; u8 slot; };
 

@@ -7,7 +7,7 @@
  * (020ccaa0) requests sub-state 8, else 5, and the slot is cleared unless the sub-state stayed
  * idle. `+ (dist - dist)` is the documented copy artifact of RandNextScaled. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int obj, int b);

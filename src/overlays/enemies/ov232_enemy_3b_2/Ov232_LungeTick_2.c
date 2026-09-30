@@ -7,7 +7,7 @@
  * the owner's +0x74 point. Past 0xff0 a pending +0x54 flag spawns effect 4 at the origin once. When
  * the +0x10 idle byte clears, sub-state 2 is requested and the tick ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;
 

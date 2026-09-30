@@ -3,7 +3,7 @@
  * the height of the hit point, and returns the hit face's +0x83 material byte. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Collision_CastRay(int grid, VecFx32 *pos, VecFx32 *ray);
 extern void ScaleVec3Fixed27(int scale, VecFx32 *in, VecFx32 *out);

@@ -8,7 +8,7 @@
  * id is read first and kept in the frame across the rig construction. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; VecFx32 up; int radius; int height; } Capsule;
 

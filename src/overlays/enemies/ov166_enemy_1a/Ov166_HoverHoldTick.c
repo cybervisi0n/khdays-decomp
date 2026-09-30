@@ -8,7 +8,7 @@
  * +0x3ac sub-item (bit 0 of its +0x60 clear) is launched by 020ce134 along that direction and
  * the bit is set. Losing the +4 item's +0xad byte requests sub-state 2 and releases the slot. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

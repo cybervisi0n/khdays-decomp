@@ -4,7 +4,7 @@
  * the drift decays by +0x88, the physics step runs (020ce63c) and a pending +0x90 delay fires sound
  * 0x172 with the +0xa4 variant at the +0x10 point when it runs out; then the base tick (020cd648). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

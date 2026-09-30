@@ -5,7 +5,7 @@
  * then as the shadow itself (polygon id 0x3f, no culling). The base scale is reset to 1.0 after. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { fx32 m[9]; } MtxFx33;
 

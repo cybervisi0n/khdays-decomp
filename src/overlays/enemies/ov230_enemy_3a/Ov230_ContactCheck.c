@@ -5,7 +5,7 @@
  * 6 fires at the +0xc position. Returns whether the hit landed. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *out);

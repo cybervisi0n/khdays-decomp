@@ -1,7 +1,7 @@
 /* Walks the shape list (boxes/cylinders), collecting the contact points and push direction for the
  * sphere. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Quat {
     fx32 w, x, y, z;

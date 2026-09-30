@@ -3,7 +3,7 @@
  * direction from the owner (hit kind 1) and, when that lands, records its kind bit. After any hit
  * reaction 0x14d mode 0x10 fires at the +4 point. Returns whether anything was hit. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 c; int r; } Sphere;
 

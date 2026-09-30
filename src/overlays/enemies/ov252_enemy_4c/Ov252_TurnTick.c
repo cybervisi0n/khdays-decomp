@@ -3,7 +3,7 @@
  * and part motion 2 start and the node moves on to 020d1428, else the next move is 4. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov252_CheckTarget(int *node, VecFx32 *delta, int face);

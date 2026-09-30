@@ -9,7 +9,7 @@
  * timer expired: inside 3.0 request 6, else arm the +0x44 timer (1 if not positive) and
  * request 4. The +0x14 turn step is 30 x dt / 15 and the close-range request is sub-state 0xf. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);

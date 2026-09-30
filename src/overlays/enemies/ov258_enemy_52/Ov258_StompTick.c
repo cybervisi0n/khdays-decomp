@@ -9,7 +9,7 @@
  * +0x38 delay) or move 2 follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int radius; int flag; } Cylinder;

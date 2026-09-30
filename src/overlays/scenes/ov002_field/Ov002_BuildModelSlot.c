@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov002ModelDesc {
     s8 nKind;               /* 1, 2 and 4 each start their own animation */

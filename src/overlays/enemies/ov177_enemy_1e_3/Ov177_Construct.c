@@ -12,7 +12,7 @@
  * load and the shared zero sits in r4); the bounds block sits before the +0x60 update. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int a, b, c; } Vec3b;
 typedef struct { VecFx32 vector; int scalar; } CameraWork;

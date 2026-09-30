@@ -4,7 +4,7 @@
  * +0x14 at the target (atan2), requests sub-state 4 beyond 3.0, or counts the +0x40 timer down
  * and then requests 6 (within 0.5) or 7, releasing the node's slot either way. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

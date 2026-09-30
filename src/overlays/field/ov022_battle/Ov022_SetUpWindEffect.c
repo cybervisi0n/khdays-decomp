@@ -12,7 +12,7 @@
 /* One row of the pose table: the pair the wind strength selects. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct PoseRow {
     int nA;

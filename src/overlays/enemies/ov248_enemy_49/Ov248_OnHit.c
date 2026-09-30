@@ -14,7 +14,7 @@
  * requests sub-state 3. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct ActorHitEvent {
     unsigned int uFlagsLo : 16;

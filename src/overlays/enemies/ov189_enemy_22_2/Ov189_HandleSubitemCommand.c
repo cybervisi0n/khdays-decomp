@@ -3,7 +3,7 @@
  * releases it for action 6, then forwards to the base actor handler. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov189Transform {
     int words[11];

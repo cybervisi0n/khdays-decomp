@@ -4,7 +4,7 @@
  * matching +0x528 matrix, released from any source and the actor's +0x7a6 cue fired with mode
  * 7 (modes 0x25/0x27/0x2a), 5 (0x26/0x28/0x29) or 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Masks { long long m[2]; };
 

@@ -4,7 +4,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Actor;
 struct ActorSub;

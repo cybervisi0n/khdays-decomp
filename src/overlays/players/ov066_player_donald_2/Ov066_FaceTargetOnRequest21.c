@@ -1,7 +1,7 @@
 /* State 0x21 handler: sends the attack command for the variant, faces the locked target (turning
  * the display object once) and returns the panel update step. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov066_PanelUpdate(void);
 extern int Ov022_ValidateTargetRef(int self);

@@ -5,7 +5,7 @@
  * count; each run is one nine-phase sequence.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     fx32 nFrom;

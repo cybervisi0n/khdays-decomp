@@ -25,7 +25,7 @@
 /* Ov022HitRequest */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct HitRequest {
     u32 nFlags;                  /* 0x00 */

@@ -3,7 +3,7 @@
  * +0x28 timer runs down (to 0). Once the health (+0x21a) is out it is clamped to 0 and, outside move 9,
  * the +0x384 rider is flagged (+0x390) and the next move is 9. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

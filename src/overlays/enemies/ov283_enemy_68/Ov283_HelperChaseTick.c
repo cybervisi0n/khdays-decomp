@@ -3,7 +3,7 @@
  * the +8 velocity runs along it at 0.5 (vertical part from the aim), the pose turns about up and the
  * +0xf0 velocity mirrors it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

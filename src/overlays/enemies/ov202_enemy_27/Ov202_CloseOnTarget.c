@@ -28,7 +28,7 @@
  * were all along.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 static inline void VEC_Set(VecFx32 *vec, int x, int y, int z) {

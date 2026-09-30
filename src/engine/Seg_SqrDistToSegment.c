@@ -9,7 +9,7 @@
  * Codegen: as in the original, fS holds the unnormalised s and then s itself (Eberly's fS *= fInvDet),
  * and the determinant's absolute value goes through the FX64_Abs inline. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Segment3 {
     VecFx32 origin;                     /* +0x00 */

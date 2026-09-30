@@ -3,7 +3,7 @@
  * byte, clears bit 1 of the owner's +0x5c, binds its channels 0 / 4 / 1 / 2 with (1, 0),
  * re-inits it, clears the +8 timer and +0x10 latch and moves the node to 020cf638. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Srt_SetTranslation(int srt, VecFx32 *pos);
 extern void SetSubitemState(int obj, int slot, int a, int b);

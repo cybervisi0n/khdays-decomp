@@ -2,7 +2,7 @@
  * flag the owner's charging bit (*node+0x390), zero the aim vector (node[3..5]), and register the
  * wind-up think callback. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 data_02041dc8;
 extern void SetIndexedSlot(int self, int idx, void *cb);

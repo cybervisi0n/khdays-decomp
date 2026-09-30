@@ -6,7 +6,7 @@
  * with a +0xa0 reward pending (pose 0x15, motion 0xe, effect 4 mode 2, node to 020d0854); otherwise
  * pose 0x14, motion 0xd and effect 4 mode 1 restart it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

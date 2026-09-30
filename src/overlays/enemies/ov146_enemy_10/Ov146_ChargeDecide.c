@@ -5,7 +5,7 @@
  * node moves on to 020cdaa4. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { u16 lo : 8; u16 hi : 8; } flags16;

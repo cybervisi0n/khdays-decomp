@@ -6,7 +6,7 @@
  * runs. (020c08cc takes six arguments -- see Ov120_Actor_HandleEvent; the packed bytes are
  * assembled through a byte-addressed union as in Ov178_HandleSpawnMessage.) */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

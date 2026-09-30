@@ -1,7 +1,7 @@
 /* Turn `vec` by the fixed-point heading `angle` (Y rotation from the shared trig table), in place,
  * and return it. Twin of ov256 020cd054. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

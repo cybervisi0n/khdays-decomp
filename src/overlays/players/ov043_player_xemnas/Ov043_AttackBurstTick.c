@@ -5,7 +5,7 @@
  * submit that is not busy spawns effect 0xc4 (arg 2) at +0x26c8. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Emit {
     int w00;

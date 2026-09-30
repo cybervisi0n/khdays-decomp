@@ -11,7 +11,7 @@
  * dashing, sub-state 5 lands (020cd474, helper mode 2) or restarts the circle (020cd3c4). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct CollisionResult { int pad00; int pad04; int field08; int nAlong; };
 

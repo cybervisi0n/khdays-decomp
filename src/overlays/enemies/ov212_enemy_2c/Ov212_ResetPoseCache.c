@@ -11,7 +11,7 @@
  * array as a struct member reproduces the ROM's two-add form (`add r1,r0,ip,lsl #4`
  * then `add r4,r1,#0x3cc`). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct blk16 { int a, b, c, d; };
 struct Ctx { char pad[0x3cc]; struct blk16 mats[16]; };

@@ -6,7 +6,7 @@
  * index is released and the node ends (0203c640). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis; int length; int radius; } Capsule;

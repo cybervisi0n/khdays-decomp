@@ -7,7 +7,7 @@
  * Returns the new ratio (also stored as the best hit) or -1.0 when there is no better hit. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef u64 REGType64;           /* the SDK register type is not volatile */

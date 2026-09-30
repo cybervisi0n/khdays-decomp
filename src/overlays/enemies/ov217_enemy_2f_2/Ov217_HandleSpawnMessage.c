@@ -1,7 +1,7 @@
 /* Ov217_HandleSpawnMessage: ported from a matched sibling family (same shape, constants and offsets adjusted). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[11]; } Srt;
 

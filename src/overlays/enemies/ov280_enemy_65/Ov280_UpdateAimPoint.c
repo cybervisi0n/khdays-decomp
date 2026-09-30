@@ -6,7 +6,7 @@
  * (+0x18). Either way the driver is re-armed through Ov280_PlayPoseAnims with
  * Ov280_AiDiveTick as the continuation. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov280_rotateVecByOwnerYaw(VecFx32 *out, int self, int rig);
 extern int Ov280_AcquireTarget(int self);

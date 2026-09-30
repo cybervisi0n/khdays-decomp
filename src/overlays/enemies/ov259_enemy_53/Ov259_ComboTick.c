@@ -7,7 +7,7 @@
  * After the third swing the node moves on to 020cef48. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov259_FaceTargetGap(int *node);

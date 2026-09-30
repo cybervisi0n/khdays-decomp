@@ -10,7 +10,7 @@
  *
  * Matched byte-exact 2026-07-23. One of four byte-identical siblings. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(void *a, void *b, void *out);
 extern int func_020050b4(int x, int z);

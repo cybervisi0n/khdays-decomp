@@ -2,7 +2,7 @@
  * (texture word) at data_ov106_020b8a6c (depth 5.0x, style 5), enabled, given full alpha, bound to its
  * +0xe0 child on layer 4 and refreshed. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern char *data_ov106_020b8b60;
 extern const VecFx32 data_ov106_020b8a6c;

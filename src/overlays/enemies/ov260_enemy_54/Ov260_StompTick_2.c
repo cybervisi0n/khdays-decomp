@@ -5,7 +5,7 @@
  * (020cf17c); otherwise, once the partner holds no queued move, the next move is 2 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct BoxQuery {
     VecFx32 vCenter;

@@ -8,7 +8,7 @@
  * enemy runs the pass, queues sub-state 2 and ends. Otherwise the speed decays per 0x88 slice of
  * the frame by 1.0 - 0x140 x (slice / 0x88). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Flags464 { char pad[0x464]; unsigned long long flags; };
 

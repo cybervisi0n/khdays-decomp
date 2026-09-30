@@ -5,7 +5,7 @@
  * units (+0x3e8), the +0x10 size class (+0x3bc), the +0x3c vector (+0x3ac) and the five
  * +0x28/+0x14 pairs (+0x3c0/+0x3d4). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void *CallocInstance(int size);

@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 data_02041dc8;
 extern int Anim_GetLengthQ12(unsigned short *p, unsigned int idx);

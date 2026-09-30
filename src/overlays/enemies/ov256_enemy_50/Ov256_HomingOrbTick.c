@@ -9,7 +9,7 @@
  * bursts the same way. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 typedef struct { u16 lo : 8; u16 hi : 8; } Hw60;

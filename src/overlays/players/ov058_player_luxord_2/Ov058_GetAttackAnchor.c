@@ -4,7 +4,7 @@
  * enemy's facing (angle at +0x80 of the +0x20 node, biased by 0x8000, /16 into the sin/cos
  * table, both components negated) and added to the enemy's origin at +0x48c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { VecFx32 v[2]; } Ov039SidePair;

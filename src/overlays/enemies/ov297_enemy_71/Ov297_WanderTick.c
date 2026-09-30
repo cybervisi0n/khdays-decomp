@@ -14,7 +14,7 @@
  * +0x93 marks); animation 1 plays while the +4 item's +0xad byte is clear. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

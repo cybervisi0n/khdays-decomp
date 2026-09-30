@@ -9,7 +9,7 @@
  * the +0x4c delay to a random value in [+0x224, +0x228] plus 0x1100. Returns 1 when the stock was
  * positive. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct HitWord { unsigned int lo : 16, hi : 16; };

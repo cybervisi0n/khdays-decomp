@@ -2,7 +2,7 @@
  * target the actor goes to move 2 and the node ends (the result is then left undefined, as in the
  * original). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

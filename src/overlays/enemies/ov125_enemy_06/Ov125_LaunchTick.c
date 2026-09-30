@@ -7,7 +7,7 @@
  * and the tick ends; otherwise the timer restarts at a random 0x100..0x300 and the tick hands
  * over to Ov125_HopTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

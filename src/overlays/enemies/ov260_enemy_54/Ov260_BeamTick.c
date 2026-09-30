@@ -6,7 +6,7 @@
  * part's rig is idle (+0xad), pose 0 is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;
 

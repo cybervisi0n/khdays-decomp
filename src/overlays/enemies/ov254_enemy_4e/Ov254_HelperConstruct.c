@@ -4,7 +4,7 @@
  * subscribed to +0x9c) and the hidden +0x390 item (pose 0x42, registered). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 

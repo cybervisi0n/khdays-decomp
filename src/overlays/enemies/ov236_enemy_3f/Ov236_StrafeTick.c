@@ -6,7 +6,7 @@
  * towards 0x500 and the velocity drops 0x300 in y. Beyond a 4.0 gap the node moves to
  * 020d24dc; inside 2.0 the velocity is -0x100 along the offset instead. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);

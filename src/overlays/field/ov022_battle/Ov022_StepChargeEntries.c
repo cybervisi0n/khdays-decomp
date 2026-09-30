@@ -12,7 +12,7 @@
 /* Ov022ChargeEntry */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct ChargeEntry {
     u16 nTrackFlags;                 /* 0x000 head of the five tracks */

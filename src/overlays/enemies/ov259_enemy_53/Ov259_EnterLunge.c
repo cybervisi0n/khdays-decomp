@@ -1,7 +1,7 @@
 /* Enter the lunge reaction: snapshot the current velocity (node[8..10] -> node[5..7]), scale the
  * live velocity by 0xb00 (Fx12), set the reaction state to 2, and re-register the think callback. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void ScaleVec3Fx12(int scale, void *dst, void *src);
 extern void SetIndexedSlot(int self, int idx, int cb);

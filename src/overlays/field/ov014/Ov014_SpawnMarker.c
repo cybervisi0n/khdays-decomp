@@ -1,6 +1,6 @@
 /* Spawns a marker element from the pool at a position with a heading and puts it in its bucket. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void *Ov002_ClaimPoolEntry(void *pool, int index);
 extern void Ov002_PushBucketNode(int idx, int *node);

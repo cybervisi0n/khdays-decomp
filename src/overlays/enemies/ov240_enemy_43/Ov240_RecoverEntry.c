@@ -2,7 +2,7 @@
  * spawns effect 0 at the +8 point, fires reaction 0x139 mode 0xb at the actor's position and
  * hands off to ccf0c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int actor, int a, VecFx32 v, int d);

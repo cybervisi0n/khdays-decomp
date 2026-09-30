@@ -4,7 +4,7 @@
  * expired the surface distance (root minus both +0x80 radii) decides: sub-state 6, or 2 when it
  * is still inside 1.0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);
 extern void SetIndexedSlot(int node, int slot, void *cb);

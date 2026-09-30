@@ -5,7 +5,7 @@
  * slice and becomes the vertical velocity. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { u8 b0 : 1; } Bit0;

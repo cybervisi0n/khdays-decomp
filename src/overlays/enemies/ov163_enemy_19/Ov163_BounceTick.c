@@ -5,7 +5,7 @@
  * +0x40/+0x30 counters cleared; the +0x18 velocity is the heading scaled by the +0x38 speed,
  * which then decays to 0x7c6/2000 of itself. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Bit0 { int b0 : 1; };
 struct Flags17a { unsigned char b0 : 1, b1 : 1; };

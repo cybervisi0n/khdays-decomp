@@ -23,7 +23,7 @@
  * With this, ov301 is 16/16.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov301_OnDespawn, Ov301_PropagateBlockToLinkedNodes, Ov301_CreateRegistryEntryForActor;
 extern int func_ov301_020cc1d8, func_ov301_020cc1e4;

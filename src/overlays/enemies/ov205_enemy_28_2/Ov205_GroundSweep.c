@@ -6,7 +6,7 @@
  * the actor's +0x24 message hook, reaction 0x132 mode 4 fires there and the kind bit is set. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u8 hi, mid, lo; } Fx24;   /* sign + 23-bit magnitude, big-endian */
 typedef struct { int value; } Fx32;

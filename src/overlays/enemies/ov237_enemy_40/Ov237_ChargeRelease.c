@@ -5,7 +5,7 @@
  * hit once each (effect 1, kind 2) with that push (020cdbe4). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

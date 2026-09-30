@@ -6,7 +6,7 @@
  * halfword pair of data_ov213_020d2e6c goes through the +0x24 hook, pose 7 plays, the +0x1c timer restarts at
  * 0xc00, the +0x64 counter clears and the node moves to 020cfe48. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Bits17a { unsigned char b0 : 1, b1 : 1, b2 : 1, b3 : 1; };

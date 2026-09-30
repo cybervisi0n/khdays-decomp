@@ -17,7 +17,7 @@
  * One of a 3-member family (family).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

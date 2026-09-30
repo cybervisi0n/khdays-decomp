@@ -16,7 +16,7 @@
  * 0x15e. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { int w[4]; } Quat;

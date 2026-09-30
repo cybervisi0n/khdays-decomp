@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int ScriptVm_ReadOperandInt(int pCtx, unsigned short *pOperand);
 extern int ScriptVm_ReadOperandFx32(int pCtx, unsigned short *pOperand);

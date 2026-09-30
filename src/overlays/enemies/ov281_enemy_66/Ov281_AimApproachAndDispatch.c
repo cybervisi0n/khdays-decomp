@@ -33,7 +33,7 @@
  *    access in the function is off -- it looks catastrophic and is one line.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 static inline void VEC_Set(VecFx32 *vec, int x, int y, int z) {
     vec->x = x;

@@ -12,7 +12,7 @@
  * speed of 0x80000000 only snaps to the floor. Flags 0x40 and 0x1000 are cleared and 1 returned. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct MoverOwner {
     char pad00[0xa8];

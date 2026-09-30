@@ -4,7 +4,7 @@
  * (both effects skipped in +0x49e mode 3) and waits on 020cf784. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov237_ChargeRelease(int *node);

@@ -9,7 +9,7 @@
  * 020cf6a0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { void *a; void *b; void *c; int d; } CollisionHit;
 

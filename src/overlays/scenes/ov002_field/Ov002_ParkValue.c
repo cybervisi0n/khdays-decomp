@@ -2,7 +2,7 @@
  * use. No-op when the owner at data_ov002_0207f628 is null or all four slots are taken. Queue lives
  * at owner +0x1434 (values) and +0x1464 (flags). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     char pad0000[0x1434];

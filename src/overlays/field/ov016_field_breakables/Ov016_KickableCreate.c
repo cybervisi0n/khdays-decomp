@@ -11,7 +11,7 @@
  * not -1 mark the bucket with it (ov002 02076968); then register the piece (02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov016KickableKindRow {
     void *pfnStep;            /* 0x00 */

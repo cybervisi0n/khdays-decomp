@@ -1,7 +1,7 @@
 /* State step: acquires the nearest target, or queues action 2 and ends the step without one; posts
  * pose 6, fires the trail effects at the tracked position and installs the steer-trail step. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int a, int b);

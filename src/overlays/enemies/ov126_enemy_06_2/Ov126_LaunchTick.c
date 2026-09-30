@@ -6,7 +6,7 @@
  * again, otherwise +0x54 is re-rolled within the owner's +0x224..+0x228 range and sub-state 2
  * follows. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

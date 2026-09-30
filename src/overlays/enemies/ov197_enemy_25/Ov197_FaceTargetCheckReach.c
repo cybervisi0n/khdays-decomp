@@ -18,7 +18,7 @@
  *    holds owner across the call and re-reads, so the C must too.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(void *a, void *b, void *d);
 extern void Ov197_BuildHeadingRotation(int *state, VecFx32 v, int flag);

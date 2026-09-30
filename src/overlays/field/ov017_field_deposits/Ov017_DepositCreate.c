@@ -10,7 +10,7 @@
  * hit-count GameState field / bit (+0x4e0 / +0x4e2); registers the piece (ov002 02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov017DepositDef {

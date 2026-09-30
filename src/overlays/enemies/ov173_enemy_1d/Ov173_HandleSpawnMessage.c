@@ -6,7 +6,7 @@
  * sub 8 registers effect 0x114 (kind 7 or 8 by the message's +4 slot) or effect 0x13e (kind 4)
  * on the +0xa0 node into the +0x3a0 slot. The base handler always runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

@@ -1,7 +1,7 @@
 /* Resets the flight state from the launch point, sets the part flag and installs the projectile
  * flight tick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct b8 { unsigned int f : 8; };

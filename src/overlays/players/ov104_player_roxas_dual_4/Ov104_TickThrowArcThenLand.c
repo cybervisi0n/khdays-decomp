@@ -1,7 +1,7 @@
 /* Thrown arc step: advances the shot's timer, resolves hits along its path, and when its animation
  * ends marks it landed (state 3) and releases it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov022_ResolveShotHit(int self, char *node, void *v, void *w);
 extern int func_ov022_02091540(int a, int b);

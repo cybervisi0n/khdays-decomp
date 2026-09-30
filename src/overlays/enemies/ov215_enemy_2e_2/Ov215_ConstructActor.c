@@ -3,7 +3,7 @@
  * through. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { void *node; int pad; } Slot;
 typedef struct { int w[5]; } KindTable;

@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Quat_0202ec2c {
     fx32 w;

@@ -3,7 +3,7 @@
  * |cos| above the cutoff 0xffff), the nine cross products. A box is a centre, three unit axes and
  * three half extents. Returns 1 when no axis separates the boxes. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Box {
     VecFx32 center;                     /* +0x00 */

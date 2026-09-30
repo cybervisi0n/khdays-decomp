@@ -6,7 +6,7 @@
  * facing (sin, 0, cos) of the +0x28 yaw at 0x800 and the point is pulled back by that many
  * steps along it before c5c4 launches the actor there; d47dc takes over. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

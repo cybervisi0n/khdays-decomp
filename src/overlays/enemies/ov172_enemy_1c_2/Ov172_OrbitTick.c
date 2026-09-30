@@ -6,7 +6,7 @@
  * 0x3000. Past half the +0x2d8 range sub-state 4 is requested; inside it the +0x5c timer counts
  * down and then rolls sub-state 4 (1/120 or too far) or 5 (1/20). Variant: the ov171 tick only requests sub-state 5 inside the range. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int obj, int b);

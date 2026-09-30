@@ -5,7 +5,7 @@
  * bit pair (+0x14 / +0x16) and register it in bucket nKind (ov002 02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov015Trigger {
     u8   pad_00[0xc];

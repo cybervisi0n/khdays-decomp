@@ -4,7 +4,7 @@
  * position as its own point, the +0x50 timer restarts and the tick hands over to the grab attempt
  * (Ov272_TickHoldTarget). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[4]; } Quat;
 

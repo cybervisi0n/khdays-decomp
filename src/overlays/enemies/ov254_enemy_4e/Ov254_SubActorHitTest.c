@@ -5,7 +5,7 @@
  * at the sphere centre), reaction 0x16d mode 8 fires at the +8 point and the bit is set. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_CollectSegmentOverlaps(int owner, void *seg, int *hits);
 extern int Ov107_CollectSphereOverlaps(int owner, void *sphere, int *hits);

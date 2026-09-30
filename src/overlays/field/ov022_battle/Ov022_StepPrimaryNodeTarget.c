@@ -1,7 +1,7 @@
 /* Replay step for the primary node: resolves its target pick from the recorded input, turns it
  * towards the target, and runs its hit callback, actor update and sub-object chain. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov022Node {
     unsigned long long flags;

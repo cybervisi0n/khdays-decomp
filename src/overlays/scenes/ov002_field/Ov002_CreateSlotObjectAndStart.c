@@ -2,7 +2,7 @@
  * install the record's permitted marker parts before activating special links. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov107Object Ov107Object;
 struct Ov107Object {

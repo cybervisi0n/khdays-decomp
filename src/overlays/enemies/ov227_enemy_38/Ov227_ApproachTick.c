@@ -3,7 +3,7 @@
  * (Ov227_ChooseMove) queues a move, the tick ends. Otherwise the +0x38 goal is the +8 point
  * pushed 100 steps along the flat direction and the tick hands over to Ov227_WalkTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);
 extern int Ov227_MeasureTargetGap(int *node, VecFx32 *dir);

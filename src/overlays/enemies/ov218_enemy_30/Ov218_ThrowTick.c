@@ -3,7 +3,7 @@
  * hold clears (once, +0x40); after the partner holds no queued move pose 7 plays, effect 3 fires at the
  * origin and the node moves on to 020cdb68. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

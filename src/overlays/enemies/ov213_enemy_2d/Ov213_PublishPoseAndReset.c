@@ -1,7 +1,7 @@
 /* Save the current pose vector from (child)+8 to (*child)+0xf0, then reset (child)+8 from
  * the const offset vector. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 data_02041dc8;
 void Ov213_PublishPoseAndReset(int param_1) {

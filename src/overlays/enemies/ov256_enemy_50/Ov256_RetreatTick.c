@@ -4,7 +4,7 @@
  * +0x74 mode + 2 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov256_RotateByActorHeading(int *out, int param_2, int *vec);
 extern int Ov256_PickMove(int *node);

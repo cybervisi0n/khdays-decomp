@@ -14,7 +14,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define HIT_KIND_NORMAL 1
 #define HIT_KIND_FLAGGED 2

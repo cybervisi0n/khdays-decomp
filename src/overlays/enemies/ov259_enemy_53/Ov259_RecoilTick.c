@@ -1,7 +1,7 @@
 /* Recoil tick of the ov259 actor: after 0x1540 of the +0x68 timer it restarts and the actor is
  * knocked back at its +0x10 point (mode 7); the node moves on to 020d0d28. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

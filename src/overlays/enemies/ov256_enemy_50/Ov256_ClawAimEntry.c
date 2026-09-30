@@ -5,7 +5,7 @@
  * axis, the +0x6c flag and +0x60 clear and the node moves on to 020d21d0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);

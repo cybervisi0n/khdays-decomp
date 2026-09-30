@@ -1,7 +1,7 @@
 /* Ov202_OnHit: hit handler of the ov202 enemy (x2: ov202/203), variant of the matched ov131 sibling with the health always dropping and the state one word shorter. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct HitState {
     char *pTarget;

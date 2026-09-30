@@ -7,7 +7,7 @@
  * actor's heading, a random variant, cue 0xcf, kind 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct EmitPair {

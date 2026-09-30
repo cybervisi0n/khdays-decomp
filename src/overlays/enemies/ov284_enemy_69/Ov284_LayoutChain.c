@@ -7,7 +7,7 @@
  * node to 020cd55c. Codegen: the segment counter is initialised at its declaration, before the
  * actor local (the gather loop then counts in r3 and keeps the actor in r4). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern long long func_02020400(int num, int den);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

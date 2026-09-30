@@ -2,7 +2,7 @@
  * the +8 point (020cc92c), pose 0xd plays, effects 2 and 3 fire there and the node moves on to
  * 020cdeac. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov283_PostItemUpdate(int actor, int bank, int variant, int at);

@@ -9,7 +9,7 @@
  * 0xd in game mode 2 -- and the action ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct b1 { unsigned char b0 : 1; };

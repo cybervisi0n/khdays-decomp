@@ -8,7 +8,7 @@
  * +0x22c/+0x144 lists (+0x388/+0x38c) from the pose at the origin with scale 0xc00, then three
  * summoned pets (cc994) into a 12-byte table (+0x3c8) and loads sound 0x14f. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 

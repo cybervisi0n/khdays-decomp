@@ -14,7 +14,7 @@
  * Ending plays effect 1 at the anchor, sub-state 0 and frees the node slot. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Sphere { VecFx32 centre; int radius; };

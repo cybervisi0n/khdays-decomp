@@ -2,7 +2,7 @@
  * spawn point is kept in +0x3ac and its guard flag (+0x60 high byte bit 0) is set. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov107_MoveNodeAndRelayout(char *self, int owner, VecFx32 *pos);
 

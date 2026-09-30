@@ -1,6 +1,6 @@
 /* AI step: turns towards the target, starts the landing effect and continues with the landing. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(int *a, int *b, int *out);
 extern int VEC_Normalize(const VecFx32 *source, VecFx32 *destination);

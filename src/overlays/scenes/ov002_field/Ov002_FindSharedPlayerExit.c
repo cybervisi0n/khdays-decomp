@@ -3,7 +3,7 @@
  * X/Y/Z calculation order, and bound-first comparisons for exact codegen.
  * Declarations k/i/j/context reproduce the original stack slot ordering. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov002SessionActorFlags {
     unsigned long long qwFlags;

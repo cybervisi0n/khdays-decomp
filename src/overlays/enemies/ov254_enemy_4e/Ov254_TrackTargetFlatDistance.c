@@ -2,7 +2,7 @@
  * records its horizontal angle at +0x34 and returns the flattened distance.  0 when there
  * is no target. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern char *Ov107_FindNearestObject(char *o, int a);
 extern void VEC_Subtract(VecFx32 *a, VecFx32 *b, VecFx32 *out);

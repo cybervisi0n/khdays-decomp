@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern const VecFx32 data_02041dc8;
 

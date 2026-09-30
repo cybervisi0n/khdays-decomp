@@ -8,7 +8,7 @@
  * damaging hit that is not the 0x88-flagged 0x80 kind fires reaction +0x50 at the +8 anchor with
  * the {0,1} / {2,3} (0x22 hits) mode picked by the +0x4e parity, which then flips. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct HitWord { unsigned int lo : 16, hi : 16; };

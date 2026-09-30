@@ -6,7 +6,7 @@
  * reaction 0/0x4e at the anchor and its bit set. Then the +8 target is refreshed (020cab14) and,
  * with none or once the scene's +0xad flag is clear, sub-state 2 and the node slot are released. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Sphere { VecFx32 centre; int radius; };
 

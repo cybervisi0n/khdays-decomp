@@ -1,7 +1,7 @@
 /* Facing step of an ov256 part: in move 1 the +0xa0 pose follows the +0x18 heading; +0xf0 keeps the
  * last +0xc velocity, which then clears. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

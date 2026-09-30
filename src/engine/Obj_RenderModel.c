@@ -2,7 +2,7 @@
  * model, then moves each attached node to its joint. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Quat { fx32 w, x, y, z; } Quat;
 typedef struct MtxFx33 { fx32 m[3][3]; } MtxFx33;

@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     VecFx32 *pOrigin;   /* +0x00 */

@@ -5,7 +5,7 @@
  * requests sub-state 6 and ends the state; otherwise the first of the two +0x3a4 items whose
  * +0x60 low bit is clear requests sub-state 4 and ends the state. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

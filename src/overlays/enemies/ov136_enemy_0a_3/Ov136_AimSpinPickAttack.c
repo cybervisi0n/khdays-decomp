@@ -20,7 +20,7 @@
  *    non-encodable constants do not appear here.)
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Bit0 { unsigned char b : 1; };

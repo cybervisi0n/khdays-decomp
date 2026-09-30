@@ -6,7 +6,7 @@
  * data_0204be04) as alpha, and the colour 0x7fff (GX_SendFifoWords 01ff9f00). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

@@ -3,7 +3,7 @@
  * the next move is 5 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 struct Ov252Armour { char pad[0x4e8]; int shapes[16]; };

@@ -5,7 +5,7 @@
  * angle at +0x80 of the +0x20 node), with the lap count at +0x2fdc, progress 0, the owner id
  * from +0x66 and the running flag at +0x2fe4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

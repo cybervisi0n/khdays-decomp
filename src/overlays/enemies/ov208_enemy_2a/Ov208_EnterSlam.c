@@ -2,7 +2,7 @@
  * vector, fires reaction 0x154 mode 8 at the +0x3c4 part's +4 point, clears the +0x2c timer and
  * the +0x49 byte and hands the tick over to Ov208_AiDriveWindup. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 v, int flag);
 extern void Ov107_BuildAndSendUpdate(int owner, int id, int mode, void *at);

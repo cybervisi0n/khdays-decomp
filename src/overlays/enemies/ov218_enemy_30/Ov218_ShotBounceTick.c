@@ -7,7 +7,7 @@
  * the shot plays pose 1, sends message 0 (flagged unless grounded) and reaction 0x135 mode 6 at the
  * +8 target, clears +0x34 and the velocity and hands over to 020cecb8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Bit17a { unsigned char b0 : 1, b1 : 1; };

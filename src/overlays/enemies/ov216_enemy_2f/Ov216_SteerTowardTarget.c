@@ -28,7 +28,7 @@
  *    it is written as a bare statement.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 static inline void VEC_Set(VecFx32 *vec, int x, int y, int z) {
     vec->x = x;

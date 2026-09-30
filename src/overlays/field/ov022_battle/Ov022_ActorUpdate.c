@@ -18,7 +18,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define VEC_COPY(pDst, pSrc) (*(pDst) = *(VecFx32 *)(void *)(pSrc))
 

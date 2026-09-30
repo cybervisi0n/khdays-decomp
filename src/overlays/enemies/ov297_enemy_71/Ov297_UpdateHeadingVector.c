@@ -1,6 +1,6 @@
 /* Rebuilds the 0x440-long heading vector from the angle at +0x34 and stores its yaw. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Mtx33_ov297 { int m[9]; };
 

@@ -3,7 +3,7 @@
  * (+0x60=-1, offset vec at +0x28 from the const, +8=0, +0x64=0), copy the sub-state
  * byte +0x1c9 into +0x1c7, then dispatch with no handler. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int SetIndexedSlot(int a, int b, void *handler);

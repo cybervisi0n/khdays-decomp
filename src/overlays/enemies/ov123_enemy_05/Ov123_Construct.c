@@ -9,7 +9,7 @@
  * +0x144 list, +0x388 on the +0x22c list; +0x394 is built by cd4cc and sound 0x115 is loaded. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov153Capsule {
     VecFx32 vPos;

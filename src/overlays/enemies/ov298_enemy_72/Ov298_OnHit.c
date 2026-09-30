@@ -10,7 +10,7 @@
  * a 0x8000 hit requests sub-state 6. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct ActorHitEvent {

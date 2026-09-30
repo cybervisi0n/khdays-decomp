@@ -5,7 +5,7 @@
  * length. Past 0x10000 of travel, with the +0x30 flag set or on a wall contact (bit 1 of the
  * actor's +0x17a), sub-state 7 is configured (part action 3) and the tick hands off to cd6c8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct Bits17a { unsigned char bit0 : 1, bit1 : 1; };

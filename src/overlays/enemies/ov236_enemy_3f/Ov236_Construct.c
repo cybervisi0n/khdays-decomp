@@ -12,7 +12,7 @@
  * +0x398 and +0x3a8 (scaled by 1.5). Loads sound 0x127. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[10]; } IdTable;

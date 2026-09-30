@@ -10,7 +10,7 @@
  * the tick hands over to Ov225_ChargeTimerThenFire. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Byte8 { unsigned int lo : 8, rest : 24; };

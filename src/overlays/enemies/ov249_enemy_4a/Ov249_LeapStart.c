@@ -4,7 +4,7 @@
  * raised and bits 2, 3 and 7 cleared, the +0x388 rig's flag 0 is set, cue 0x145 (13) plays on the +8
  * target and effect 0 at the actor's +0x74 position; the +0x24 count resets and 020d4490 runs next. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 

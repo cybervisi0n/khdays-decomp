@@ -6,7 +6,7 @@
  * the body accepts (020cceb0) gets a kind-3 hit of strength 0x10. Once the height falls below the
  * body's +0xb4 floor plus 1.0 the +0x14 clock resets and brain slot +0x20 runs 020d372c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int radius; int flag; } Cylinder;
 

@@ -8,7 +8,7 @@
  * touch (landing also fires reaction 0x14d). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Bits17a { unsigned char bit0 : 1, bit1 : 1; };
 struct CollisionResult { int pad00; int pad04; int pad08; int nAlong; };

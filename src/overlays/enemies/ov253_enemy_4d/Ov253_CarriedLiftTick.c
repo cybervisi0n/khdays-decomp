@@ -4,7 +4,7 @@
  * data_02042264; once complete the item sits at the far end with scale 2.0, the timer restarts,
  * the +0x24 hop count becomes 2 and the node moves to 020d139c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int FX_Div(int num, int den);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

@@ -8,7 +8,7 @@
  * +0x144 list (+0x38c.., value 0.75, the last 1.5); +0x39c starts empty. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis; int rate; int value; } ShapeRequest;
 typedef void (*Callback)(void);

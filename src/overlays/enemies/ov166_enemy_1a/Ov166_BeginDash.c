@@ -4,7 +4,7 @@
  * +0x18, sets the +0x24 speed to 0.25 and scales the direction by it into the +0xc step, then
  * advances to the dash handler (020ce744). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct bf { unsigned b : 8; };

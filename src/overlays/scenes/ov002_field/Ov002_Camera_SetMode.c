@@ -1,7 +1,7 @@
 /* Switches the field camera mode (follow, cutscene preset, look-at target...), updating its flags
  * and presets. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     int x;

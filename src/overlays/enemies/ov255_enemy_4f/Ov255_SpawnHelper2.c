@@ -2,7 +2,7 @@
  * callback Ov255_TaskTeardown_FlagPart): it keeps the enemy and the part, stores the start point at +0xc,
  * places the part there and records at +8 whether the enemy's +0x50 mode is 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int CreateRegistryEntry(int scene, int kind, int size, void *cb, void *cb2, int **out);
 extern void Srt_SetTranslation(void *srt, const VecFx32 *pos);

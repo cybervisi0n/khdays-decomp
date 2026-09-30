@@ -1,7 +1,7 @@
 /* Launch the ov146 actor along `dir`: the +0xc velocity is its unit vector at 0.5 with a 0.625 lift,
  * +0x1c clears and the next move is 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *out);
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

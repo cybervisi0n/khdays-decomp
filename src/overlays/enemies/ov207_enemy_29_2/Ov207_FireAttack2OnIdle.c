@@ -8,7 +8,7 @@
  * and hand off to the 020ce1c8 continuation via 0203c634.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int  Ov107_FindNearestObject(int obj, int flag);

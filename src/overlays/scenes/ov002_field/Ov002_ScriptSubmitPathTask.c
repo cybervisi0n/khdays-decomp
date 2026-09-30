@@ -1,7 +1,7 @@
 
 /* The 0x2c byte path-task record this command builds on the stack. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov002TaskArgsPath {
     int n00;                            /* +0x00 */

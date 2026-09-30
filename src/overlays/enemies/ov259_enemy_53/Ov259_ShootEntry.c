@@ -4,7 +4,7 @@
  * on to 020ce944. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

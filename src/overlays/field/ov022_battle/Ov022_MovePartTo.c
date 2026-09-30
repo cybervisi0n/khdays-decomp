@@ -19,7 +19,7 @@
 /* Ov022SlotTail */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct SlotTail {
     u8 nState;                       /* 0x00 */

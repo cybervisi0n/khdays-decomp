@@ -1,6 +1,6 @@
 /* Whether the ov252 actor's +8 point is at least 4.0 from the origin on the ground plane. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern int VEC_Normalize(VecFx32 *v, VecFx32 *out);

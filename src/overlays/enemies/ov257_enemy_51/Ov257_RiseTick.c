@@ -3,7 +3,7 @@
  * animation 0x18 plays looped, the +0x3d0 part plays motion 0x15 and the tick hands over to
  * Ov257_RiseTick2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov257_SteerToTarget(int *state, int point, VecFx32 *dir, int *speed);

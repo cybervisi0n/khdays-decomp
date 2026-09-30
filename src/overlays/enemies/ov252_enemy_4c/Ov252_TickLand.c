@@ -4,7 +4,7 @@
  * 020d0c28. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);

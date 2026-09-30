@@ -2,7 +2,7 @@
  * capsule 0x1000/0x200 on the data_02041dc8 / data_02042240 axes). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct {

@@ -4,7 +4,7 @@
  * (020c0b90), clears +0x40 and moves the node to 020d61f4. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct w8 { unsigned int lo : 8, rest : 24; };
 

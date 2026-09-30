@@ -2,7 +2,7 @@
  * high byte, zeroes the state's +8 vector and moves the node to 020d407c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);
 extern const VecFx32 data_02041dc8;

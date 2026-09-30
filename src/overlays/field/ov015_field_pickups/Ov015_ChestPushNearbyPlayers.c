@@ -8,7 +8,7 @@
  * the chest as owner, then marks the seat's bit. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov015PushRequest {
     int  nId;                 /* 0x00 */

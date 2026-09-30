@@ -21,7 +21,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define CTX_IN_ACTOR 0x2288
 #define FLAG_CLASS0 0x4

@@ -4,7 +4,7 @@
  * (+0x13c), animation 0x1e plays, the +0x3d0 part plays motion 0x1b, +0x44, +0x73 and +0x72 clear
  * and the tick hands over to Ov257_LandingSlamTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Bits17a { unsigned char b0 : 1; };

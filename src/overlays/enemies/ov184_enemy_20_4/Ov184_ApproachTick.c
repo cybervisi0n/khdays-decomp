@@ -7,7 +7,7 @@
  * is within the actor's +0x2d8 range or beyond 2.0, the +0x384 item's +0xa8 byte is cleared and
  * handler 020cd458 takes over. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);

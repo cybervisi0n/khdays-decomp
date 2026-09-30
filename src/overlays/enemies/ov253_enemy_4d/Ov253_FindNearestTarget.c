@@ -6,7 +6,7 @@
  * spelled `(int)state + 0xa8`; an `int state` (or `(int)(state + 0x2a)`) colours state last (r8)
  * instead of the ROM's r4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w40 { int b0 : 1, b1 : 1; };

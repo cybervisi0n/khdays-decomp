@@ -8,7 +8,7 @@
  * free flag is a separate local set inside the loop and the declaration order i/free/items/actor
  * fixes the colouring (r2/r3/r4/ip). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

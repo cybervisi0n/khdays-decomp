@@ -7,7 +7,7 @@
  * 1/257 roll (or an expired +0x74 timer) requests sub-state 4, and inside 7.0 an expired timer
  * requests 9 (beyond 3.0), 8 (beyond 1.0) or 7. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);

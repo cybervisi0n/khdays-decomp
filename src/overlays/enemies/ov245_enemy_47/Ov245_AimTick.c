@@ -2,7 +2,7 @@
  * +0xc velocity, builds the rotation that turns the +0x2c2258 reference onto that direction
  * (0202ed60) into the actor's +0xa0 placement (0203c9d0) and copies the velocity to +0xf0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);
 extern void Quat_FromTwoVectors(void *out, const VecFx32 *a, const VecFx32 *b);

@@ -3,7 +3,7 @@
  * (vertical part from the aim); the pose settles (020c9264 mode 3), an effect plays at the +8 point,
  * the actor moves to the new spot (020c5c54) and the brain waits on 020ce214. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov283_MeasureTargetGap(int *node);

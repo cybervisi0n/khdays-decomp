@@ -5,7 +5,7 @@
  * 4 and 1 are started (mode 1), it is reset (0203c7ac) and the tick hands over to
  * Ov244_WaitRigIdleBlendOut. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Srt_SetTranslation(void *pSrt, VecFx32 *pPos);
 extern void Slot_Spawn(int nEffect, int nVariant, VecFx32 *pPos, int nFlags);

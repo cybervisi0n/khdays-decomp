@@ -6,7 +6,7 @@
  * *state+0x1c7 = 2 and bail (0203c634 cb=0).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct S185 { char pad[0x2c]; VecFx32 dst; char pad2[0x18]; VecFx32 src; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

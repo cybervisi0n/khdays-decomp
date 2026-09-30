@@ -4,7 +4,7 @@
  * offset from there to the next anchor's +0x14 into +0x64 and keeps the length at +0x70;
  * then the base teardown (020c7ca4). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[11]; } Pose44;
 struct Ov245Item { char pad[0x10]; Pose44 pose; };

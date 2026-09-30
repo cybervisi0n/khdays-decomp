@@ -4,7 +4,7 @@
  * statement plus a literal argument is 4 B short, and so is a shared local.
  * `dst` is hoisted for the same reason. House form copied from ov137_020cee94. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct b8 { unsigned int b : 8, rest : 24; };

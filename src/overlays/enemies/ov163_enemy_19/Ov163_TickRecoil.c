@@ -7,7 +7,7 @@
  * instead of an `ands #1`. The hw60 clear keeps the extra `(unsigned short)` truncation in
  * the middle of the byte round-trip -- without it the two shifts at 0x10 disappear. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SetIndexedSlot(void *node, int idx, void *cb);
 extern void Ov163_BounceTick(void);

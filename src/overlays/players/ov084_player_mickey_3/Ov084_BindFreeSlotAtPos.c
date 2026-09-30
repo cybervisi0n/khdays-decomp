@@ -1,7 +1,7 @@
 /* Starts a free effect slot (of six) at the position: activates it, clears its timer and binds its
  * tracks, rewound. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void BindAnimTrack(int a, int b, int c, int d);
 extern void Anim_SetFrameWrapped(int a, int b, int c);

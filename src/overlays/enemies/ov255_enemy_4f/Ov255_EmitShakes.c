@@ -5,7 +5,7 @@
  * spread along the owner's move since the last tick (+0x39c to +0xb0): offset 0.25 (3 entries) or
  * 0.125, full strength and the owner's +0x3bc handle. The move start is then updated. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Shake { int offset; int strength; char pad08[0x10]; int handle; char pad1c[0x10]; VecFx32 at; };
 struct ShakeSet { char pad[0x8c]; int count; struct Shake *items; };

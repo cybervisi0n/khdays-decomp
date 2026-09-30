@@ -3,7 +3,7 @@
  * model of their +0x390 slot on the +0xa0 node (mode 0x1f under the +0x3c owner, message byte 4 as
  * the variant) into the slot's +0x394 handle. The base handler always runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

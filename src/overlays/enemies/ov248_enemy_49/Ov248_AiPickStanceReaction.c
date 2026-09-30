@@ -10,7 +10,7 @@
  * 2 -> (9, 7), 3 -> (6, 5) -- and then continues into Ov248_AiStanceMoveTick. Any other stance
  * parks 2 in ctx[0]+0x1c7 and re-enters with no callback, i.e. gives up. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct {

@@ -7,7 +7,7 @@
  * bit and reaction 0/0x53 there. Once the +8 flag byte clears the next move is 6. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int radius; int flag; } Cyl;
 typedef struct { int value; } Fx32;

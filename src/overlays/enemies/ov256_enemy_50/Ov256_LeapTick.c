@@ -7,7 +7,7 @@
  * clear and the node moves on to 020cee70. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 typedef struct { VecFx32 pos; int nRadius; } Sphere;

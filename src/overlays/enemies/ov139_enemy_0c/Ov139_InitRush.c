@@ -2,7 +2,7 @@
  * rush update (0x11f, mode 8) and continues with the rush tick. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Ov139RushState {

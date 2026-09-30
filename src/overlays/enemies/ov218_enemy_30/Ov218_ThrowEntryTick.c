@@ -2,7 +2,7 @@
  * the +0xc heading; once the partner holds no queued move pose 9 loops, +0x14 and +0x40 clear and the
  * node moves on to 020cdd44. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

@@ -2,7 +2,7 @@
  * dropped, bit 7 of its +0x60 high byte raised and bit 0 cleared, the +0xc step zeroed
  * (data_02041dc8), and the tick hands over to Ov227_ReleaseGrabIdleStep. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern const VecFx32 data_02041dc8;
 extern void SetIndexedSlot(int *a, int i, int v);

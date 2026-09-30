@@ -10,7 +10,7 @@
  * 1-in-120 (or a target beyond 0x4000) -> 4, 1-in-20 -> 5, else with a free target 70 % -> 8 and
  * 30 % -> 9. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int obj, int b);

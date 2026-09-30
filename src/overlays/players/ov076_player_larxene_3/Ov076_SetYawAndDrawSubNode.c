@@ -1,7 +1,7 @@
 /* When the sub-node is in its visible state, turns it with the character, places it at the
  * character's anchor and draws it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Scene_DrawNode(int a);
 

@@ -1,4 +1,4 @@
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov002_GetCtxTableByte(int slot);
 

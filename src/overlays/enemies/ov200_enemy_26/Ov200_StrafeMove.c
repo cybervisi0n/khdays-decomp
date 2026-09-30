@@ -9,7 +9,7 @@
  * else 5 (2 instead of 6/7 while +0x1c4 bit 2 is set). Otherwise the chooser takes over again once
  * the +0x13c attack window drops below 2.0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);
 extern void SetIndexedSlot(int self, int slot, void (*cb)(void));

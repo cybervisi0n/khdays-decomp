@@ -4,7 +4,7 @@
  * hands off to d275c; otherwise the +0x10 velocity is the +0x470 item's +0x2c vector turned by
  * the +0x40 yaw. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

@@ -2,7 +2,7 @@
  * its event reset, then restart its animation or clear it when none remain. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov002PartOwnerTagFields {

@@ -5,7 +5,7 @@
  * along with a 0.5 forward step scaled to the frame (rate / 0x88) whose z advances the phase,
  * clamped at the span while still below it. The velocity is published to the actor's +0xf0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } MtxFx33;
 

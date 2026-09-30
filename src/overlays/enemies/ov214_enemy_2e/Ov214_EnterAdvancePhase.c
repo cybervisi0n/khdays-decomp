@@ -9,7 +9,7 @@
  * matches. One of a 5-member family (ov215/216/217/264); only the chained-state symbol differs.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

@@ -1,7 +1,7 @@
 /* Whether the actor's target is reachable from its anchor: above it by at least 0.5, within 1.5
  * horizontally, and the actor is not in state 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct AnchorBlock_02095dc8 {
     unsigned char pad000[0x400];

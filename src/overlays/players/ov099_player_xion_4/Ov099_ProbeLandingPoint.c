@@ -1,7 +1,7 @@
 /* Moves the point by the step (stopping at walls when asked), then drops it onto the ground below
  * (or clamps it to the floor limit). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int EntityMgr_RunSphereCast();

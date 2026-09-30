@@ -12,7 +12,7 @@
  * Codegen: built with `opt_common_subs off` (push/pop scoped) and `obj` declared before the chain
  * locals, as its ov266/ov267 twins; with CSE on the chain loop's i/seg registers swap. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

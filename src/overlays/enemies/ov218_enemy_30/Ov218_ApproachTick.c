@@ -2,7 +2,7 @@
  * +0x28 velocity is the +0xc yaw's direction at speed 0.375, and once the anchor is within 2.0
  * (beyond the actor's +0x80 radius) the next move is 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const void *a, const void *b, VecFx32 *out);
 extern int func_020050b4(int x, int z);

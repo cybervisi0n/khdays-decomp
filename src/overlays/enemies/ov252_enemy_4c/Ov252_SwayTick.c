@@ -4,7 +4,7 @@
  * no queued move the next +0x84 pose plays, the part takes motion 4 (phase 1) or 7 (phase 2), +0x64
  * clears and the node moves on to 020cf7d8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

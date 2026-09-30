@@ -4,7 +4,7 @@
  * radii, measured twice) closes under 2.0, rolls a strafe direction into +0x34, clears +0x38
  * and moves the node to 020d2628. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);

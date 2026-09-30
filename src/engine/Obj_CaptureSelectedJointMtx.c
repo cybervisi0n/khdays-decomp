@@ -1,7 +1,7 @@
 /* Saves the current matrix into the matrix cache slot of the selected joint. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct MtxFx43 {
     s32 value[12];

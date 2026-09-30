@@ -8,7 +8,7 @@
  * +0x60 timer and +0x66 byte clear and the tick hands over to Ov211_RiseTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

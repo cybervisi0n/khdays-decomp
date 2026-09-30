@@ -3,7 +3,7 @@
  * clock reset, and brain slot +0x20 runs 020d08a0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);
 extern void Ov107_BuildAndSendUpdate(int owner, int cue, int kind, void *target);

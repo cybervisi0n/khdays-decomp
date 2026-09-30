@@ -1,7 +1,7 @@
 /* Ov217_ApplyHitEvent: ported from a matched sibling family (same shape, constants and offsets adjusted). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u8 a, b; } Pair2;
 typedef struct { unsigned int lo : 16; unsigned int hi : 16; } EvtWord;

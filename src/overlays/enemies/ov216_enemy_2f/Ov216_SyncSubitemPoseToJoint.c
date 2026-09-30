@@ -13,7 +13,7 @@
  * which is why it sits outside the guard; the copy is then rescaled to 0x199a (1.6).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } MtxFx33;

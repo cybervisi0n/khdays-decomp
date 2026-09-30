@@ -2,7 +2,7 @@
  * the threshold, binds and rewinds the charge effect's tracks, places it at the character facing
  * its way and marks it active. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void BindAnimTrack(int a, unsigned short b, int c, int d);
 extern void Anim_SetFrameWrapped(int a, int b, int c);

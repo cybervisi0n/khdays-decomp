@@ -1,6 +1,6 @@
 /* Ov002_DispatchSessionPacket: channel 7 receive callback. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov002ForwardPacketFlags {
     unsigned char nKind : 2;

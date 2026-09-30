@@ -7,7 +7,7 @@
  * survives; the counter is bumped AFTER the second call (mwcc hoists it above the bl
  * otherwise); and `i` must be declared last so it lands in r4 and the context in r5. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(VecFx32 *a, VecFx32 *b, VecFx32 *out);
 extern int VEC_Normalize(VecFx32 *a, VecFx32 *b);

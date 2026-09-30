@@ -9,7 +9,7 @@
  * 0x41d (ov002 0206b84c), 0x38 elsewhere (0203355c). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov021PrizeBoxDef {

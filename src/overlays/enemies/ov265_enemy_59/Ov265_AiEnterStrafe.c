@@ -23,7 +23,7 @@
  * FX_Mul is inlined by the ROM (no FX_ reloc), hence the static inline; -inline on,noauto only
  * inlines what is marked. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov265_AcquireTarget(int self);
 extern int RandNextScaled(int n);

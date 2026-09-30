@@ -1,7 +1,7 @@
 /* Projects a point and reports which screen edges (with margins) it lies beyond; returns 1 when
  * visible. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef unsigned int uint;
 

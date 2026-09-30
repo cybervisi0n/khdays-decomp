@@ -10,7 +10,7 @@
  * the +0x520 pose. The base hook always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

@@ -18,7 +18,7 @@
 
 /* Global camera-commit state (GX dirty flags + cached vectors, data_02047394). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern struct {
     char    _p00[0xd4];

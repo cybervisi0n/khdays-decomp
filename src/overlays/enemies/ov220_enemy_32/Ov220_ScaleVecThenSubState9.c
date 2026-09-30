@@ -1,7 +1,7 @@
 /* AI step: keeps the previous velocity and scales it up; when the animation ends, queues action 9.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void ScaleVec3Fx12(int factor, void *src, void *dst);
 extern void SetIndexedSlot(void *node, int idx, void *value);

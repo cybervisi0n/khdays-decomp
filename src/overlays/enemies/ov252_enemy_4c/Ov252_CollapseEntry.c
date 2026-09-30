@@ -2,7 +2,7 @@
  * high byte are set, the +0xc velocity rests and the node moves on to 020cf150. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);

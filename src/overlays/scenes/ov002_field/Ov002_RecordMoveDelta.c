@@ -6,7 +6,7 @@
  * hands the target off to Actor_SetVecAndSyncChild against the object's transform block at param_1+0x28.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Actor_SetVecAndSyncChild(int a, int b);
 

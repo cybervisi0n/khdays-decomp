@@ -1,7 +1,7 @@
 /* AI step: follows the part's motion and, on ground contact, posts pose 8, starts animation 2 and
  * continues. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void SetIndexedSlot(void *node, int idx, void *next);

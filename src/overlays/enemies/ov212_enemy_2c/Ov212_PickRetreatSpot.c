@@ -29,7 +29,7 @@
  * computes r7 = target_r + own_r before the two calls and keeps it in a callee-saved register).
  * Same rule, opposite conclusion -- read the ROM, do not apply the crack by reflex. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

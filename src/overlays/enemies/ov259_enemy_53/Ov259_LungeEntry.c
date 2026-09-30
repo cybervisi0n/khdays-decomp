@@ -5,7 +5,7 @@
  * back at the +0x10 point (mode 9), sound 0x172/0x20 fires there and the node moves on to 020cf324. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

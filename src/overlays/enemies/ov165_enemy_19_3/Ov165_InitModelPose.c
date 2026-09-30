@@ -2,7 +2,7 @@
  * copies the +0x3c0 item's transform into +0x394, then moves its translation 0x800 towards the
  * camera's +0x88 focus (direction normalised from the pose position). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct {

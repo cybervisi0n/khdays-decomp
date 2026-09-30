@@ -6,7 +6,7 @@
  * anything was hit reaction 0x13f mode 6 fires and 1 is returned. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov169Hit {
     char pad000[2];

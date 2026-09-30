@@ -7,7 +7,7 @@
  * cue (020cd2c8, alternating 0 / 1) at 0x550, 0xaa0, 0xff0, 0x1430, 0x17e8 and 0x1ed0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov259_FaceTargetGap(int *node);
 extern void Ov259_RefreshAim(int *node);

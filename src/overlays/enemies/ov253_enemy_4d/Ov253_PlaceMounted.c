@@ -3,7 +3,7 @@
  * +0x398; the +0x3a0 item's animation advances (0202a818) and the actor updates (020c6980),
  * then the placement is copied into the +0x3d4 item's +0x10. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[11]; } Pose44;
 struct Ov253Placed { char pad[0x10]; Pose44 pose; };

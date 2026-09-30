@@ -4,7 +4,7 @@
  * the surface (the hit's +0xc fraction of the ray, plus 0x200); the result is pushed to the
  * render hook (cmd 2) and effect 0x13d (7) is spawned at the node position. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void *Collision_CastRayEx(void *world, VecFx32 *from, VecFx32 *ray, void *arg);   /* Collision_CastRayEx */
 extern void ScaleVec3Fixed27(int scale, VecFx32 *in, VecFx32 *out);

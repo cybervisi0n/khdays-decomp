@@ -6,7 +6,7 @@
  * the cached offset at +0x14 to the owner at +0xf0 and reset it to the neutral constant.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int v[4]; } Xform;

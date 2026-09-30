@@ -1,6 +1,6 @@
 /* Binds to the leader once, then follows its position. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov210_BindOwnerAndAttach(int a, int b, int c);

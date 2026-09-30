@@ -9,7 +9,7 @@
  * contact raises it below 1.07 or lowers it above 2.67 (once the climb is over). Finally the +0x30
  * velocity goes to the owner's +0xf0 and is scaled by 0.25. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Srt_SetRotationQuat(void *pose, void *q);

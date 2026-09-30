@@ -2,7 +2,7 @@
  * the owner's +0x494 contact point, reaction 0x164 mode 0xa fires at the +0xc position, the +0x4c
  * timer and the +0x61/+0x62 flags reset and the tick hands over to Ov233_AiLungeStrikeTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int actor, int a, VecFx32 v, int b);
 extern void Ov107_BuildAndSendUpdate(int owner, int id, int mode, void *at);

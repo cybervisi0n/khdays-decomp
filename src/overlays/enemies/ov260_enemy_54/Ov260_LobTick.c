@@ -8,7 +8,7 @@
  * a landed part (+0x38c) queues move 7, otherwise once the partner holds no queued move, move 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

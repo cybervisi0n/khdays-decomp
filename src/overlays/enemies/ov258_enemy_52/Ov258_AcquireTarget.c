@@ -3,7 +3,7 @@
  * to the target's +0x190 point is normalised into +0x10, +0x40 is the gap left between both +0x80
  * radii (at least 0) and, when `face` is set, +0x2c turns toward it. Returns 1. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int actor, int kind);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

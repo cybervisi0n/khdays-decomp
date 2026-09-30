@@ -4,7 +4,7 @@
  * (020c5af8), requests sub-state 0 and releases the node's slot. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w8 { unsigned int lo : 8, rest : 24; };

@@ -13,7 +13,7 @@
  * with effect 1 at the position. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w8 { unsigned int lo : 8, rest : 24; };

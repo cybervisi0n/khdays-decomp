@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov198_BuildHeadingRotation(int node, VecFx32 v, int flag);
 extern void Ov107_PostTagUpdate(int obj, int a, int b);

@@ -2,7 +2,7 @@
  * flags carry bits 0 and 4 spawns effect 2 at the state's +8 position (020c0b90), fires
  * reaction 0x53 there (020c5af8) and requests sub-state 0; returns 1 when handled. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void func_ov107_020c0b90(int actor, int effect, VecFx32 v, int flag);
 extern void Ov107_BuildAndSendUpdate(int actor, int a, int id, void *anchor);

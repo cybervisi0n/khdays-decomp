@@ -3,7 +3,7 @@
  * timer starts at 75.0 and is scaled by 1.5 per throw out (+0x24), +0x40 clears and the node moves on
  * to 020cda78. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

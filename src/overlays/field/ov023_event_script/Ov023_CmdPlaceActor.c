@@ -10,7 +10,7 @@
  * (Ov023_PlaceActorModel 020887dc).  Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Actor {
     u8   pad_0000[0x1a64];

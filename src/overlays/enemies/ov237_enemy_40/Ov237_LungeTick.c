@@ -4,7 +4,7 @@
  * +0x30 timer and the +0x57 flag clear, +0x34 = 1 and the brain waits on 020ced4c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern VecFx32 Ov237_RotateByActorHeading(int *node, VecFx32 *target);

@@ -7,7 +7,7 @@
  * object's +0x24 hook, and reaction 0x166 mode 0xd fires at that raised point. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

@@ -8,7 +8,7 @@
  * off to the 020d1c04 state.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct h2 { unsigned short a, b; };

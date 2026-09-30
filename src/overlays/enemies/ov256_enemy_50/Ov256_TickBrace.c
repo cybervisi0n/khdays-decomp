@@ -3,7 +3,7 @@
  * motion 7, the actor is knocked back at the origin (mode 0xf), +0x4c clears and the node moves on to
  * 020cf474. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov256_RotateByActorHeading(int *out, int param_2, int *vec);

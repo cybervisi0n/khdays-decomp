@@ -12,7 +12,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define STEEP_LIMIT 0x100
 #define PARTS_PER_HIT 4

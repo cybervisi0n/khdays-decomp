@@ -8,7 +8,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define AIM_FLAG_A 0x2000000000000ULL
 #define AIM_FLAG_B 0x4000000000000ULL

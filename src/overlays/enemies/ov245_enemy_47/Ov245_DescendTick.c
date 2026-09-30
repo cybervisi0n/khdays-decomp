@@ -3,7 +3,7 @@
  * height-gap check (020ccda4 with mode 0) feeds the arrival test (020ccb30) and on success the
  * node's slot is released. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);
 extern int Ov245_TargetHeightGap(int *node, int flat);

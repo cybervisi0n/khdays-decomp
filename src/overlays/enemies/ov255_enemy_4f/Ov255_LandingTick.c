@@ -2,7 +2,7 @@
  * point is resolved (Ov255_SteerToTarget) into the +0x10 step. Once the +0xc idle byte clears, the
  * +0x54 cooldown is re-rolled in [+0x224, +0x228], +0x58 clears and sub-state 2 is requested. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Ov255_SteerToTarget(int *state, int point, VecFx32 *dir, int *speed);

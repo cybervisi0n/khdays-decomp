@@ -6,7 +6,7 @@
  * 020cf89c) and moves on to 020cf484, otherwise it moves on to the recoil entry directly. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int FX_Div(int num, int den);

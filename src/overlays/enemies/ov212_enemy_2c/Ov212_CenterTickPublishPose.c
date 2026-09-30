@@ -25,7 +25,7 @@
  * `-height / 2` is a SIGNED divide by two -- the ROM's `rsb ; add r0, r0, r0, lsr #31 ; asr #1`
  * is the round-toward-zero correction. Do not simplify it to a shift. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct {

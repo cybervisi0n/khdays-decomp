@@ -6,7 +6,7 @@
  * effect plays at the +8 point, the actor moves to the spot at the target's height (020c5c54) and the
  * brain waits on 020ce620. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

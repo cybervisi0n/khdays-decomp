@@ -5,7 +5,7 @@
  *  - the `&= ~1` at +8 is a BYTE field, so it needs a real bitfield type;
  *  - func_ov107_020c0b90 takes the vec BY VALUE. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned short lo : 8, hi : 8; } Hw60;
 typedef struct { unsigned int lo : 8, rest : 24; } Byte8;

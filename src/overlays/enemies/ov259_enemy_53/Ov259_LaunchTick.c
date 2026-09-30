@@ -4,7 +4,7 @@
  * point (020d26e0). With the first throw done a d100 roll is drawn, +0x84 = 0x3fc0, the next move is
  * 2 and the node ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

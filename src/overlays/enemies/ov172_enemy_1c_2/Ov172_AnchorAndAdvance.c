@@ -2,7 +2,7 @@
  * (+0xb0), records whether the context mode where it lands is 8, then makes the stored action
  * (+0x1c9) pending and clears the step handler. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/actor.h"
 #include "game/ai_task.h"
 

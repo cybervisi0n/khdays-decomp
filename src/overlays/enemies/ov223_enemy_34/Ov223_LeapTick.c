@@ -10,7 +10,7 @@
  * members has a +0x388 item -- and ends the action. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct Ov221Family { char pad[0x3ec]; char *aMembers[4]; };

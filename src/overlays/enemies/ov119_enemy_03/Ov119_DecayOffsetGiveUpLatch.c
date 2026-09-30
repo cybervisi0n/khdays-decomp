@@ -7,7 +7,7 @@
  * *state[0]+0x1c7 = 8; else mark 2. Hand off via 0203c634 (cb=0).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct b1 { unsigned char b0 : 1; };

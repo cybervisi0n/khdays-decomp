@@ -7,7 +7,7 @@
  * without the +0x400 partner active) or 9 within 4.0. With the cooldown running a pending +0x79
  * hit picks one of 5, 6 and 7. Otherwise a target 4.0 away brings 4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int w[4]; } Quat;

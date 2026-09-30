@@ -8,7 +8,7 @@
  * the +0x144 list; sound 0x131 is loaded. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov181SubitemSlot {
     void *subitem;

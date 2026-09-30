@@ -3,7 +3,7 @@
  * spawns effect 0x1b there with `param`. Returns 1 (2 when no piece was picked). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { unsigned f : 8; } B8;

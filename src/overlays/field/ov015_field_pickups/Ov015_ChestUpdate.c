@@ -24,7 +24,7 @@
  * its index and drops the flag once accepted.  Returns 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void *Ov015StateFn(void *pPiece);
 

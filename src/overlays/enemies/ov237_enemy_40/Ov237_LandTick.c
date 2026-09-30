@@ -3,7 +3,7 @@
  * point's height with effect 0x12, +0x4bc is set, pose 0x10 plays and the brain waits on 020d06e0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { u8 b0 : 1; u8 b1 : 1; u8 b2 : 1; u8 b3 : 1; } Bits;

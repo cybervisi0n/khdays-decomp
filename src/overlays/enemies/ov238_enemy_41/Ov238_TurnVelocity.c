@@ -1,6 +1,6 @@
 /* Set the ov238 actor's +0xc velocity to `vec` turned by its +0x18 heading. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

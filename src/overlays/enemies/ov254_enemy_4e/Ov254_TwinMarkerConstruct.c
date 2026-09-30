@@ -4,7 +4,7 @@
  * them (+0x5c bit 0) and subscribes both to +0x9c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 struct Items { char pad[0x384]; int item[2]; };

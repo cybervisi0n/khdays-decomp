@@ -3,7 +3,7 @@
  * of a -0x1922 turn about data_02042270 combined with the given pose (ef54); the index then
  * advances modulo the owner's +0x8c count. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int q[4]; } Quat;

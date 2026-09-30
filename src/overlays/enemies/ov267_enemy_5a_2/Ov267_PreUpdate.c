@@ -2,7 +2,7 @@
  * the +0x658 one; the +0x514 offset is reset to (0, 0x1c00, 0), turned by the actor's +0xa0
  * basis and added to the +0xb0 position, then the ov107 actor base finishes the frame. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void TaskList_FinishByTag(int taskList, int task);
 extern void Vec3TransformViaTempMtx(VecFx32 *out, void *pose, VecFx32 *in);

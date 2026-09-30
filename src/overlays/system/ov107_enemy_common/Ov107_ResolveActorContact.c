@@ -1,7 +1,7 @@
 /* Contact between two overlapping actors: pushes the non-player one back with a knock-back hit. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Obj {
     u16 flags00;

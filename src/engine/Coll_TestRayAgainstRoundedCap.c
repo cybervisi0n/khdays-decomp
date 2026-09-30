@@ -2,7 +2,7 @@
  * The hardware divider is drained on every path after the asynchronous start. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct CollisionObject { u8 pad00[0x2c]; VecFx32 position2c; s32 radius38,height3c; } CollisionObject;
 typedef struct CollCastState {

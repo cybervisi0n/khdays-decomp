@@ -19,7 +19,7 @@
  * register hints, inline helper, declaration-order permutations -- are all
  * bit-identical and none of them move it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov120Pose {
     VecFx32 position;

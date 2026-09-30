@@ -7,7 +7,7 @@
  * in the +0x22c (16) and +0x144 (4) pools; the second is kept in +0x38c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u8 a, b; } Pair2;
 struct EffectPair { int res; int handle; };

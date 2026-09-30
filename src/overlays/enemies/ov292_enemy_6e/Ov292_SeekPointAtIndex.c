@@ -3,7 +3,7 @@
  * is the one the reloader fills; the walk stops early when the list is shorter
  * than the index. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void *List_First(void *list);

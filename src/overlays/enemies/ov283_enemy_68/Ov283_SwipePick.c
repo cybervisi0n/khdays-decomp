@@ -2,7 +2,7 @@
  * turn toward it and it counts as in front when it lies ahead of the old +0x38 heading. A front target
  * gets pose 5 or 6, otherwise 7 or 8 (random), and the node moves on to 020cebb4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

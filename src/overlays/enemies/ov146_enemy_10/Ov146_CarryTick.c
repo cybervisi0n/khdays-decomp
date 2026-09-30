@@ -8,7 +8,7 @@
  * to its +0xf0 and is cleared, and the +0x40 / +0x44 timers run down to zero. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

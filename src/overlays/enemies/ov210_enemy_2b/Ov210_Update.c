@@ -6,7 +6,7 @@
  * radius 0.625) is copied to the +0x3b4 body's and the first +0x3b0 body's +0x58, and the base
  * update (ov107 7ca4) runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;
 struct Body { char pad[0x58]; Segment seg; };

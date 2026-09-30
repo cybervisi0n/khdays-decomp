@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern u8 data_0204c240;                /* boot-mode flags */
 

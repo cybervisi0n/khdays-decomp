@@ -3,7 +3,7 @@
  * direction from the +0xb0 anchor to the target's +0x190 point, +0x58 the gap (distance minus both
  * +0x80 radii, at least 0), +0x44 the heading, and 1 is returned. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

@@ -5,7 +5,7 @@
  * (bit 1), the actor is knocked back at the +0xc point (mode 6) and the node moves on to 020cea18. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 struct Flag17a { u8 b0 : 1; u8 b1 : 1; u8 b2 : 1; u8 b3 : 1; };

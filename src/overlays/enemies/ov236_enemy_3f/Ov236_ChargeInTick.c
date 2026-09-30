@@ -5,7 +5,7 @@
  * data_ov236_020d63e8 entry 6 goes through the +0x24 hook, the actor's +0x54 becomes 3.0, the
  * +0x14 word clears and the node moves to 020d29b8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

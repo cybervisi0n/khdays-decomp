@@ -4,7 +4,7 @@
  * const data_02041dc8. Then copy state[2..4] into the owner block at *state + 0xf0.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 data_02041dc8;
 

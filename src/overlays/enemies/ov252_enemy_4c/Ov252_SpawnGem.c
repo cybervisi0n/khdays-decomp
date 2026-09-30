@@ -3,7 +3,7 @@
  * its slot, its kind and a live flag. Returns the node handle. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Gem { int owner; char *spawner; char pad8[4]; VecFx32 pos; char pad18[0x1c]; u8 slot; u8 kind; u8 live; };
 

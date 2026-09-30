@@ -17,7 +17,7 @@
  *    it lands in the other scratch than the ROM's. It is used twice (ldm then stm) while
  *    the destination is used once -- the ROM gives lr to the two-use value. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

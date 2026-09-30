@@ -1,6 +1,6 @@
 /* Moves the node to `pos` (Ov107_MoveNodeAndRelayout), stores `src` at +0x390 and sets flag bit 0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Obj {

@@ -9,7 +9,7 @@
  * saved time (+0x728, 020817f0); and resource pair 0x2e (class 0x1b) or 0x2f is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov015SeqNode {

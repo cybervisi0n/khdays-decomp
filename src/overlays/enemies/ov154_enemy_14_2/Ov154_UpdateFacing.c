@@ -3,7 +3,7 @@
  * becomes a quaternion about the world Y axis, is multiplied by the quaternion that turns Y onto
  * the actor's +0x124 up vector, and the product goes to the actor's +0xa0 orientation. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct Quat { int a, b, c, d; };

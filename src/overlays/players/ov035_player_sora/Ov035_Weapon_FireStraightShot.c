@@ -1,6 +1,6 @@
 /* Sends a placement for a straight shot from the muzzle (bigger in mode 2). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct {

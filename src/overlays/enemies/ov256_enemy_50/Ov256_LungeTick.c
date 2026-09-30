@@ -6,7 +6,7 @@
  * before it pose 0x15 / motion 7 replay with another knock-back (mode 0xf). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

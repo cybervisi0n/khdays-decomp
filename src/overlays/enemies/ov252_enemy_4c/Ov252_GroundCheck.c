@@ -4,7 +4,7 @@
  * height, in eighths) is within 0x10 of the track height; with no plain hit the result is left
  * undefined, as in the original. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { void *a; void *b; void *c; int d; } CollisionHit;
 

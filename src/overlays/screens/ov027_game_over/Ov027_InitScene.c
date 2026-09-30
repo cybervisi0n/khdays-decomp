@@ -12,7 +12,7 @@
  * (Ov027_LoadSignInPanel 02082b54).  Returns the first state, Ov027_WaitSceneReady 02082d8c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

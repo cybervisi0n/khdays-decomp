@@ -9,7 +9,7 @@
  * (+0xf0) cleared.  Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Camera {
     u8   pad_000[0x94];

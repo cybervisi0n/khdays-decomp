@@ -8,7 +8,7 @@
  * and hands over to 020d08a4; any other sends the "next" message, resets the clock and plays pose 8. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

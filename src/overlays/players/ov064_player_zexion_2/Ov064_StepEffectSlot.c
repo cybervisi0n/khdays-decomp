@@ -6,7 +6,7 @@
  * and 4 advances until completion into phase 5. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void BindAnimTrack(void *animation, int track, void *table, short mode);   /* BindAnimTrack */
 extern int Ov022_IsState9Or6WithFlag200(char *emitter);

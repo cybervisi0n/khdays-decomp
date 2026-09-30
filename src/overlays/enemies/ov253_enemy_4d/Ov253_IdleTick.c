@@ -7,7 +7,7 @@
  * +0x38c item's +0xa8 flag clears and, once the +8 item's animation is free, sub-state 4 is
  * requested and the slot released. Codegen: `+ (v - v)` is the documented random copy artifact. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w40 { int b0 : 1, b1 : 1; };

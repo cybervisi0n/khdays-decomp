@@ -10,7 +10,7 @@
  * event has actors, its model is placed (Ov023_PlaceActorModel 020887dc).  Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct MtxFx43 {
     int  a[12];               /* 0x00 */

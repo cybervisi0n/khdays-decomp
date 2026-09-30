@@ -17,7 +17,7 @@
  *
  * Stack 0x40 = vec(0xc) at sp+0, anchor(0x10) at sp+0xc, MtxFx33(0x24) at sp+0x1c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct {

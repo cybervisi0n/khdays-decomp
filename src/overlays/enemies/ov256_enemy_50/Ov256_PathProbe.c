@@ -2,7 +2,7 @@
  * position along it with a 2.19 radius (01fff8e8), otherwise a floor probe runs there (01fff8b8).
  * Returns whether something was hit. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

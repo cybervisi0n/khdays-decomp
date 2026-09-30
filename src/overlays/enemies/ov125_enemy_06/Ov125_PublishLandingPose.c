@@ -7,7 +7,7 @@
  * adjacent loads that mwcc groups into one ldm, and the inline body is three separate stores.
  * Written as three field assignments the loads stay split. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

@@ -5,7 +5,7 @@
  * The effect is written back through G2_SetOBJEffect with `rsParam`. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct GXOamAttr {
     u32 attr01;

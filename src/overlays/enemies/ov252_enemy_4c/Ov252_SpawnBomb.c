@@ -6,7 +6,7 @@
  * Returns the spawn handle. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 v[8]; } Ring8;
 typedef struct { void *a; void *b; void *c; int d; } CollisionHit;

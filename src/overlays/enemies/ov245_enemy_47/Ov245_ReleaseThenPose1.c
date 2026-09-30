@@ -2,7 +2,7 @@
  * animation is idle (+0xad) plays pose 1, spawns effect 0 at the state's +8 position (020c0b90)
  * and moves the node to 020d51d8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

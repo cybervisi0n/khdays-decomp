@@ -11,7 +11,7 @@
  * running for more than 5.0 (+0x1c); ending clears +0x1c and requests the owner's sub-state 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

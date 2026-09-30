@@ -5,7 +5,7 @@
  * screen every frame (Ov027_EnqueuePanel 02083cb8). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

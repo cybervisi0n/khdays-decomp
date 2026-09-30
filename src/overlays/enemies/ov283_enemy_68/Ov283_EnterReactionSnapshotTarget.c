@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int SetIndexedSlot(int self, int idx, void *handler);
 extern void Ov283_AiEnterHop(int self);

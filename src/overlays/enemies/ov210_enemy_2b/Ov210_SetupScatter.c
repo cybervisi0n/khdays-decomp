@@ -5,7 +5,7 @@
  * random angle, +0x40 clears and the tick hands over to Ov210_AiSwoopDelay. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

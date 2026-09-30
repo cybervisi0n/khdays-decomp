@@ -4,7 +4,7 @@
  * 0.125, the rest clears and the node moves on to 020ce9b0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned f : 8; } B8;

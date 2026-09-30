@@ -5,7 +5,7 @@
    two-byte table immediately before the hundreds value. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern u8 data_ov002_0207e67a;
 

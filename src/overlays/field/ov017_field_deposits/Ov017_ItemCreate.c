@@ -6,7 +6,7 @@
  * +0x16) and +0x17 = 1; then registers the piece (ov002 02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov017Item {

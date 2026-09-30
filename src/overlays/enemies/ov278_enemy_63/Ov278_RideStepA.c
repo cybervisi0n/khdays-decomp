@@ -3,7 +3,7 @@
  * is rebuilt about world Y. Outside kind 0xc an emptied +0x21a health requests pose 0xc. The +8
  * velocity is handed to the actor's +0xf0 motion slot and cleared. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct blk11 { int w[11]; };
 struct Bits3c0 { int b0 : 1; };

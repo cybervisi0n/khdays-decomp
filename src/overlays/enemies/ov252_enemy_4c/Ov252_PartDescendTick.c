@@ -3,7 +3,7 @@
  * plays at the +8 point; once the partner holds no queued move the owner plays effect 0x10 at the
  * origin, +0x64, +0x86 and +0x88 clear and the node moves on to 020d2944. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov252_CheckTarget(int *node, VecFx32 *delta, int face);

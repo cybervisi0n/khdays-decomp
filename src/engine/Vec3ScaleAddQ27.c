@@ -1,6 +1,6 @@
 /* c = b + s * a, with the products shifted by 27 bits. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 void Vec3ScaleAddQ27(fx32 s, const VecFx32 *a, const VecFx32 *b, VecFx32 *c)
 {

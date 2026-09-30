@@ -5,7 +5,7 @@
  * Also: no cached `owner` local -- the ROM re-reads *obj each time. And the guard is
  * `>= 0x990` (an ARM immediate), not `> 0x98f`. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int  Ov107_FindNearestObject(int obj, int flag);
 extern void VEC_Subtract();

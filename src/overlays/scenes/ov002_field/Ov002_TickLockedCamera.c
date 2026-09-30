@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void *NNSi_FndGetCurrentRootHeap(void);
 extern int QueryActiveStateOrDelegate(void);

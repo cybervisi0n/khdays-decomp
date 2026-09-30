@@ -20,7 +20,7 @@
  *    mwcc gives the lower address to the later declaration.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[11]; } SrtTransform;
 

@@ -11,7 +11,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define AIM_MIN_REACH 0xb33
 

@@ -6,7 +6,7 @@
  * the +0xc point to the target, +0x30 clears and the node moves on to 020d346c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SrtTransform_SetIdentity(void *srt);
 extern void Srt_SetTranslation(void *srt, const VecFx32 *v);

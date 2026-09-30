@@ -3,7 +3,7 @@
  * +4 rotation after the up-to-normal tilt. The base update runs, the +0xa0 pose is copied to the
  * +0x38c model and mirrored onto the +0x388 set's first model. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { int w[11]; } SrtTransform;

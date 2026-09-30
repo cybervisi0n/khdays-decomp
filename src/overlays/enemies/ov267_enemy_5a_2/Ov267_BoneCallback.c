@@ -15,7 +15,7 @@
  * Codegen: built with `opt_common_subs off` (push/pop scoped) and `obj` declared before the tail
  * locals; with CSE on the tail loop's i/seg registers swap (r8/r6). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

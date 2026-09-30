@@ -3,7 +3,7 @@
  * owner+0xb0, the latter bumped +0x300 on Y) into entry[4..6]/[7..9], and transform each
  * against its target (Srt_SetTranslation into param_2+4 / param_3+4). Returns the spawn result. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int CreateRegistryEntry(int list, int a, int b, void *cb2, void *cb1, int **out);
 extern void Srt_SetTranslation(int dst, int *src);

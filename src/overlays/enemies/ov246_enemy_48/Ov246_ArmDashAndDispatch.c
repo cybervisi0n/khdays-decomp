@@ -12,7 +12,7 @@
  * `hi | 1` still fits 8 bits, but not `hi & ~0x8c`); both spellings are byte-identical
  * where they apply. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo:8, hi:8; };
 struct b8 { unsigned int b:8; };

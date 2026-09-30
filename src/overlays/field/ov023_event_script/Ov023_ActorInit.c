@@ -5,7 +5,7 @@
  * the whole motion set (+0x538) wiped with frames -1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Motion {
     int  nEndFrame;           /* 0x00 */

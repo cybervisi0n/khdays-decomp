@@ -8,7 +8,7 @@
  * cleared, bit 2 of the actor flags is raised and the enemy hands over to state 0 when grounded
  * (also telling the slot callback 0), otherwise to state 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;

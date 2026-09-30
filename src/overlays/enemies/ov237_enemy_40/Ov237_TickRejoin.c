@@ -7,7 +7,7 @@
  * variant 0x11) plays and the brain waits on 020d09cc. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 typedef struct { u8 b0 : 1; } Bit0;

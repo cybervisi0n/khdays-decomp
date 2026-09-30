@@ -4,7 +4,7 @@
  * of the frame step, pose 8 plays on the actor and pose 0 on its +0x3dc partner, effect 9 is
  * spawned at the zero vector (data_02041dc8) and the node moves to 020ce88c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int  Ov107_FindNearestObject(int obj, int flag);
 extern void Mtx33_LookAt(void *out, int a, int b, void *c);

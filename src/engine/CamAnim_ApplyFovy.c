@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h
+#include "nitro/fx_types.h"
 
 extern int FX_Div(int x, int unused);
 extern const short data_0203d210[];

@@ -4,7 +4,7 @@
  * The three effect parts (+0x3ec..+0x3f4) sit on the +0x43c, +0x448 and +0x42c joints (the last 3.0
  * higher). With a +0x454 target the +0x430 head looks at it; then the base update runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

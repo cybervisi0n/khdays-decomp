@@ -25,7 +25,7 @@
 /* The low-byte bit test must go through the bitfield (ldrh; lsl#0x18; lsr#0x18; tst #1);
  * writing *(u16*)p & 0xff & 1 collapses it to ldrb; tst -- see codegen-cracks.md. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct {

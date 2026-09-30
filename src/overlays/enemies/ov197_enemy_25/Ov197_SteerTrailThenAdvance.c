@@ -1,7 +1,7 @@
 /* AI step: steers toward the target's centre and advances the timer by the owner's frame step; when
  * it passes 0x1188 fires the three-way spread and installs the wait-for-animation step. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(void *a, int b, void *out);
 extern void VEC_Normalize(void *a, void *b);

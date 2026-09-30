@@ -17,7 +17,7 @@
  * 0x127 with mode 2/3 (bits 1/5) or 0/1 at the +0x38 point. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct HitWord { unsigned int lo : 16, hi : 16; };
 struct Parity { u8 b0 : 1; };

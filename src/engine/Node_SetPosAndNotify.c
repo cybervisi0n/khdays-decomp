@@ -1,6 +1,6 @@
 /* Stores the position, marks it dirty and calls the node's change hook. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*func_020293fc_cb)(void *ptr);
 

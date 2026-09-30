@@ -3,7 +3,7 @@
  * the turn; animation 8 plays, the +0x90 flag is set, bit 0 of the +0x38c part's +8 word is set,
  * reaction 0 mode 0x43 fires at the +8 point and the tick hands off to d51fc. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

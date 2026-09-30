@@ -12,7 +12,7 @@
  * to 0x4333 across the window. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int q[4]; } Quat;
 

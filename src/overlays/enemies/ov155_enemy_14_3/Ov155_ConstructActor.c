@@ -9,7 +9,7 @@
  * +0x388 on the +0x22c list; +0x398 is built by Ov155_Actor_New and sound 0x13c is loaded. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov153Capsule {
     VecFx32 vPos;

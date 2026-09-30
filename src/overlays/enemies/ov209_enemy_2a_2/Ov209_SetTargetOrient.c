@@ -4,7 +4,7 @@
  * 0202ed60(self+0xc, &data_02042258, &v), then raise the "aim dirty" flag *(*self+0x1c7)=1.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Quat_FromTwoVectors(unsigned int *out, void *basis, VecFx32 *v);
 extern int data_02042258;

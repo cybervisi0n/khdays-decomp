@@ -4,7 +4,7 @@
  * clears, animation 3 plays, the +0x3d0 part plays motion 2, +0x78 clears and the tick hands over
  * to Ov257_BiteChargeTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

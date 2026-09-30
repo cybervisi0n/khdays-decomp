@@ -11,7 +11,7 @@
  * same way past 3.0 or once the owner reports a wall (+0x17a bit 1). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { u8 hi, mid, lo; } Fx24;

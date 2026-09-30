@@ -4,7 +4,7 @@
  * (+0x14) are taken, the +0x10 angle turned into a forward vector (sine table) which, scaled by
  * 0.1875, becomes the +0x1c step; inside 0.5 the actor goes to sub-state 2 and the slot is released. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int actor, int a);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

@@ -7,7 +7,7 @@
  * on their +0x5c), and a shape on the +0x144 list (+0x38c) is built from the +0x64 velocity. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 

@@ -7,7 +7,7 @@
  * position (+0x2a8, VEC_Distance 01ff8e94). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov021PlayerActor {

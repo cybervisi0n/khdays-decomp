@@ -4,7 +4,7 @@
  * world (scaled to the first hit's +0xc fraction), the actor is placed at the +8 point plus the
  * lunge, animation 5 plays, effect 4 spawns there and the tick hands off to cf208. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct CastHit { char pad000[0xc]; int nFraction; };

@@ -5,7 +5,7 @@
  * of its +8 byte); no target yet (+0x38c). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { VecFx32 pos; int scale; } Placement;

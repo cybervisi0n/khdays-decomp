@@ -7,7 +7,7 @@
  * Once the +4 rig is idle, +0x30 rerolls within the owner's +0x224..+0x228 range and move 2 follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;

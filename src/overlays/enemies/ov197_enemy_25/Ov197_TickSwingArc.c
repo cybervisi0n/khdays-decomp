@@ -12,7 +12,7 @@
  * the restart flag, so the next sample starts a fresh arc rather than differencing across the
  * discontinuity. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Obj_RenderModel();
 extern int func_02016320();

@@ -5,7 +5,7 @@
  * Once the partner holds no queued move the node moves on to 020cf474. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Flag17a { u8 b0 : 1; u8 b1 : 1; };
 

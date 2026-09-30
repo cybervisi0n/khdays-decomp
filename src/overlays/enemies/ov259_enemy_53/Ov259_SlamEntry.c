@@ -4,7 +4,7 @@
  * the node moves on to 020d0400. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov259_PlaySound(int actor, int id, int variant, void *at);

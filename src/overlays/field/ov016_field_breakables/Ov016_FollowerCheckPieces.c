@@ -5,7 +5,7 @@
  * list answers 0, otherwise 1. Without a record set (ov002 0207386c == -1) or an owner: 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov016Piece Ov016Piece;

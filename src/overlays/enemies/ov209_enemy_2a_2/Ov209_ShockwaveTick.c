@@ -6,7 +6,7 @@
  * sub-state 2 is requested and the state ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct BoxQuery {
     VecFx32 vCenter;

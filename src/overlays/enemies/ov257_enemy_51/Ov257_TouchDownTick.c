@@ -3,7 +3,7 @@
  * grounded (+0x17a bit 0), animation 6 plays, the +0x3d0 part plays motion 5, reaction +0x408 mode
  * 3 fires at the +4 point and the tick hands over to Ov257_SettleTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Bits17a { unsigned char b0 : 1; };

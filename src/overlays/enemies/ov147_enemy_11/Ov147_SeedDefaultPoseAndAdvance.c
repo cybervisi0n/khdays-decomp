@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int data_02041dc8; /* const initial pose vector */
 extern void SetSubitemState(int subitem, int a, int b, int c);

@@ -6,7 +6,7 @@
  * (discarded) and marshals record 0 (kind 1) at the +0x26c8 muzzle with the actor's heading. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct EmitPair {

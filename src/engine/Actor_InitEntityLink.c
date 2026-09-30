@@ -21,7 +21,7 @@
  * indexing rather than a struct that would mostly be padding.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 data_02041dc8;                      /* kVecZero */
 

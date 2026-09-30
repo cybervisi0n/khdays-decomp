@@ -1,7 +1,7 @@
 /* Overlap test of a hit shape against a sphere; contact point optionally written out. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Sphere {
     VecFx32 center;

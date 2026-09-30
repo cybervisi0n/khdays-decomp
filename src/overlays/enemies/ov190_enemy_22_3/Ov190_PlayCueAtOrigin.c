@@ -1,7 +1,7 @@
 /* State step: posts a pose, plays an effect cue at the actor's origin and installs the next step.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int a, int b, VecFx32 v, int d);

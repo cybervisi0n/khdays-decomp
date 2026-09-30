@@ -2,7 +2,7 @@
 /* Hit report filled in here and handed to the victim's hit callback. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct HitInfo {
     int flags;          /* +0x00 */

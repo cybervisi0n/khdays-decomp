@@ -3,7 +3,7 @@
  * the +0x28 horizontal speed is the flat distance over that count (64-bit, 20 fraction bits), the +8 heading faces
  * the target, +0x48 is set and the next move is 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const void *a, const void *b, VecFx32 *out);
 extern int VEC_Normalize(VecFx32 *v, VecFx32 *d);

@@ -5,7 +5,7 @@
  * total (64-bit ratios), and the +0xa0 pose is placed at the +0xb0 point plus that sum (c4ecc
  * afterwards). The base draw handler always runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { VecFx32 pos; int nRadius; } Sphere;

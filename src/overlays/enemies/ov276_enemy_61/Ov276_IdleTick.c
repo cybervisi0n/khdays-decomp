@@ -7,7 +7,7 @@
  * choice is 1 (gap below 0x1000, 45% roll), 2 or 3 at random (gap below 0x3000, unless already
  * one of them) or 0, sub-state 4 is requested and the state ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

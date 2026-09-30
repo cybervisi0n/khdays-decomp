@@ -3,7 +3,7 @@
  * looped, bit 6 of the owner's +0x60 high byte clears and the tick hands over to
  * Ov257_GlideToLandTick2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

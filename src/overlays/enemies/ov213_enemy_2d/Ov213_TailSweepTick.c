@@ -8,7 +8,7 @@
  * reaction 0x122 mode 7 fires there. Once the +8 idle byte clears, pose 5 is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

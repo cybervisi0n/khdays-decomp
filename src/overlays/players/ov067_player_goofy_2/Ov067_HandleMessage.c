@@ -7,7 +7,7 @@
  * and the attack step takes over. 0x23/0x24 tell 0x31/0x30 and hand over to the landing step. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Ov022_FillEightHalvesMinus1At0x2bd4(char *self);

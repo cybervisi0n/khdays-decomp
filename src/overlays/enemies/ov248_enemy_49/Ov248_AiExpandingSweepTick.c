@@ -16,7 +16,7 @@
  * data_02042258/64/70 sit 12 bytes apart, i.e. three consecutive VecFx32 constants -- note the
  * block takes them out of order (70, 58, 64). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     VecFx32 origin;

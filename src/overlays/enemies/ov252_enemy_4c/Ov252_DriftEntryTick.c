@@ -2,7 +2,7 @@
  * the +0x54 heading (020cdafc); once the partner holds no queued move pose 0xe plays, the part takes
  * motion 0x13 and the node moves on to 020d09cc. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);

@@ -7,7 +7,7 @@
  * state[0x1a] != 0 else 2, and bail (0203c634 cb=0).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct S200b { char pad[0xc]; VecFx32 dst; VecFx32 src; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

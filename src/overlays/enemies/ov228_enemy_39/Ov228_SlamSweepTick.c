@@ -9,7 +9,7 @@
  * 60), 0xa (below 80) or 2, and the state ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;

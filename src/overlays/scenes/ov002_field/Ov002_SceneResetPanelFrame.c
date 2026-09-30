@@ -9,7 +9,7 @@
  * THUMB.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     char pad000[0xe0];

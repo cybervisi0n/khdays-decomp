@@ -7,7 +7,7 @@
  * shot's position, latched in the shared rig's +0x2ce4. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 p; short a, b, c; short scale; int f14, f18, f1c, f20, f24, f28; } Placement;

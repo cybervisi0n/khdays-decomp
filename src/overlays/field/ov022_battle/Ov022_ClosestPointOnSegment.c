@@ -13,7 +13,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const VecFx32 *pA, const VecFx32 *pB,
                          VecFx32 *pOut);

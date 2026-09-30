@@ -5,7 +5,7 @@
  * hit (with `once`: whether the mask holds any hit). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

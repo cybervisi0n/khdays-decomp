@@ -7,7 +7,7 @@
  * reaction 0x165 mode 9 fires there, the hook receives the message and pose 0 is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

@@ -6,7 +6,7 @@
  * part becomes kind 3, its timer is cleared and the finish handler runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Ov022_ResolveShotHit(char *pGroup, char *pPart, VecFx32 *pos, VecFx32 *dir);

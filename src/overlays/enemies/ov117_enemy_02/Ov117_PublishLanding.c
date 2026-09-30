@@ -9,7 +9,7 @@
  * for the second load, exactly as the ROM does. A struct assignment reads +8 first and keeps the
  * base alive, which is the four-instruction residue the park recorded. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[4]; } Vec4;
 struct bit0 { unsigned char b : 1; };

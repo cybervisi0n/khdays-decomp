@@ -8,7 +8,7 @@
  * The axis indices are long and ppE is a vector reached through a component pointer, as the
  * original's Vector3 operator[] did. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Box3 {
     char pad00[0x30];

@@ -3,7 +3,7 @@
  * heading about up, its +0xf0 velocity mirrors +0x28, and for the frame (in 0x88-sized slices) the
  * velocity damps by 0.12 and the +0x1c spin by 0.125 per slice. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

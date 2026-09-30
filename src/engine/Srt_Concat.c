@@ -6,7 +6,7 @@
  * both sides become scaled rotation matrices, the product sets the rotation/scale (Node_SetRotationFromMtx)
  * and the child's translation goes through the parent matrix. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { fx32 w, x, y, z; } Quat;
 typedef struct { fx32 m[9]; } MtxFx33;

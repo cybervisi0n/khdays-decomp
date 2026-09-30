@@ -11,7 +11,7 @@
 /* Ov002HitShape: a sphere (shape 0) at the chest position */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov015HitShape {
     s8   nShape;              /* 0x00: 0 sphere */

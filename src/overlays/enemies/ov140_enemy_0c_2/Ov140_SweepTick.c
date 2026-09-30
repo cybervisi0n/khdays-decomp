@@ -9,7 +9,7 @@
  * between the actor's +0x224 and +0x228, sub-state 2 is requested and the state ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;

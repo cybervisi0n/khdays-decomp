@@ -6,7 +6,7 @@
  * advances by 24 turns per second (wrapped to 16 bits), the +0xc/+0x10 yaws follow the velocity
  * and, after 0x1000 of the +0x14 clock, the tick hands off to the wander state and runs it. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct Bits17a { unsigned char bit0 : 1, bit1 : 1; };

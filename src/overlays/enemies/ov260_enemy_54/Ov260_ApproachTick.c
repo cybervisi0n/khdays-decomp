@@ -5,7 +5,7 @@
  * +0x7b flag clear and the node moves on to 020cdecc. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

@@ -1,7 +1,7 @@
 /* Copy the pose vector from (child)+0xc to (*child)+0xf0, then update the transform node
  * at (*child)+0xa0 from (child)+0x30. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Srt_SetRotationQuat(int a, int b);
 void Ov208_Item_ApplyOrientation(int param_1) {

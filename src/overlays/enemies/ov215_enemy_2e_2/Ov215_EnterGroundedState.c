@@ -11,7 +11,7 @@
  * the two idioms sit four statements apart here.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct LowByteFlags { unsigned bits : 8; };
 

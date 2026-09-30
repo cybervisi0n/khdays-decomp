@@ -2,7 +2,7 @@
  * 10 and 18 frames, the +0xc velocity follows the +0x3e0 part's +0x2c vector turned by the heading;
  * once the partner holds no queued move the next move is 4 (with +0x28 set and +0x2e not 1), else 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov238_TimedCue(int *node, int ticks, int cue, int variant);
 extern void Ov238_TurnVelocity(int *node, VecFx32 *vec);

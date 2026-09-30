@@ -2,7 +2,7 @@
  * records the owner and `model`, starts at `pos` (+0xc) and the model is placed there. Returns the
  * task. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int CreateRegistryEntry(int scene, int kind, int size, void *cb, void *cb2, int **out);
 extern void Srt_SetTranslation(void *transform, const VecFx32 *translation);

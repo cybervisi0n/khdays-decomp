@@ -6,7 +6,7 @@
  * outside them +0x86 clears. Once the partner holds no queued move pose 0x22 plays, +0x64 clears and
  * the node moves on to 020d2c0c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;

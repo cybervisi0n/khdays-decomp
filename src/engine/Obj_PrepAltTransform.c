@@ -19,7 +19,7 @@
  * is held while the second angle is negated inline at the MTX_MakeRotXY43 call.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int  ArrayEntryPtrD0(int anchorIndex);
 extern void Transform_SetBasePos(int dst, void *src);

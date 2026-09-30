@@ -3,7 +3,7 @@
  * bit 1 allows it), +0x388 marks it busy and its +0x214 flight takes the direction and heading
  * (020d2904). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

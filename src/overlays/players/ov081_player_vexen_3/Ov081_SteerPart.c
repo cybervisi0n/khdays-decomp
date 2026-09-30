@@ -8,7 +8,7 @@
  * and the local player queues reaction 3/1 on the owner. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u8 b0 : 1; } Bits1;
 

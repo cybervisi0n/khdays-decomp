@@ -5,7 +5,7 @@
  * +0x70, the +0x18 timer clears with a +0x1c range of 0.8, +0x7c/+0x80/+0x84 clear, effect 0x162
  * (kind 6) spawns at the +4 anchor from the +0x384 model and the node moves to 020d0d8c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct m4 { int w[4]; };

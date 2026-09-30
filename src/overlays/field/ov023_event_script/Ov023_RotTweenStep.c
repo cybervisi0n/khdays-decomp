@@ -6,7 +6,7 @@
  * are start + (target - start) * factor; at 0 they are the target.  Returns pOut. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct MtxFx33 {
     int  a[9];                /* 0x00 */

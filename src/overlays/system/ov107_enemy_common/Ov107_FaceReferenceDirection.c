@@ -3,7 +3,7 @@
  * second constant straight into self+0x88, then hand off to
  * Ov107_Region_SyncChildVisibility. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 data_020475c4;
 extern VecFx32 data_020475ac;

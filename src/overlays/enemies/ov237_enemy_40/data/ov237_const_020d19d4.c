@@ -2,7 +2,7 @@
  * triangle of radius 0x500 in the y/z plane (at 90, -30 and 210 degrees). No code references
  * it: an initializer whose copy the compiler dropped. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 const VecFx32 data_ov237_020d19d4[3] = {
     { 0xa00, 0, 0x500 },

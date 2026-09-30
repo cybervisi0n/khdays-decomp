@@ -4,7 +4,7 @@
  * on to 020d02a0; before that each idle partner restarts pose 0x1c / motion 0xd. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov256_RotateByActorHeading(int *out, int param_2, int *vec);

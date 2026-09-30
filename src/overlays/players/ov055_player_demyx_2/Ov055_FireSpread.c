@@ -4,7 +4,7 @@
  * a record 1 request (kind 7, speed 0xe00) two units from the origin along its own heading. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct {

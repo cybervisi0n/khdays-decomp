@@ -2,7 +2,7 @@
  * On success re-tag the owner, clear the two progress fields and re-issue the move
  * command with the stored vector, then dispatch with the continuation. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int  Ov107_FindNearestObject(int obj, int flag);

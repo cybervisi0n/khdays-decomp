@@ -1,7 +1,7 @@
 /* cd0e8 */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_CollectSphereOverlaps(int owner, void *sphere, int *hits);
 extern int Ov107_CollectCapsuleOverlaps(int owner, void *box, int *hits);

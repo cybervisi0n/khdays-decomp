@@ -16,7 +16,7 @@
  * loading the second.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct flags16 { unsigned short lo : 8, hi : 8; };
 

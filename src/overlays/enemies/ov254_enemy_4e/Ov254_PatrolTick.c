@@ -3,7 +3,7 @@
  * clamped to +-0x7fff. Within 10.0 of the track the next move is 8 when aggressive (+0x78) and the
  * +0x21a stock is at most 60 % of +0x218, else 4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const void *a, const void *b, VecFx32 *out);
 extern int VEC_Normalize(VecFx32 *v, VecFx32 *d);

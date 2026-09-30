@@ -5,7 +5,7 @@
  * pose 0xb plays, the origin knock-back (mode 0xd, 8) runs and the node moves on the same way. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

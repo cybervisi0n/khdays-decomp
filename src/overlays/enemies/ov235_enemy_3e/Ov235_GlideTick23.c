@@ -3,7 +3,7 @@
  * byte is set, animation 0x23 plays, the part plays motion 0x19 and the tick hands over to
  * Ov235_GlideInTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Bits4 { unsigned char b0 : 1, b1 : 1; };

@@ -6,7 +6,7 @@
  * shot is launched (cd484) along it. Once the +0x30 busy byte clears sub-state 2 is requested
  * and the state ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov124_FindTarget(int actor, int mode);

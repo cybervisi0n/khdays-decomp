@@ -9,7 +9,7 @@
  * zero-vector ldm can hoist over the box stores (cf. Ov141_ConfigHw60CopyVec3ConstThenAdvance). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u8 hi, mid, lo; } Fx24;
 typedef struct { u16 w[7]; } PosMsg;     /* id, kind/sub, arg + Fx24 pos[3] */

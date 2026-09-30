@@ -1,7 +1,7 @@
 /* Ov245_ResetVelocity -- reset the velocity vector at +0x3a0 to the shared zero constant, and if
  * the object is in mode 1 hand its context (+0x214) to the follow-up. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov245_SetPendingState2(int a);
 extern int data_02041dc8;

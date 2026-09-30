@@ -1,6 +1,6 @@
 /* Ov148_BuildHeadingRotation takes the vec BY VALUE (r1/r2/r3 via ldm) plus a stack flag. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract();

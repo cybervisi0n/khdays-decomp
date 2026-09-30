@@ -2,7 +2,7 @@
  * radius 12.6 stands upright at the +0x1c point (0.25 high); it hits with a random flat push of up
  * to 1.0 each way (kind 4, effect 1) through 020cd104. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis; int length; int radius; } Capsule;

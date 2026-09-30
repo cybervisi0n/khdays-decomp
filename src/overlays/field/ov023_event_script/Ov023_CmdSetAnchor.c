@@ -5,7 +5,7 @@
  * operand 1.  Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Operand {
     s16  nType;               /* 0x00 */

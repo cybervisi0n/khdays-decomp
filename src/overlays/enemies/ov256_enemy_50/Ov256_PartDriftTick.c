@@ -2,7 +2,7 @@
  * part's heading (020cd054); once the partner holds no queued move pose 0x1c plays and the node moves
  * on to 020d01bc. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov256_RotateByActorHeading(int *out, int param_2, int *vec);

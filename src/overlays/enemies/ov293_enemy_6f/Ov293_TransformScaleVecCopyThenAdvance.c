@@ -1,7 +1,7 @@
 /* AI step: computes the velocity from the action resource and heading and, when the action ends,
  * records it and continues. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_ActionResource_GetOffsetAndScale(void *src, void *out);

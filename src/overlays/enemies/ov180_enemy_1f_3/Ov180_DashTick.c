@@ -6,7 +6,7 @@
  * records the kind bit and spawns effect 0x143 (7) there. Once the sub-state is idle (-1), an
  * unflagged actor -- or one that still found targets -- rolls 1-in-5 for sub-state 6, else 5. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int w[4]; } Vec4;

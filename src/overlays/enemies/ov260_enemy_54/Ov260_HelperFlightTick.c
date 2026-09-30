@@ -8,7 +8,7 @@
  * mode 1, the blocked path with effect 0x14); otherwise +0x1c follows the anchor. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 

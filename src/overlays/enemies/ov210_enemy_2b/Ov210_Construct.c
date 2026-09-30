@@ -9,7 +9,7 @@
  * 0x117. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[8]; } PoseTable;
 typedef struct { VecFx32 pos; VecFx32 up; int scale; int radius; } Seed;

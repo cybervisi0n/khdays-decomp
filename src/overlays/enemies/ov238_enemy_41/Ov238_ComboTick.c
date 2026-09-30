@@ -10,7 +10,7 @@
  * restarts (020d1e74), and after the third strike sub-state 2 follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { VecFx32 pos; int nRadius; } Sphere;

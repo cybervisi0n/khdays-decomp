@@ -3,7 +3,7 @@
  * sound 0x172/0x13 fires there and the node moves on to 020d2d3c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { unsigned f : 8; } B8;
 

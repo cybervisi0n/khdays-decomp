@@ -4,7 +4,7 @@
  * charge (+0x2c = 2) fires effect 5 there, the cue re-arms and the timed step (020d0f54, 6 frames)
  * leads on to 020d212c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov238_TurnVelocity(int *node, VecFx32 *vec);
 extern void Ov107_BuildAndSendUpdate(int actor, int bank, int variant, void *at);

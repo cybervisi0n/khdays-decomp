@@ -5,7 +5,7 @@
  * hw60 = *(u16*)(*state+0x60), reloaded each op (the Ov283_ResetReactionFlags spelling). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int obj, int cmd, VecFx32 v, int flag);

@@ -6,7 +6,7 @@
  * node's +0x2c speed and, once the actor's +0xad flag is clear, run the setup (020ce710) and
  * hand over to sub-state 2 with the slot cleared. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Mtx33_LookAt(void *mtx, VecFx32 *from, VecFx32 *to, void *up);
 extern void Quat_FromMtx33(void *dst, void *mtx);

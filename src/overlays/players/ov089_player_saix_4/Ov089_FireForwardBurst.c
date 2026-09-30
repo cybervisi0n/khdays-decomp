@@ -7,7 +7,7 @@
  * +0x26bc is set, it plays 0xca at +0x26c8. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Emit {
     VecFx32 vPos;

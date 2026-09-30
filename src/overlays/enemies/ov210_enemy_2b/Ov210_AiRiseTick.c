@@ -2,7 +2,7 @@
  * snapshot the pose vector (+0x54 -> +0x14) and step the height (+0x58 -= 0x80). Then, unless
  * the gate byte at *(child+0xc) is set, play the anim (ov107 mode 0x16,1), reset the timer and dispatch. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov107_PostTagUpdate(int a, int b, int c);
 extern int SetIndexedSlot(int a, int b, void *handler);

@@ -7,7 +7,7 @@
  * Always hand off via 0203c634 to the 020cd8a8 state.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

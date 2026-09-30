@@ -7,7 +7,7 @@
  * 020cf63c; otherwise a follow-up (020cd2cc, without a +0x38 delay) or move 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;

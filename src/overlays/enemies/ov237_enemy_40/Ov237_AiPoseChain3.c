@@ -1,6 +1,6 @@
 /* Follows the head offset; when the animation ends plays anim 3 and model anim 2. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern VecFx32 Ov237_RotateByActorHeading(int *node, VecFx32 *target);
 extern int Ov107_PostTagUpdate(int, int, int);

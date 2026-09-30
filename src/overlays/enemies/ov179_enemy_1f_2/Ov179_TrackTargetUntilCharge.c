@@ -8,7 +8,7 @@
  *    the other way round.
  * tmp[9], not tmp[8], is what makes the frame 0x2c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct quat { int x, y, z, w; };
 extern int  Ov107_FindNearestObject(int obj, int flag);

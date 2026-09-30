@@ -2,7 +2,7 @@
  * spawn conditions hold, runs the spawn step. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov107Object Ov107Object;
 typedef struct Ov107Actor Ov107Actor;

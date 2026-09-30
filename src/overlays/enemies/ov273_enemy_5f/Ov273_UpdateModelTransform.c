@@ -3,7 +3,7 @@
  * transform at the actor's +0xb0 position lowered by 0x2000 and pushed 0x2000 towards the
  * camera's +0x88 focus. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct ListFlags5c { int b0 : 1; int b1 : 1; };

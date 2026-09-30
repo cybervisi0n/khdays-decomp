@@ -3,7 +3,7 @@
  * variant: 0 to Ov223_RingSweepChargeTick, 1 to Ov223_RingChargeTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);
 extern void Ov223_RingSweepChargeTick(int *node);

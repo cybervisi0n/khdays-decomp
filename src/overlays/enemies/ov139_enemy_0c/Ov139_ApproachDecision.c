@@ -6,7 +6,7 @@
  * with a clear probe requests sub-state 5, anything else sub-state 6. Otherwise a gap inside
  * the +0x2d8 range but at or beyond 0x4000 requests sub-state 4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

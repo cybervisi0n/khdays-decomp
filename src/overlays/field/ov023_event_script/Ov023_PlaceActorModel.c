@@ -8,7 +8,7 @@
  * 0x24-byte animation slots (+0x1a20, 0xb4 bytes from the default heap, cleared). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov023Entity {
     int  nFlags;              /* 0x00 */

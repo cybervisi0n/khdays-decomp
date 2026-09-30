@@ -1,7 +1,7 @@
 /* Ov202_ThrowChargeTick: ported from a matched sibling family (same shape, constants and offsets adjusted). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/ai_task.h"
 
 struct Flags17a {

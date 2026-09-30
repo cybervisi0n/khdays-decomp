@@ -3,7 +3,7 @@
 
 /* Ov258_PlayRigMove: per-move poses of the +0x384 body rig and the +0x3ac tail rig. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int id[16]; } MovePoses;
 

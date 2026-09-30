@@ -3,7 +3,7 @@
  * cleared, +0x18 takes the +0x14 value, +0x58 clears and the brain waits on 020cf5c0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);

@@ -4,7 +4,7 @@
  * bit 6 of the +0x60 high byte is raised, the timer restarts, the +0x1c impulse becomes
  * (0, 1.5, 0) and the tick hands over to Ov248_AiHomingDriftTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov107_BuildAndSendUpdate(int owner, int id, int mode, void *at);

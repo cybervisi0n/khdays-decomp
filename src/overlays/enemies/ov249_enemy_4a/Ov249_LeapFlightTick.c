@@ -7,7 +7,7 @@
  * (+0x17a bit 1) ends with effect 0 and mode 0x11; else the travel grows by the speed and past 21.0
  * effect 0 ends it. Every end clears the travel and hands over to 020d48a4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 typedef struct { int m[9]; } Mtx33;

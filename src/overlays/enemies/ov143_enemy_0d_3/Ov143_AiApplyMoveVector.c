@@ -1,6 +1,6 @@
 /* Copies the step's stored vector into the actor's movement vector (+0xf0). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Src {
     int *base;

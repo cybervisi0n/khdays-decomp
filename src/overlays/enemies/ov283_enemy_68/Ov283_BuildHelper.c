@@ -5,7 +5,7 @@
  * +0x144 pool (+0x38c). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis; int length; int radius; } Capsule;
 

@@ -7,7 +7,7 @@
  * with a free target (020ccaa0) or 2; otherwise the +0x48 timer grows and past 3.0 requests
  * sub-state 6. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);

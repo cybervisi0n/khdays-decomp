@@ -2,7 +2,7 @@
  * frame rate, the +0xa0 pose follows it, +0xf0 keeps the last +0x20 velocity which then clears, and
  * in move 4 the +0x60 idle time runs down to 0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

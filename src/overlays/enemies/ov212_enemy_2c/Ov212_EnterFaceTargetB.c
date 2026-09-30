@@ -16,7 +16,7 @@
  * table loads issue before the stores. One of a 3-member family (family).
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int *Ov107_FindNearestObject(int a, int b);

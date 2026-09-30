@@ -1,7 +1,7 @@
 
 /* A stored spot: a position plus the index of the party slot it belongs to. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     VecFx32 vPos;                      /* +0x00 */

@@ -19,7 +19,7 @@
  * Case order from tools/switchorder.py: {2,3,4,5} share one body, {0,1} share the
  * default's -- only the first group is written. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct b1 { unsigned char b0 : 1; };
 

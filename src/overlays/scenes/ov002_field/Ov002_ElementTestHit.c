@@ -2,7 +2,7 @@
 /* The hit record the caller hands over. The leading byte picks the shape, and
  * what follows the source point is either a radius or a second point. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     signed char nShape;             /* +0x00 */

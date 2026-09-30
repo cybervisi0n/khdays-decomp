@@ -6,7 +6,7 @@
  * reaches 1.0, it releases the target: plays animation 5, clears the grab bits, spawns effect
  * 0x167 at the anchor, hands the rider to 020ad8e0 and moves on to Ov119_HoldTick. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

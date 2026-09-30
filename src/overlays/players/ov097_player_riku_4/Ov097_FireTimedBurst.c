@@ -6,7 +6,7 @@
  * of +0x26bc is clear, it plays 0xd7 (variant 1) at +0x26c8. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Emit {
     char pad00[0xc];

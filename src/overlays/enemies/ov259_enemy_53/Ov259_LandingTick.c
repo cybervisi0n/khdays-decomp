@@ -3,7 +3,7 @@
  * the charge flag clears, the actor is knocked back there (mode 1), the timer restarts and the node
  * moves on to 020cf82c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Flags5c { int charged : 1; };

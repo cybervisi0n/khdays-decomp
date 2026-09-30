@@ -20,7 +20,7 @@
  * Written with gotos because the ROM has two shared tails (the stance dispatch and the reset) that
  * several branches jump into; expressing them as nested ifs duplicates the code. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

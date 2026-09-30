@@ -4,7 +4,7 @@
  * anchor to the +0x384 item's +0x3bc target's +0x14 point, +0x2c clears and the node moves to
  * 020ce09c. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

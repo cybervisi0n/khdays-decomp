@@ -5,7 +5,7 @@
  * and places the +4 sub-object; the +0x28 timer accumulates the rate and past 1.0 resets with
  * the +0x30 hit mask before handing over to Ov138_AiDescentProbe. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int q[4]; } Quat;

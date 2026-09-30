@@ -4,7 +4,7 @@
  * resource 0x15a of kind 0xb at the actor's +0xa0 placement (020cb040) into +0x3ac. Slot 4 resets
  * the +0x3a0 vector and starts motion 0 of the +0x39c item (020c9ee8). Then the state filter. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Ov245Slots { char pad[0x3b4]; struct { int pParent; int pChild; } slots[3]; };

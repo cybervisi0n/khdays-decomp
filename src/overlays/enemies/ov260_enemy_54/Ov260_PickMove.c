@@ -6,7 +6,7 @@
  * (< 90) or 9; farther -> 6 (< 50), 8 (< 90) or 9. When a move was picked the idle time is rolled
  * between the +0x224 / +0x228 bounds and 1 is returned, otherwise 0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct Ov260Parts { char pad[0x430]; int parts[2]; };

@@ -5,7 +5,7 @@
  * pending, closer than 0x2000 goes to sub-state 6, and any of the four +0x3a4 parts whose +0x60
  * low byte lacks bit 0 sends it to sub-state 4. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

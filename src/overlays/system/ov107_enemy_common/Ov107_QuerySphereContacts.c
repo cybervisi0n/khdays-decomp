@@ -1,6 +1,6 @@
 /* Collect up to four collision contact points for a fixed-point sphere. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 center; int radius; } Sphere;
 typedef struct { int minX, minZ, maxX, maxZ; } BBox;

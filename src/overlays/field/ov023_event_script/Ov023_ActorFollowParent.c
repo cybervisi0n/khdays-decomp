@@ -6,7 +6,7 @@
  * The position is then applied to the actor's entity (0202b450). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct MtxFx43 {

@@ -5,7 +5,7 @@
  * otherwise the part restarts motion 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void Ov256_RotateByOwnerHeading(int *out, int param_2, int *vec);

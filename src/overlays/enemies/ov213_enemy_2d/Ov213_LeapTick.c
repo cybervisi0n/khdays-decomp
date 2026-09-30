@@ -8,7 +8,7 @@
  * position to the hook, reaction 0x122 mode 0xd fires when nothing was hit, and sub-state 0 follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u8 hi, mid, lo; } Fx24;
 typedef struct { int value; } Fx32;

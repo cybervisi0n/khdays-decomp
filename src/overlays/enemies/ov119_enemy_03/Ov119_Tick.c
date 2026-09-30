@@ -8,7 +8,7 @@
  * 0x240) is written into the +0x38c item's and the +0x388 part's +0x58 and the base tick runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 origin; VecFx32 dir; int nLength; int nRadius; } Segment;
 typedef struct { char pad[0x58]; Segment seg; } Ov119Item;

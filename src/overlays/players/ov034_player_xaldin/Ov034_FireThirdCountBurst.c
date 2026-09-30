@@ -7,7 +7,7 @@
  * firing path (0), as in the ROM. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Emit {
     char pad00[0xc];

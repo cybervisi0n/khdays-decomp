@@ -8,7 +8,7 @@
  * that mwcc groups into one ldm, and the inline body is three separate stores. Byte-identical to
  * Ov185/186/187/118_PublishFinishPose. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int a, b, c, d; } Ov261Quad;

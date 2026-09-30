@@ -5,7 +5,7 @@
  * reset (c7ac 0). Reaction 0x11d mode 7 fires at the anchor, the +0x28 rate becomes 0x400 with the +0x30 hit mask cleared, and
  * the drop tick Ov159_GroundDropTick runs once before it takes the slot. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void *Collision_CastRay(void *collision, VecFx32 *origin, VecFx32 *direction);
 extern void Srt_SetScaleUniform(void *transform, int scale);

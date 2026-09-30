@@ -6,7 +6,7 @@
  * the action. Otherwise the action ends on its own once the timer reaches 0x1000, handing the node
  * to the follow-up. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     int x;

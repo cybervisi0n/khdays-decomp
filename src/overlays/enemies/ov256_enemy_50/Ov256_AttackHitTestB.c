@@ -1,7 +1,7 @@
 /* d1400 */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;
 

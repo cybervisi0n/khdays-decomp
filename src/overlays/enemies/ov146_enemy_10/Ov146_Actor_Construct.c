@@ -8,7 +8,7 @@
  * and +0x144 (+0x3b0) lists; the two helpers 020ce308 / 020cee30 (+0x3b8 / +0x3bc) and sound 0x125. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void (*Callback)(void);
 typedef struct { VecFx32 min; VecFx32 max; } Box;

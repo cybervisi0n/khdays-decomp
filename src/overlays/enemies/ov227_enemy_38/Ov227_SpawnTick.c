@@ -3,7 +3,7 @@
  * spawns at +0x60). While the +4 item is busy (+0xad) nothing else happens; otherwise animation
  * 0x19 plays, or after ten spawns animation 0x1a and the tick hands over to Ov227_AiStep_QueueAction2OnAnimEnd. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Ov227Family { char pad[0x3ec]; char *aMembers[10]; };

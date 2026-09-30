@@ -6,7 +6,7 @@
  * raised by 0x7d7 (+0x1d8); a fresh emblem (state 0) also shows the model (0202bedc 1). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct Ov021EmblemDef {

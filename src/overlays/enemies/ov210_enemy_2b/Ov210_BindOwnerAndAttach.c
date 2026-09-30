@@ -1,7 +1,7 @@
 /* Store the owner (param_2) at +4; if a spawn position (param_3) is given, copy it to
  * +0x20 and run the ov107 attach. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov107_MoveNodeAndRelayout(int a, int b);
 void Ov210_BindOwnerAndAttach(int param_1, int param_2, int param_3) {

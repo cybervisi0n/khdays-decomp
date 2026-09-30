@@ -9,7 +9,7 @@
  * `>> 44` into a u16) and `FX_SinIdx` as `table[(idx >> 4) << 1]`; the ov117 `>> 32` spelling
  * swaps the chain's registers here. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int obj, int b);

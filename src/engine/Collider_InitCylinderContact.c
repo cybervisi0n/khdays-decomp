@@ -1,6 +1,6 @@
 /* Fills the contact normal and distance for a cylinder (XZ direction from the axis). */
 
-#include "nitro/fx/fx.h
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);

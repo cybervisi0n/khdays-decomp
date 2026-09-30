@@ -6,7 +6,7 @@
  * a candidate but is reported to the actor's +0x3a8 hook instead. Returns the piece or 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

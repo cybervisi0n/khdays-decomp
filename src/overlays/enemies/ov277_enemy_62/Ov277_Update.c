@@ -9,7 +9,7 @@
  *
  * Codegen: the pose copies go through typed members (src=lr / dst=ip); a raw cast swaps them. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[4]; } Quat;
 typedef struct { int w[11]; } Pose;

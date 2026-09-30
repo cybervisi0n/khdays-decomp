@@ -9,7 +9,7 @@
  * carries the remaining word of that triple followed by the sixteen whole ones.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     fx32 nDistance;

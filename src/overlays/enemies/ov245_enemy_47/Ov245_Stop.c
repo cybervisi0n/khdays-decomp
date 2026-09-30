@@ -2,7 +2,7 @@
  * told 0, the +0x384 item's motion is halted (020c7ac), the +0x3a0 vector is reset to zero and,
  * in state 1, the +0x214 slot is closed by 020d4dec. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Flags40 { int bit0 : 1, bit1 : 1; };
 

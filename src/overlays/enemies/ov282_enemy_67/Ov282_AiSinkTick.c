@@ -1,7 +1,7 @@
 /* Posts update 0x16a/4 once, lowers the actor on an eased curve and queues action 6 when the
  * animation ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_BuildAndSendUpdate(int a, int b, int c, int d);

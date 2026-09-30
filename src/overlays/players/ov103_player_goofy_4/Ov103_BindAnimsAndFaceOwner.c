@@ -1,7 +1,7 @@
 /* Starts the attack effect at the locked target's point: binds and rewinds its tracks, turns it
  * with the character and activates it; the local player also gets a short rumble. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void BindAnimTrack(int a, int b, int c, int d);

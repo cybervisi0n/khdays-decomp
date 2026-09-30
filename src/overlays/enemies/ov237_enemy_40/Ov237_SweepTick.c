@@ -7,7 +7,7 @@
  * hold drops. Once the +4 rig is idle +0x58 is set and the next move is 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

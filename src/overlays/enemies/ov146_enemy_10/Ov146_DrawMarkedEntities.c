@@ -4,7 +4,7 @@
  * radius and placed on its +0x74 point before the draw (0203bc78). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void SrtTransform_SetIdentity(void *srt);
 extern int *List_First(void *list);

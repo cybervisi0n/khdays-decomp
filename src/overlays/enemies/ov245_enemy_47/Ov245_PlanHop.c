@@ -4,7 +4,7 @@
  * 64-bit value) and divides that length by the number of hops (64-bit divide). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *out);

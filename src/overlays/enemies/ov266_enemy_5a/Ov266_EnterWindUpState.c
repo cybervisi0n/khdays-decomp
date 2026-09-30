@@ -7,7 +7,7 @@
  * trunc pair, so it takes the explicit extract/reassemble form. The vec3 goes to
  * ov107_020c0b90 BY VALUE (r2, r3 and [sp+0]), with the flag at [sp+4]. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct b8 { unsigned f : 8; };
 

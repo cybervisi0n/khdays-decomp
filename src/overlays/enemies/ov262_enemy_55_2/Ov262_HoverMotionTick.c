@@ -4,7 +4,7 @@
  * the +0x34 lift bobs by sin(phase * 8) / 20. The +0x30 velocity is written to the actor's +0xf0
  * and then cleared. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

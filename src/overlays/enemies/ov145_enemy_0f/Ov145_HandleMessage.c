@@ -12,7 +12,7 @@
  * chains, range checks or jump tables instead. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[11]; } SrtTransform;
 struct Flags5c { unsigned int b0 : 1, bShow : 1; };

@@ -9,7 +9,7 @@
  * busy bits is set, it also pushes the muzzle position out as event 5. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Emit {
     char pad00[0xc];

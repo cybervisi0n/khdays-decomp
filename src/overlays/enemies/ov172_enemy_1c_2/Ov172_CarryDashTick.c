@@ -13,7 +13,7 @@
  * dash past 0x15000. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct Vecx32_4 { int x, y, z, w; };

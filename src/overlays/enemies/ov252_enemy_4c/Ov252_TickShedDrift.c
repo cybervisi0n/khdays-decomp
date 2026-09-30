@@ -3,7 +3,7 @@
  * no queued move pose 0x14 plays, the part takes motion 0xd, the owner plays effect 4 at the origin,
  * +0x88, +0x8c and +0x64 clear and the node moves on to 020d0630. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);

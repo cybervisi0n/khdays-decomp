@@ -6,7 +6,7 @@
  * marked struck. Any hit sounds the attack (020cd148 mode 4). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;

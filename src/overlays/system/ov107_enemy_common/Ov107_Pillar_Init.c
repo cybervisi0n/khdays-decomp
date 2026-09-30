@@ -17,7 +17,7 @@
 /* the 32-byte block Ov107_Mover_New copies into its new record */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct ShapeRequest {
     VecFx32 pos;                 /* 0x00 */

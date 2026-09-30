@@ -3,7 +3,7 @@
  * (+0x17a bit 0) or a partner with no queued move plays pose 0x10 and moves on to 020ced8c. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Flag17a { u8 b0 : 1; };

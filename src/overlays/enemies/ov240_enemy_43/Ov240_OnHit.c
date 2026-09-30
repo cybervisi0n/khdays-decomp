@@ -8,7 +8,7 @@
  * a 1|0x10 hit in sub-state 6 marks +0x30; a 0x8000 hit requests sub-state 7. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct ActorHitEvent {
     unsigned int uFlagsLo : 16;

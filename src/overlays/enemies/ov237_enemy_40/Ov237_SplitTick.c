@@ -9,7 +9,7 @@
  * clears and the next move is 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned f : 8; } B8;

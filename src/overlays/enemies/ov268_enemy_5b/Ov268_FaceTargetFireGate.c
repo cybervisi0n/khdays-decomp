@@ -8,7 +8,7 @@
  * 0xf00 fire attack 3 and go to the 020d215c state; else fire attack 9 and go to 020d2024.
  */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int  Ov268_PickBestFacingNode(int obj, void *p);

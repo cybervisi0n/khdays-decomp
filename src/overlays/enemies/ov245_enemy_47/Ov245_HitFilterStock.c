@@ -6,7 +6,7 @@
  * picked from the {2,3} / {0,1} pair tables by the +0x41 parity fires at the +8 anchor and the
  * parity flips; an empty stock puts the actor in sub-state 3. Returns 1 when the stock was positive. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct HitWord { unsigned int lo : 16, hi : 16; };

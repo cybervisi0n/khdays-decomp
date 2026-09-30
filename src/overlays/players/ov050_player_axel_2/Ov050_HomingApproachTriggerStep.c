@@ -2,7 +2,7 @@
  * far or too long, or has hit, bursts it (spawn effect, triple spread, local rumble), marks it
  * finished and releases its rig slots. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct bits1 { unsigned char b0 : 1; };
 

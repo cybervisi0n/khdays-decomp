@@ -3,7 +3,7 @@
  * (+4) on the actor's +0xa0 pose at the +0x74 position lowered to y = 0x200, scaled in x/z by
  * 1.0 - height(+0x13c)/20 (at least 1/16). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 struct Flags5c { int b0 : 1; int b1 : 1; };

@@ -4,7 +4,7 @@
  * starts entry 2 from the payload (mode 0x15, weight 0xb33); sub 2 fixes entry 4 to the +0x394
  * item's +4 placement (mode 1). The base handler always runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

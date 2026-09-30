@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Ov088_ComputeApproachVelocity(VecFx32 *out, void *a, int b, int c);
 extern void Ov022_ResolveShotHit(void *a, int b, VecFx32 *c, VecFx32 *d);

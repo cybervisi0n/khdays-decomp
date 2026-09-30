@@ -11,7 +11,7 @@
  * in r1 at the blx, which is why the ROM colours it r1 and re-materialises it for state 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void VEC_Add(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

@@ -8,7 +8,7 @@
  * and handing the collected list to Ov152_bindSubitemsByTypeId. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/actor.h"
 
 struct Ov151Cmd {

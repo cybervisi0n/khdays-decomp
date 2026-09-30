@@ -1,7 +1,7 @@
 /* Stores the nearest target (none: queues action 2, returns -1); returns the edge gap and sets the
  * angle. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/actor.h"
 
 extern int Ov107_FindNearestObject();

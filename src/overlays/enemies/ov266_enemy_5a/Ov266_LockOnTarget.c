@@ -5,7 +5,7 @@
  * target slot live (owner+0x1c7 = 1), store the caller's aim vector at +0x14 and its
  * tag at +0x30, and clear the accumulated offset at +8. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int *Ov107_FindNearestObject(int a, int b);
 extern int VEC_Subtract(void *a, void *b, void *out);

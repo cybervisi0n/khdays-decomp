@@ -4,7 +4,7 @@
  * remembered in +0x390 and the base update runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { u16 lo : 8; u16 hi : 8; } flags16;
 

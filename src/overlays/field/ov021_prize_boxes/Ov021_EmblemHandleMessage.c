@@ -8,7 +8,7 @@
  * spawned where that peer sits (ov022 020881f8; 02033d0c). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov021EmblemMessage {
     u8   nType;               /* 0x00: 0 = reached */

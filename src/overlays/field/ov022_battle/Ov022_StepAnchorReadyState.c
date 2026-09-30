@@ -17,7 +17,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 #define FLAG_BIT26 (1ULL << 26)
 #define FLAG2_BIT10 (1ULL << 10)

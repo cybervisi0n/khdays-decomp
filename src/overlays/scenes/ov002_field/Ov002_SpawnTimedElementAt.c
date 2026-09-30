@@ -3,7 +3,7 @@
  * fields are set here. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     int nKind;                      /* +0x00 */

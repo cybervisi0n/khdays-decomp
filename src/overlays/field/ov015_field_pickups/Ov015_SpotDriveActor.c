@@ -7,7 +7,7 @@
  * handler invoked three times; otherwise the spot is marked pending (bit 6 of +0x40). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct Ov015SpotEntry {
     s8  nId;                  /* 0x00 */

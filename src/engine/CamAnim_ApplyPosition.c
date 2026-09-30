@@ -1,5 +1,5 @@
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct MtxFx33 {
     fx32 _00, _01, _02;

@@ -1,7 +1,7 @@
 /* Consume the ov106 scene's queued points that `target` reaches (020b7e38): each live one of the four
  * +0x8dd8 slots it hits is freed. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Ov106Scene { char pad[0x8dd8]; VecFx32 points[4]; int used[4]; };
 

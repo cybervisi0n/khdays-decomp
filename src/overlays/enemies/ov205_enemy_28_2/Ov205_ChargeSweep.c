@@ -5,7 +5,7 @@
  * mode 4 fires there and the id bit is set (through `1 >> id`, as the original does). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 typedef struct { u8 hi, mid, lo; } Fx24;   /* sign + 23-bit magnitude, big-endian */

@@ -2,7 +2,7 @@
  * the actor's +0x74 position towards the target point, stopping the margin short (at least one
  * unit), and reports 1 when nothing is in the way. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void VEC_Subtract(void *a, void *b, void *d);
 extern int VEC_Normalize(void *a, void *d);

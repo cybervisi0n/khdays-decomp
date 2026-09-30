@@ -3,7 +3,7 @@
  * item's +0x18 y. Past 0x472d (once, latched at +0x10) effect 0x113 of kind 6 is requested at
  * that +0x18 point. Once the +0x14 child's byte clears the node runs the base 0203c640 step. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern void Srt_SetTranslation(int srt, VecFx32 *pos);
 extern void Slot_Spawn(int id, int kind, VecFx32 *pos, int flag);

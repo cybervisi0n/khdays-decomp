@@ -9,7 +9,7 @@
  * +0x390/+0x394/+0x398 aim nodes are all idle (ov200 055c), 7 when only the last two are.
  * `+ (dist - dist)` is the documented copy artifact of RandNextScaled (`add r5,r0,#0`). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int Ov107_FindNearestObject(int obj, int b);
 extern void SetIndexedSlot(int node, int slot, void *cb);

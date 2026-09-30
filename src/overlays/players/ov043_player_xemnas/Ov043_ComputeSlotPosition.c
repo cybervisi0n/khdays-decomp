@@ -3,7 +3,7 @@
  * heading (+0x80, flipped by 0x8000, negated sine/cosine) and adds the actor's +0x48c origin
  * into out. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct { VecFx32 v[2]; } OffsetPair;

@@ -3,7 +3,7 @@
  * part's rotation is added to that part's +0x14 position. Outside move 8 the +0x438 effect stops; then
  * the base teardown runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

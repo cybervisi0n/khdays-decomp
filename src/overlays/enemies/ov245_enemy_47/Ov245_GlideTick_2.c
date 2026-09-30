@@ -3,7 +3,7 @@
  * grounded (bit 0 of +0x17a or +0x17c) with a drift shorter than 16 units, requests sub-state 2
  * and releases the node's slot. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Bit0 { unsigned char bit0 : 1; };
 

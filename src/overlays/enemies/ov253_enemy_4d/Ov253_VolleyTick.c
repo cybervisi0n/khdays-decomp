@@ -6,7 +6,7 @@
  * step (30 / 10); without a target or after eight launches the +0x38c item's +0xa8 flag clears
  * and the node moves to 020ce0ac. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

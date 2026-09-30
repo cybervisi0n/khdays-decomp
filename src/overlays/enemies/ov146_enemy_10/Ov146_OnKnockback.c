@@ -2,7 +2,7 @@
  * outside move 1 launches it away along the attacker's heading (020ce694), pose 6 plays, +0x1c is set
  * and the next move is 1. Always returns 0. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

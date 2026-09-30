@@ -1,4 +1,4 @@
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern int Ov182_SteerSweep();

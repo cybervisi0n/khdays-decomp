@@ -2,7 +2,7 @@
 /* Records the requested move: phase 2, the two parameters, and the target vector (passed by
  * value, which is why the caller's four argument registers get spilled on entry). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 void Ov259_RequestMoveTo(int *self, int a, int b, VecFx32 target) {
     *(char *)(*self + 0x1c7) = 2;

@@ -2,7 +2,7 @@
  * (capped there) and a kind-2 contact sphere at the +0x34 point grows with it (radius 0 to 4.0 over the
  * first 0.27). Once the +4 rig is idle the next move is 2 and the brain slot +0x20 clears. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int radius; int flag; } Cylinder;

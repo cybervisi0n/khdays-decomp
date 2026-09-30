@@ -8,7 +8,7 @@
  * plus an add. Same idiom as Ov247_AiApplyHeadingAndNormal.
  * Byte-identical twin of Ov200_AiSlerpHeading. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 extern void Quat_Slerp(void *a, int s, void *b, void *m);

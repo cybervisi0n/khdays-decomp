@@ -2,7 +2,7 @@
  * heading angle (+0x44), step the parameter (+0x34) down by the fixed-point owner rate,
  * mirror the pose vector (+0x30 -> +0x14), and when the parameter underflows mark sub-state 0xb. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 extern int func_020050b4(int a, int b);
 void Ov275_AiBallisticTick(int param_1) {

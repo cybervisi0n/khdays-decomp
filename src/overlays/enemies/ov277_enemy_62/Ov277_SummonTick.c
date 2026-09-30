@@ -5,7 +5,7 @@
  * index x pi. Once the +0x1c timer reaches 0x2aaa, animation 3 plays and the tick hands over to
  * Ov277_AiQueue2OnFlagClear. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

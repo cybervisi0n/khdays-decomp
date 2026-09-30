@@ -2,7 +2,7 @@
  * transform for the action, updating the tally; other commands go to the base message handler. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct Ov234Transform {

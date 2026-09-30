@@ -2,7 +2,7 @@
  * at +0x14 of the block at +0x3b8, stores its squared length at +0x70 (never 0), and closes
  * the update. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(VecFx32 *a, VecFx32 *b, VecFx32 *out);

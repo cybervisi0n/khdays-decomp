@@ -10,7 +10,7 @@
  * distance passes 30.0. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 struct Segment { VecFx32 origin; VecFx32 dir; int nLength; int nRadius; };
 struct HitWord { u32 lo : 16, hi : 16; };

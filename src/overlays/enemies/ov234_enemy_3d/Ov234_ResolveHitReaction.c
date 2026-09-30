@@ -2,7 +2,7 @@
  * direction from the hit, random stagger) and sends it; returns whether the hit counts. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 static inline void Ov234Vec3_Set(VecFx32 *vec, int x, int y, int z)

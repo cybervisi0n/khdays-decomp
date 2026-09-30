@@ -5,7 +5,7 @@
  * towards +0x58 (0203d040) by rate x 40 / 100 (or 0 when the target is closer than 0x2400; x 300
  * without a target). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

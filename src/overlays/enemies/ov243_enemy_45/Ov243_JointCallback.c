@@ -4,7 +4,7 @@
  * heading (the -Z axis through the joint's rotation) goes to +0x3b0, and the +0x394 item is
  * placed with a pure Y rotation of that heading at (actor +0xb0, subscriber +0x44, actor +0xb8). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct { int m[9]; VecFx32 t; } MtxFx43;

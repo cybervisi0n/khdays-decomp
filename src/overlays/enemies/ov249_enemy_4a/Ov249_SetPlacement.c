@@ -1,7 +1,7 @@
 /* Placement setter of the ov249 actor: its position is set (020c5c54) to the given point raised by the
  * +0x70 height, the +0x398 goal to the second point, and bit 0 of the +0x60 high byte is raised. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 void Ov249_SetPlacement(int self, VecFx32 pos, VecFx32 goal)

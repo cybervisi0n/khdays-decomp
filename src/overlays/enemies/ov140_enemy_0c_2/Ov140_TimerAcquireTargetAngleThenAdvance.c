@@ -2,7 +2,7 @@
  * target position from the stored reference VecFx32, computes and mirrors the horizontal angle, clears
  * actor hw60 high-byte bits, runs pose setup, and advances to the next callback. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct ActorFlags60 {
     unsigned short lo : 8;

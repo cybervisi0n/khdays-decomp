@@ -10,7 +10,7 @@
  * 0x23 while the +0x22f8 emitter is idle, else 0x25 once the timer reaches +0x7b0 (plus 0xf000
  * with the flag). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct ActorBits {

@@ -6,7 +6,7 @@
  * cleared); once complete the item sits at the far end, the timer restarts and the index
  * advances -- at four the node is released (0203c640). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/engine.h"
 
 struct Ov253Joints { int cur[1]; int next[3]; };

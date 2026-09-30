@@ -3,7 +3,7 @@
  * orientation to face it about data_02042264. The +0x3a4 part's motion step (020c9f48) is then
  * turned by the +0x1c orientation and stored in *dir, its speed in *speed (either may be null). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

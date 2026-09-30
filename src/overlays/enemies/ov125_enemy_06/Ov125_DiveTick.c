@@ -9,7 +9,7 @@
  * the 020cd27c state takes over once the +0x13c height drops under 0x2000.
  * `+ (v - v)` is the documented copy artifact of RandNextScaled (`add r4,r0,#0`). */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 static inline void VEC_Set(VecFx32 *v, int x, int y, int z) {
     v->x = x;

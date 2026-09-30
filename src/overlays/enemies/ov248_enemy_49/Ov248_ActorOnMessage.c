@@ -3,7 +3,7 @@
  * to it (mode 0x17, message +4), sub-kind 1 places slot 1's model on the +0xa0 node (message +4, flag
  * when it is 2); the effect lands in the slot's +4. The base handler always runs. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

@@ -1,7 +1,7 @@
 /* Drift step of the ov260 actor: the +0x20 velocity is its +0x428 part's +0x2c vector turned by the
  * +0x64 heading; once the partner holds no queued move the next move is 2 and the node ends. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int m[9]; } Mtx33;
 

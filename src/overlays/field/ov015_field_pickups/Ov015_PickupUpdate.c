@@ -13,7 +13,7 @@
  * (0207fdc4), and 0 is returned. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef void *Ov015StateFn(void *pPiece);
 

@@ -2,7 +2,7 @@
  * nearest to the +0x4e4 target's +0x190 position. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { VecFx32 v[5]; } Vec3x5;
 

@@ -5,7 +5,7 @@
  * 0..10.0, clears the +0x14 timer and moves the node to 020d2ed4. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

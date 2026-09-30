@@ -4,7 +4,7 @@
  * the parameter clamped. The parameter and the three results the tests report are stored through
  * the optional out pointers; the test's own result is returned. */
 
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct {
     VecFx32 pos;        /* 0x00 */

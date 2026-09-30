@@ -10,7 +10,7 @@
  * 0xc / 5 / 0xa) on the +0xa0 pose into +0x424 / +0x428 / +0x42c. The base handler always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 
 typedef struct { int w[11]; } Srt;
 struct Pair { int res; int handle; };

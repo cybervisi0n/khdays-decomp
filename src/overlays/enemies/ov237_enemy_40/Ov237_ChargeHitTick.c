@@ -6,7 +6,7 @@
  * replays (effect 0x10 unless held). */
 
 #include "nitro/types.h"
-#include "nitro/fx/fx.h"
+#include "nitro/fx_types.h"
 #include "game/enemy_common.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
