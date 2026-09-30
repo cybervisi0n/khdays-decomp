@@ -13,7 +13,7 @@
  * halfword read and a bitfield read of the same flags, so each form the ROM needs is kept. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Actor Actor;
 

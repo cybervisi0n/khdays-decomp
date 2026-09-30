@@ -4,7 +4,7 @@
 /* The main module's game code (src/engine): the functions other modules call, declared as they are defined. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 #include "game/ai_task.h"
 
