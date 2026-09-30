@@ -8,7 +8,6 @@
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
 
-typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;
 typedef struct { fx32 x, z; } XZ;
 
 typedef struct RoomBox {

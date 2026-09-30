@@ -1,5 +1,6 @@
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
 
 typedef struct Quat {
     fx32 w;
@@ -8,14 +9,7 @@ typedef struct Quat {
     fx32 z;
 } Quat;
 
-extern int FX_Sqrt(int x);
 extern int func_020050b4(int x, int z);
-extern long long FX_InvFx64c(int x);
-
-static inline fx32 FX_Mul(fx32 a, fx32 b)
-{
-    return (fx32)(((long long)a * b + 0x800) >> 12);
-}
 
 /*
  * Quat_ToAxisAngle -- quaternion to axis-angle: given a unit quaternion q = {w, x, y, z},

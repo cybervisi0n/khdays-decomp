@@ -9,27 +9,12 @@
  * original's Vector3 operator[] did. */
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
 
 typedef struct Box3 {
     char pad00[0x30];
     fx32 extent[3];                     /* +0x30 */
 } Box3;
-
-extern fx32 FX_Div(fx32 numer, fx32 denom);          /* FX_Div */
-extern fx64c FX_InvFx64c(fx32 v);                  /* FX_InvFx64c */
-
-/* FX_MulInline of the NitroSDK: rounded 20.12 product. */
-static inline fx32 FX_Mul(fx32 v1, fx32 v2)
-{
-    return (fx32)(((fx64)v1 * v2 + 0x800LL) >> 12);
-}
-
-static inline fx32 FX_Mul32x64c(fx32 v32, fx64c v64c)
-{
-    fx64c tmp = v64c * v32 + 0x80000000LL;
-
-    return (fx32)(tmp >> 32);
-}
 
 void LineBox_Face(long i0, long i1, long i2, fx32 *pnt, const fx32 *dir, const Box3 *box, const fx32 *pmE,
                    fx32 *pParam, fx32 *pSqrDist)

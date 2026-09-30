@@ -4,6 +4,7 @@
  * three half extents. Returns 1 when no axis separates the boxes. */
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_vec.h"
 
 typedef struct Box {
     VecFx32 center;                     /* +0x00 */
@@ -11,15 +12,7 @@ typedef struct Box {
     fx32 extent[3];                     /* +0x30 */
 } Box;
 
-extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
-extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);
-
 #define BOX_CUTOFF 0xffff
-
-static inline fx32 FX_Mul(fx32 v1, fx32 v2)
-{
-    return (fx32)(((fx64)v1 * v2 + 0x800) >> 12);
-}
 
 static inline fx32 FX_Abs(fx32 v)
 {

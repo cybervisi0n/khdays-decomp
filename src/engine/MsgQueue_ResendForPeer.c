@@ -18,7 +18,13 @@
 
 #include "game/engine.h"
 
-static inline unsigned int Clz(unsigned int x) { asm { clz x, x } return x; }
+static inline unsigned int Clz(unsigned int x) { 
+    #ifdef SDK_BUILD_ARM
+    asm { clz x, x } return x; 
+    #else
+    return 0;
+    #endif
+}
 
 extern int *data_0204c230;
 

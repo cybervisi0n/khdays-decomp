@@ -5,9 +5,6 @@
 #include "nitro/fx/fx.h"
 
 typedef struct Quat { fx32 w, x, y, z; } Quat;
-typedef struct MtxFx33 { fx32 m[3][3]; } MtxFx33;
-typedef struct MtxFx43 { fx32 m[4][3]; } MtxFx43;
-typedef struct MtxFx44 { fx32 m[4][4]; } MtxFx44;
 
 typedef struct Flags5c {
     int bit0 : 1;

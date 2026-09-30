@@ -9,7 +9,6 @@
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
 
-typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;
 typedef struct { fx32 x, y; } NNSG2dFVec2;
 typedef struct { u32 attr01; u16 attr2; u16 _3; } GXOamAttr;
 typedef struct NNSG2dCellData NNSG2dCellData;

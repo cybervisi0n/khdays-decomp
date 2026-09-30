@@ -8,10 +8,6 @@
 #include "nitro/fx/fx.h"
 #include "game/engine.h"
 
-typedef struct MtxFx43 {
-    s32 m[12];
-} MtxFx43;
-
 typedef struct SceneNode SceneNode;
 
 struct SceneNode {
@@ -53,6 +49,8 @@ extern SceneNode *data_0204c1f4;
 
 void Scene_DrawNode(SceneNode *node)
 {
+    #ifdef SDK_BUILD_ARM
+    //TODO
     SceneNode *child;
 
     if (node->displayList != 0) {
@@ -116,4 +114,5 @@ void Scene_DrawNode(SceneNode *node)
             Mtx33_ApplyFixedRotation(&child->matrix);
         child = child->next;
     }
+    #endif
 }

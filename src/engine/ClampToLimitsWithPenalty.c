@@ -1,10 +1,6 @@
 
 #include "nitro/fx/fx.h"
 
-static inline fx32 FX_Mul(fx32 a, fx32 b)
-{
-    return (fx32)(((long long)a * b + 0x800) >> 12);
-}
 
 /* Clamp each axis of *pos against a limit vector at bounds+0x30, accumulating
  * a squared-overshoot penalty into *penalty for any axis pushed past its

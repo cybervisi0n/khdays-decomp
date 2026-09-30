@@ -7,37 +7,12 @@
 
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
-
-typedef struct { fx32 _00, _01, _02, _10, _11, _12, _20, _21, _22, _30, _31, _32; } MtxFx43;
-
-#define reg_G3_TEXCOORD       (*(REGType32v *)0x04000488)
-#define reg_G3_VTX_16         (*(REGType32v *)0x0400048c)
-#define reg_G3_VTX_XY         (*(REGType32v *)0x04000494)
-#define reg_G3_POLYGON_ATTR   (*(REGType32v *)0x040004a4)
-#define reg_G3_TEXIMAGE_PARAM (*(REGType32v *)0x040004a8)
-#define reg_G3_TEXPLTT_BASE   (*(REGType32v *)0x040004ac)
-#define reg_G3_BEGIN_VTXS     (*(REGType32v *)0x04000500)
-#define reg_G3_END_VTXS       (*(REGType32v *)0x04000504)
+#include "nitro/fx/fx_mtx.h"
+#include "nitro/gx/g3imm.h"
 
 #define GX_FX16PAIR(a, b) ((u32)(((u32)(u16)(a)) | ((u32)(u16)(b) << 16)))
 #define GX_BEGIN_QUADS 1
 #define GX_CULL_NONE 3
-
-static inline void G3_Vtx(fx16 x, fx16 y, fx16 z)
-{
-    reg_G3_VTX_16 = GX_FX16PAIR(x, y);
-    reg_G3_VTX_16 = (u32)(u16)z;
-}
-
-static inline void G3_VtxXY(fx16 x, fx16 y)
-{
-    reg_G3_VTX_XY = GX_FX16PAIR(x, y);
-}
-
-static inline void G3_TexCoordPx(int s, int t)
-{
-    reg_G3_TEXCOORD = ((u32)s << 4) | ((u32)t << 20);
-}
 
 typedef struct SpriteTex {
     u32 texImageParam;
@@ -77,13 +52,13 @@ void Billboard_DrawList(Billboard **ppList)
         G3_LoadMtx43(&data_020428e0);
         reg_G3_POLYGON_ATTR = (node->alpha << 16) | ((node->polygonId << 24) | (GX_CULL_NONE << 6));
         reg_G3_BEGIN_VTXS = GX_BEGIN_QUADS;
-        G3_TexCoordPx(node->s0, node->t0);
+        G3_TexCoord(node->s0, node->t0);
         G3_Vtx(-hw, node->height, 0);
-        G3_TexCoordPx(node->s0, node->t1);
+        G3_TexCoord(node->s0, node->t1);
         G3_VtxXY(-hw, 0);
-        G3_TexCoordPx(node->s1, node->t1);
+        G3_TexCoord(node->s1, node->t1);
         G3_VtxXY(hw, 0);
-        G3_TexCoordPx(node->s1, node->t0);
+        G3_TexCoord(node->s1, node->t0);
         G3_VtxXY(hw, node->height);
         reg_G3_END_VTXS = 0;
     }

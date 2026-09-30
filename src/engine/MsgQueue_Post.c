@@ -19,10 +19,18 @@
  * as in the sibling MsgQueue_Contains.c.
  */
 
-static inline unsigned int Clz(unsigned int x) { asm { clz x, x } return x; }
+#include "nitro/mi.h"
+
+static inline unsigned int Clz(unsigned int x) {
+    #ifdef SDK_BUILD_ARM
+     asm { clz x, x } return x; 
+    #else
+    //TODO
+    return 0;
+    #endif
+    }
 
 extern char *data_0204c230;
-extern void MI_CpuCopy8(const void *src, void *dst, unsigned int size);
 
 typedef struct {
     unsigned short handle;

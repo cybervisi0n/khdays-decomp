@@ -9,7 +9,6 @@
 #include "nitro/fx/fx.h"
 
 typedef struct { fx32 w, x, y, z; } Quat;
-typedef struct { fx32 m[9]; } MtxFx33;
 
 typedef struct SrtFlags {
     unsigned char identity : 1;

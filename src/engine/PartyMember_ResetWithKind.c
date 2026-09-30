@@ -6,6 +6,7 @@
 #pragma thumb on
 
 #include "nitro/types.h"
+#include "nitro/mi.h"
 #include "game/engine.h"
 
 typedef struct {
@@ -25,7 +26,6 @@ typedef struct {
     u8 data[0x48];
 } SlotExtra;
 
-extern void MI_CpuFill8(void *dst, u8 val, unsigned int size);
 extern SlotRecord data_0204c678[];
 extern SlotExtra data_0204c500[];
 

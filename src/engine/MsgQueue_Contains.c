@@ -15,7 +15,14 @@
  * asm helper -- the minimal primitive needed for the byte-exact match.
  */
 
-static inline unsigned int Clz(unsigned int x) { asm { clz x, x } return x; }
+static inline unsigned int Clz(unsigned int x) { 
+    #ifdef SDK_BUILD_ARM
+    asm { clz x, x } return x; 
+    #else
+    return 0;
+    //TODO
+    #endif
+}
 
 extern int *data_0204c230;
 

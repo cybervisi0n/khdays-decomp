@@ -4,7 +4,6 @@
 #include "nitro/fx/fx.h"
 #include "game/engine.h"
 
-typedef struct VecFx16 { s16 x, y, z; } VecFx16;
 typedef struct CollisionPlane {
     VecFx16 normal;
     u16 padding06;

@@ -7,9 +7,8 @@
 
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
-
-typedef struct { fx16 x, y, z; } VecFx16;
-typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;
+#include "nitro/fx/fx_mtx.h"
+#include "nitro/fx/fx_vec.h"
 
 typedef struct RoomBox {
     char pad00[0x24];
@@ -39,10 +38,7 @@ typedef struct RoomPlane {
 } RoomPlane;
 
 extern const short data_0203d210[];     /* FX_SinCosTable_ */
-extern void MTX_Rot22_(MtxFx22 *m, fx32 sinVal, fx32 cosVal);
-extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
 extern void func_01ffcfd0(const VecFx32 *v, VecFx16 *n);   /* normalise into fx16 */
-extern fx32 VEC_DotProductFx16(const VecFx32 *a, const VecFx16 *b);
 
 void RoomBox_WallPlane(const RoomBox *box, const RoomContact *c, RoomPlane *pl)
 {
@@ -90,6 +86,9 @@ void RoomBox_WallPlane(const RoomBox *box, const RoomContact *c, RoomPlane *pl)
     v.z += box->pos.z;
     v.y = 0;
     pl->n.y = 0;
+    #ifdef SDK_BUILD_ARM
+    //TODO
     pl->d = VEC_DotProductFx16(&v, &pl->n);
+    #endif
     pl->tag = box->tag;
 }

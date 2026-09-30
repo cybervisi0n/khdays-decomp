@@ -5,11 +5,6 @@
 /* main .rodata 0x0204208c-0x02042124: NNS G3D material masks, matrix/quaternion helper constants
  * and the class descriptor of the session's transfer-channel task. */
 
-typedef struct VecFx16 {
-    fx16 x, y, z;
-    fx16 pad;
-} VecFx16;
-
 /* Quaternion as the game stores it: w first, then the vector part. */
 typedef struct Quat {
     fx32 w, x, y, z;

@@ -2,9 +2,9 @@
 
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
 #include "game/engine.h"
 
-typedef struct VecFx16 { s16 x, y, z; } VecFx16;
 typedef struct CollisionPlane {
     VecFx16 normal;
     u16 padding06;
@@ -30,8 +30,6 @@ typedef struct CollCastState {
     s32 nNearestHit;
 } CollCastState;
 extern s32 Mem_CompareBytes(const void *left, const void *right, s32 count);
-extern void FX_DivAsync(s32 numerator, s32 denominator);
-extern s64 FX_GetDivResultFx64c(void);
 
 #pragma inline_max_size(1300)
 static inline fx32 PlaneDot(const VecFx16 *normal, const VecFx32 *point)

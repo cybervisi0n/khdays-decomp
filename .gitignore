@@ -112,3 +112,6 @@ scratchpad/
 # Meson files
 subprojects/libntr/
 subprojects/libntrsystem/
+
+# Msys2
+msys2/

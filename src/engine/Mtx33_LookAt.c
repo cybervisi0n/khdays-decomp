@@ -1,18 +1,10 @@
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_mtx.h"
+#include "nitro/fx/fx_vec.h"
 
-typedef struct MtxFx33 {
-    fx32 _00, _01, _02;
-    fx32 _10, _11, _12;
-    fx32 _20, _21, _22;
-} MtxFx33;
-
-extern void VEC_Subtract(int *a, int *b, int *out);
-extern fx32 VEC_Normalize(const VecFx32 *source, VecFx32 *destination);
 extern void INITi_CpuClear32_0x01ff86fc(unsigned int data, void *dst, unsigned int size);
-extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);
 extern void ScaleVec3Fx12(int factor, int *src, int *dst);
-extern void VEC_CrossProduct(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern VecFx32 data_02042264;
 extern VecFx32 data_02042258;
 
@@ -27,6 +19,8 @@ int Mtx33_LookAt(MtxFx33 *out, VecFx32 *from, VecFx32 *to, VecFx32 *up)
     VecFx32 proj;
     VecFx32 right;
 
+    #ifdef SDK_BUILD_ARM
+    //TODO
     VEC_Subtract((int *)to, (int *)from, (int *)&forward);
     if (VEC_Normalize(&forward, &forward) == 0) {
         INITi_CpuClear32_0x01ff86fc(0, out, sizeof(MtxFx33));
@@ -47,6 +41,7 @@ int Mtx33_LookAt(MtxFx33 *out, VecFx32 *from, VecFx32 *to, VecFx32 *up)
             }
         }
     }
+    #endif
 
     VEC_CrossProduct(&ref, &forward, &right);
     out->_00 = -right.x;

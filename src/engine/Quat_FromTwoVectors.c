@@ -1,5 +1,7 @@
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
+#include "nitro/fx/fx_vec.h"
 
 typedef struct Quat {
     fx32 w;
@@ -7,18 +9,6 @@ typedef struct Quat {
     fx32 y;
     fx32 z;
 } Quat;
-
-static inline fx32 FX_Mul(fx32 a, fx32 b)
-{
-    return (fx32)(((long long)a * b + 0x800) >> 12);
-}
-
-extern void VEC_Add(int *a, int *b, int *out);
-extern fx32 VEC_Normalize(const VecFx32 *source, VecFx32 *destination);
-extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);
-extern void VEC_CrossProduct(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
-extern int FX_Sqrt(int x);
-extern long long FX_InvFx64c(int x);
 
 /*
  * Shortest-arc quaternion from `fwd` to `dir`: half = normalize(fwd + dir),
@@ -32,6 +22,8 @@ void Quat_FromTwoVectors(Quat *out, VecFx32 *fwd, VecFx32 *dir)
     VecFx32 half;
     fx32 w;
 
+    #ifdef SDK_BUILD_ARM
+    //TODO
     VEC_Add((int *)fwd, (int *)dir, (int *)&half);
     VEC_Normalize(&half, &half);
 
@@ -66,4 +58,5 @@ void Quat_FromTwoVectors(Quat *out, VecFx32 *fwd, VecFx32 *dir)
             out->z = -(fx32)((recip * fwd->y + 0x80000000LL) >> 32);
         }
     }
+    #endif
 }

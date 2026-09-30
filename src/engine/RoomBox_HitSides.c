@@ -11,7 +11,6 @@
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
 
-typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;
 typedef struct { fx32 x, z; } XZ;
 
 #define FX32_ONE 0x1000

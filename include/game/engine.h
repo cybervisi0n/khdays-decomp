@@ -646,7 +646,9 @@ void dispatchByObjTypeBits(int param_1, int param_2);
 void initObjAndDispatch(int *p, int v);
 void invokeObjCallbackGuarded(int param_1);
 void invokeObjCallbackList(int param_1);
+#ifdef SDK_BUILD_ARM
 int main(void);
+#endif
 int queryTableEntry(int param_1, int param_2);
 int remapIndexIfHwFlagSet(int param_1);
 void setDualArrayEntry(int i, int v1, int v2);

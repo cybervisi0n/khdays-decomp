@@ -4,12 +4,6 @@
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
 
-typedef struct MtxFx33 {
-    fx32 _00, _01, _02;
-    fx32 _10, _11, _12;
-    fx32 _20, _21, _22;
-} MtxFx33;
-
 typedef struct NNSG3dResAnmHeader {
     u8 category0;
     u8 revision;
@@ -40,6 +34,8 @@ static inline void vecCross_(const VecFx32 *a, const VecFx32 *b, VecFx32 *axb)
 void G3dJnt_GetRotDataEx(MtxFx33 *pRot, fx32 Frame, const u32 *pData,
                    const NNSG3dResJntAnm *pJntAnm)
 {
+    #ifdef SDK_BUILD_ARM
+    //TODO
     u32 idx;
     u32 idxNext;
     fx32 frac;
@@ -132,4 +128,5 @@ BLEND:
                       (VecFx32 *)&pRot->_20);
         }
     }
+    #endif
 }

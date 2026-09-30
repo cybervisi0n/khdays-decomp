@@ -1,5 +1,6 @@
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_vec.h"
 
 typedef struct Box {
     VecFx32 center;
@@ -7,15 +8,7 @@ typedef struct Box {
     fx32 halfExtent[3];
 } Box;
 
-extern void VEC_Subtract(int *a, int *b, int *out);
-extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);
 extern void ScaleVec3Fx12(int factor, int *src, int *dst);
-extern void VEC_Add(int *a, int *b, int *out);
-
-static inline fx32 FX_Mul(fx32 a, fx32 b)
-{
-    return (fx32)(((long long)a * b + 0x800) >> 12);
-}
 
 /* Squared distance from a point to an oriented box, with the closest point on
  * the box optionally written out through the three pointer outputs. */
@@ -27,6 +20,8 @@ fx32 OBB_DistSqToPoint(VecFx32 *point, Box *box, fx32 *outX, fx32 *outY, fx32 *o
     int i;
 
     sum = 0;
+    #ifdef SDK_BUILD_ARM
+    //todo
     VEC_Subtract((int *)point, (int *)box, (int *)&diff);
 
     for (i = 0; i < 3; i++) {
@@ -50,6 +45,7 @@ fx32 OBB_DistSqToPoint(VecFx32 *point, Box *box, fx32 *outX, fx32 *outY, fx32 *o
         ScaleVec3Fx12(local[i], (int *)&box->axis[i], (int *)&scaled);
         VEC_Add((int *)&closest, (int *)&scaled, (int *)&closest);
     }
+    #endif
 
     if (outX) *outX = closest.x;
     if (outY) *outY = closest.y;

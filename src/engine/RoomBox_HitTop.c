@@ -8,29 +8,13 @@
 
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
+#include "nitro/cp.h"
 #include "game/engine.h"
 
-typedef u64 REGType64;           /* the SDK register type is not volatile */
+#define FX32_ONE ((fx32) 0x0000000000001000L) 
 
-typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;
 typedef struct { fx32 x, z; } XZ;
 
-#define REG_DIVCNT     (*(vu16 *)0x04000280)
-#define REG_DIV_NUMER  (*(REGType64 *)0x04000290)
-#define REG_DIV_DENOM  (*(REGType64 *)0x04000298)
-#define FX32_ONE       0x1000
-
-static inline void CP_SetDivImm64_64(u64 numer, u64 denom)
-{
-    REG_DIV_NUMER = numer;
-    REG_DIV_DENOM = denom;
-}
-
-static inline void CP_WaitDiv(void)
-{
-    while (REG_DIVCNT & 0x8000) {
-    }
-}
 
 typedef struct RoomBox {
     char pad00[0xc];

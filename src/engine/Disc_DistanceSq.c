@@ -7,6 +7,8 @@
 
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
+#include "nitro/fx/fx_vec.h"
 
 typedef struct Disc {
     VecFx32 centre;                     /* +0x00 */
@@ -15,25 +17,6 @@ typedef struct Disc {
     fx32 radius;                        /* +0x30 */
     int filled;                         /* +0x34 */
 } Disc;
-
-extern void VEC_Add(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
-extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
-extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);
-extern void VEC_MultAdd(fx32 a, const VecFx32 *v1, const VecFx32 *v2, VecFx32 *pDest);
-extern fx32 FX_Sqrt(fx32 x);
-extern fx64c FX_DivFx64c(fx32 numer, fx32 denom);     /* FX_DivFx64c */
-
-static inline fx32 FX_Mul(fx32 v1, fx32 v2)
-{
-    return (fx32)(((fx64)v1 * v2 + 0x800LL) >> 12);
-}
-
-static inline fx32 FX_Mul32x64c(fx32 v32, fx64c v64c)
-{
-    fx64 tmp = v64c * v32 + 0x80000000LL;
-
-    return (fx32)(tmp >> 32);
-}
 
 #define VEC_MAG_SQ(v) ((fx32)(((fx64)(v).x * (v).x + (fx64)(v).y * (v).y + (fx64)(v).z * (v).z + 0x800) >> 12))
 

@@ -5,10 +5,7 @@
 
 #include "nitro/types.h"
 #include "game/engine.h"
-
-typedef struct {
-    s32 m[12];
-} MtxFx43;
+#include "nitro/fx/fx.h"
 
 typedef struct SceneNode SceneNode;
 

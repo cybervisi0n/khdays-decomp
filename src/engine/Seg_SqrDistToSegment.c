@@ -10,6 +10,8 @@
  * and the determinant's absolute value goes through the FX64_Abs inline. */
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
+#include "nitro/fx/fx_vec.h"
 
 typedef struct Segment3 {
     VecFx32 origin;                     /* +0x00 */
@@ -17,25 +19,11 @@ typedef struct Segment3 {
     fx32 length;                        /* +0x18 */
 } Segment3;
 
-extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
-extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);
+extern fx32 VEC_SquaredLength(VecFx32 * vec);
 extern void ScaleVec3Fx12(fx32 scale, const VecFx32 *v, VecFx32 *out);  /* scale a vector */
-extern fx64c FX_DivFx64c(fx32 numer, fx32 denom);                     /* FX_DivFx64c */
 extern fx64 func_020201b8(fx64 numer, fx64 denom);                      /* 64-bit signed divide */
 
 #define FX64C_ONE ((fx64c)1 << 32)
-
-static inline fx32 FX_Mul32x64c(fx32 v32, fx64c v64c)
-{
-    fx64c tmp = v64c * v32 + 0x80000000LL;
-
-    return (fx32)(tmp >> 32);
-}
-
-static inline fx32 VEC_SquaredLength(const VecFx32 *v)
-{
-    return (fx32)(((fx64)v->x * v->x + (fx64)v->y * v->y + (fx64)v->z * v->z + 0x800) >> 12);
-}
 
 static inline fx64 FX64_Abs(fx64 x)
 {

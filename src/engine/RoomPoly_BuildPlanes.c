@@ -7,8 +7,8 @@
  * vertex. The first parameter is unused. */
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_vec.h"
 
-typedef struct { fx16 x, y, z; } VecFx16;
 
 typedef struct RoomPlane {
     VecFx16 n;                          /* +0x00 */
@@ -24,14 +24,13 @@ typedef struct RoomPoly {
     VecFx32 v[4];                       /* +0x50 */
 } RoomPoly;
 
-extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
-extern void VEC_CrossProduct(const VecFx32 *a, const VecFx32 *b, VecFx32 *axb);
-extern fx32 VEC_DotProductFx16(const VecFx32 *a, const VecFx16 *b);
 extern void func_01ffcfd0(const VecFx32 *v, VecFx16 *n);                        /* normalise into fx16 */
 extern void func_01ffcf48(const VecFx32 *a, const VecFx16 *b, VecFx32 *axb);   /* cross with an fx16 vector */
 
 void RoomPoly_BuildPlanes(void *unused, RoomPoly *poly)
 {
+    #ifdef SDK_BUILD_ARM
+    //TODO
     VecFx32 e0;
     VecFx32 e1;
     VecFx32 c;
@@ -70,5 +69,6 @@ void RoomPoly_BuildPlanes(void *unused, RoomPoly *poly)
         func_01ffcfd0(&c, &edge[3].n);
         edge[3].d = VEC_DotProductFx16(&v[3], &edge[3].n);
     }
+    #endif
 }
 #pragma thumb off

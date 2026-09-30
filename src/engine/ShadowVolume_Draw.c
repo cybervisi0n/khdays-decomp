@@ -7,8 +7,6 @@
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
 
-typedef struct { fx32 m[9]; } MtxFx33;
-
 typedef struct NNSG3dGlb {
     char pad000[0x94];
     MtxFx33 prmBaseRot;                 /* +0x94 */

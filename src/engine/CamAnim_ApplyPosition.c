@@ -1,14 +1,8 @@
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_mtx.h"
+#include "nitro/fx/fx_vec.h"
 
-typedef struct MtxFx33 {
-    fx32 _00, _01, _02;
-    fx32 _10, _11, _12;
-    fx32 _20, _21, _22;
-} MtxFx33;
-
-extern void MTX_MultVec33(const VecFx32 *vec, const MtxFx33 *m, VecFx32 *dst);
-extern void VEC_Add(int *a, int *b, int *out);
 extern VecFx32 data_020420e8;
 
 /* self: an actor-local vector workspace. field_24 is a scratch VecFx32 built
@@ -62,7 +56,10 @@ void CamAnim_ApplyPosition(Self *self, Src *src)
         self->field_2c = 0;
         MTX_MultVec33(&vec, &src->mtx, &self->field_3c);
         MTX_MultVec33((VecFx32 *)&self->field_24, &src->mtx, (VecFx32 *)&self->field_24);
+        #ifdef SDK_BUILD_ARM
+        //TODO
         VEC_Add((int *)&self->field_24, (int *)&self->field_30, (int *)&self->field_24);
+        #endif
     } else {
         int c2 = src->field_0c;
         int b2 = src->field_08;
@@ -71,7 +68,10 @@ void CamAnim_ApplyPosition(Self *self, Src *src)
         self->field_2c = c2;
         MTX_MultVec33(&vec, &src->mtx, &self->field_3c);
     }
-
+    
+    #ifdef SDK_BUILD_ARM
+    //TODO
     VEC_Add((int *)&self->field_24, (int *)&self->field_48, (int *)&self->field_24);
     VEC_Add((int *)&self->field_30, (int *)&self->field_48, (int *)&self->field_30);
+    #endif
 }

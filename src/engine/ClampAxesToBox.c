@@ -3,23 +3,13 @@
  * clamp against halfExtent[] and is the nearest solved neighbour. */
 
 #include "nitro/fx/fx.h"
+#include "nitro/fx/fx_cp.h"
 
 typedef struct Box {
     VecFx32 center;
     VecFx32 axis[3];
     fx32 halfExtent[3];
 } Box;
-
-/* The real definition (libs/nitro/fx/calls/FX_Inv.c) reads only its first
- * argument, but this call site loads and passes a second one. An undeclared
- * trailing parameter is how mwcc reserves that register, so declaring one
- * argument here drops a load the ROM performs. */
-extern int FX_Div(int x, int y);
-
-static inline fx32 FX_Mul(fx32 a, fx32 b)
-{
-    return (fx32)(((long long)a * b + 0x800) >> 12);
-}
 
 /*
  * Clamp three per-axis distances against a box's half-extents.

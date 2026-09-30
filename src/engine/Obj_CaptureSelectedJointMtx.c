@@ -3,10 +3,6 @@
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
 
-typedef struct MtxFx43 {
-    s32 value[12];
-} MtxFx43;
-
 typedef struct RenderMatrixCache {
     u8 pad000[0x514];
     u32 slotIds514[3];

@@ -14,13 +14,6 @@ extern fx64c FX_DivFx64c(fx32 numer, fx32 denom);     /* FX_DivFx64c */
 
 #define FX64C_ONE ((fx64c)1 << 32)
 
-static inline fx32 FX_Mul32x64c(fx32 v32, fx64c v64c)
-{
-    fx64c tmp = v64c * v32 + 0x80000000LL;
-
-    return (fx32)(tmp >> 32);
-}
-
 static inline fx32 VEC_SquaredLength(const VecFx32 *v)
 {
     return (fx32)(((fx64)v->x * v->x + (fx64)v->y * v->y + (fx64)v->z * v->z + 0x800) >> 12);

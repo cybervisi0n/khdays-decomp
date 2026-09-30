@@ -5,24 +5,8 @@
 
 #include "nitro/types.h"
 #include "nitro/fx/fx.h"
-
-typedef struct { fx32 _00, _01, _02, _10, _11, _12, _20, _21, _22, _30, _31, _32; } MtxFx43;
-
-extern const fx16 data_0203d210[];      /* FX_SinCosTable_ */
-extern void MTX_Identity43_(MtxFx43 *pDst);
-extern void MTX_RotX43_(MtxFx43 *pDst, fx32 sinVal, fx32 cosVal);
-extern void MTX_RotY43_(MtxFx43 *pDst, fx32 sinVal, fx32 cosVal);
-extern void MTX_Concat43(const MtxFx43 *a, const MtxFx43 *b, MtxFx43 *ab);
-
-static inline fx16 FX_SinIdx(int idx)
-{
-    return data_0203d210[((idx >> 4) << 1)];
-}
-
-static inline fx16 FX_CosIdx(int idx)
-{
-    return data_0203d210[((idx >> 4) << 1) + 1];
-}
+#include "nitro/fx/fx_mtx.h"
+#include "nitro/fx/fx_trig.h"
 
 void MTX_MakeRotXY43(MtxFx43 *m, int angleX, int angleY)
 {

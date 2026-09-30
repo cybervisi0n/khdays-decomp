@@ -29,8 +29,6 @@ typedef struct {
     NNSG3dResDict dict;
 } NNSG3dResMdlSet;
 
-typedef struct { fx32 m[9]; } MtxFx33;
-
 typedef struct ModelResList {
     char pad00[8];
     void *texSet;                       /* +0x08 */
