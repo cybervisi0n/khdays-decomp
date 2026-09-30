@@ -2,7 +2,7 @@
  * owner's +0x60 high byte is set and bit 0 cleared, then brain slot +0x20 runs 020d079c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);
 extern void Ov248_AiStep_QueueAction1IfActive(void);

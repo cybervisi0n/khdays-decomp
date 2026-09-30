@@ -16,7 +16,7 @@
 /* Ov022ActorNode */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct ActorNode {
     u8 pad000[0x80];

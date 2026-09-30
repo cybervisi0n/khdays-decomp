@@ -6,7 +6,7 @@
  * 0x8000) keeps its 0x22 flags in +0x64 and makes 7 next. Returns 1 (0 when ignored). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { u8 a, b; } Pair2;
 typedef struct { unsigned lo : 16; unsigned hi : 16; } HitWord;

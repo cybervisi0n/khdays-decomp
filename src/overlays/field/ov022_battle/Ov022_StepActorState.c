@@ -19,7 +19,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define HIT_KIND_REACT 0xd
 #define ACTION_BIT 4

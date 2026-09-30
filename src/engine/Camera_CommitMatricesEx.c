@@ -13,7 +13,7 @@
 
 /* Camera actor: near/far words then the look-at points. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     char    _0[0xc];

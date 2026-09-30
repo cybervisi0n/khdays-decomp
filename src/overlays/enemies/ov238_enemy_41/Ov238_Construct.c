@@ -7,7 +7,7 @@
  * scale fills the +0x38c / +0x3dc handles, the +0x384 helper is created (020d2640) with flag 2 on its
  * body, and sound 0x12e loads. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { short v[12]; } Order12;

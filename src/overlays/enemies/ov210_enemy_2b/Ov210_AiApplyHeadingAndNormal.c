@@ -1,7 +1,7 @@
 /* Turns toward the heading at the turn rate, composes it with the surface-normal tilt and applies
  * it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct T { int a, b, c, d; };

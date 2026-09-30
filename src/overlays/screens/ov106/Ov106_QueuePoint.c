@@ -1,7 +1,7 @@
 /* Queue a point in the ov106 scene: the first free of the four +0x8dd8 slots (+0x8e08 in-use flags)
  * takes `pos` and is marked used. No-op without a scene or a free slot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov106Scene { char pad[0x8dd8]; VecFx32 points[4]; int used[4]; };
 

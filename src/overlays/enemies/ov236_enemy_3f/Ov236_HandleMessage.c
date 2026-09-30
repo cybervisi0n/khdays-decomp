@@ -6,7 +6,7 @@
  * transform into +0x3c4. The base handler always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } Srt;
 struct Ov236SlotMap { u8 b[4]; };

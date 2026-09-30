@@ -4,7 +4,7 @@
  * Ov255_HomingShotFlightTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { u16 lo : 8, hi : 8; };
 struct Word8 { unsigned int lo : 8; };

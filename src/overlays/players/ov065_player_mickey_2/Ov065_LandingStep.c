@@ -8,7 +8,7 @@
  * velocities at +0x498 and +0x698 are cleared and the enemy hands over to state 2, or, when
  * grounded, tells the slot callback 0 and hands over to state 0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;

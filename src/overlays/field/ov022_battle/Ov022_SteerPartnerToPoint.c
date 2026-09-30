@@ -21,7 +21,7 @@
 /* PlayerSlotDesc */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct SlotDesc {
     u8 pad00[0x1c];

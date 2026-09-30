@@ -2,7 +2,7 @@
  * reaction 0x16d there, mode 0x11 for a non-negative side and 0x10 otherwise. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(char *owner, int mode, VecFx32 at, int flag);
 extern void Ov107_BuildAndSendUpdate(char *owner, int id, u16 mode, void *at);

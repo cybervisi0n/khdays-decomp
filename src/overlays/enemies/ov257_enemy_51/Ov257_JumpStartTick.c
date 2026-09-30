@@ -6,7 +6,7 @@
  * without a target just 1/16 up. Animation 0x1d and the +0x3d0 part's motion 0x1a play looped and
  * the tick hands over to Ov257_JumpTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int obj, int *out);

@@ -10,7 +10,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define SLOT_FREE (-1)
 #define SIZE_SMALL 0x1000

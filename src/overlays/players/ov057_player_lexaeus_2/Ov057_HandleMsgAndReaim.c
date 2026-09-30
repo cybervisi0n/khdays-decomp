@@ -12,7 +12,7 @@
  * offset even though the ROM splits it into +0x8c and +0x400.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *dst);
 extern int VEC_Mag(const VecFx32 *v);

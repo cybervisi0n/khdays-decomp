@@ -3,7 +3,7 @@
  * (+0x18c -> +0x20 -> +0x80, turned half a circle and converted to radians) gives the direction
  * from its +0x74 point. The timer restarts and the tick hands over to Ov279_GrabApproachFinish. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 #define ANG2IDX(a) ((unsigned short)(((long long)(a) * 0x28be60db9391LL + 0x80000000000LL) >> 44) >> 4)

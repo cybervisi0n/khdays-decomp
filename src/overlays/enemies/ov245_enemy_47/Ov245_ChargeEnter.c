@@ -3,7 +3,7 @@
  * the +8 origin at +0x34, clears the +0x30 timer and installs the charge delay (020ceef0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w8 { unsigned int lo : 8, rest : 24; };

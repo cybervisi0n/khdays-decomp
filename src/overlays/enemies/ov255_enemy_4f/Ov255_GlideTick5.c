@@ -3,7 +3,7 @@
  * animation 5 plays, the +0x3a4 part plays motion 4, the +0x50 timer and +0x65 flag clear and the
  * tick hands over to Ov255_DiveTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov255_SteerToTarget(int *state, int point, VecFx32 *dir, int *speed);

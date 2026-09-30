@@ -9,7 +9,7 @@
  * magic with asr #1 (that shift is /5, not the /10 you get with asr #2); hand-folding it to `x * 6`
  * would change behaviour, since the x*30 intermediate can overflow. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int owner, int kind);
 extern void SetIndexedSlot(int self, int action, void (*cb)(void));

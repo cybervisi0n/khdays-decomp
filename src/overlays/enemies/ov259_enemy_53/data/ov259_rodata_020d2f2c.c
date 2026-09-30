@@ -3,7 +3,7 @@
 
 /* Ov259_Construct (constructor): the thirteen hidden part poses. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int id[13]; } PartPoses;
 

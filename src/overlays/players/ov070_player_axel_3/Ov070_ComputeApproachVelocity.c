@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void VEC_Add(VecFx32 *dst, VecFx32 *a, VecFx32 *b);

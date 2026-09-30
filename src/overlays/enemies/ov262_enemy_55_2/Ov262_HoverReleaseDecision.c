@@ -6,7 +6,7 @@
  * (and a discarded angle), the +0x40 clock resets and the tick hands off to d122c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

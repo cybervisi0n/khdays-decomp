@@ -2,7 +2,7 @@
  * +0xa8 list within 24.0 of the +0x1c point is pushed at 0.28 along its direction swirled by the up
  * axis (cross product added), into its +0xe4 velocity. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int b0 : 1; int b1 : 1; } Bits;
 typedef struct { unsigned short lo : 8; unsigned short hi : 8; } Flags16;

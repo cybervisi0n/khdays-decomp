@@ -1,7 +1,7 @@
 /* Draws an animation slot: its model (with polygon id) or its command block at its transform. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct MtxFx33 {

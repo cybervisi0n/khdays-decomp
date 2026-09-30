@@ -4,7 +4,7 @@
 #pragma opt_dead_assignments off
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Vec4 { int x, y, z, w; };
 

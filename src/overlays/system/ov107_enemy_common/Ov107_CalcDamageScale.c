@@ -1,6 +1,6 @@
 /* Damage scale from the attacker and defender stats (defense floor of 1.0). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 
 static inline fx32 FX_Mul(fx32 a, fx32 b) {

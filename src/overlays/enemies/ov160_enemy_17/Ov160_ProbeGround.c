@@ -6,7 +6,7 @@
  * returns the hit normal -- the result's own +0x24 triple for a hit with the +8 flag, else its
  * plane's +0x14 triple. Returns 1 on a hit. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     char pad00[0x14];

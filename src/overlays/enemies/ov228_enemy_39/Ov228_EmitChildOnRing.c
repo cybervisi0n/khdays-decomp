@@ -8,7 +8,7 @@
  * 020d1ff4 (two vec3s by value). Re-arm via 0203c634 with the 020d1c14 continuation.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 extern int  Ov228_MeasureTargetGap(int self);

@@ -13,7 +13,7 @@
  * indexed reward of the else call is reread (volatile read). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct RecHeader {
     u8 pad00[3];

@@ -4,7 +4,7 @@
  * 2 and the +0x3a8 part's motion 1 play looped, +0x65 clears and the tick hands over to
  * func_ov235_020cde6c. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);

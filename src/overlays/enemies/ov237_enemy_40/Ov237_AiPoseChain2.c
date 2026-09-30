@@ -1,6 +1,6 @@
 /* Fetch the target vector via 020cdb50 into +0x3c; unless busy kick anims and dispatch. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern VecFx32 Ov237_RotateByActorHeading(int *node, VecFx32 *target);
 extern int Ov107_PostTagUpdate(int, int, int);

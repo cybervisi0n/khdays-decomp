@@ -7,7 +7,7 @@
  * DispObj_FinishOams hands to the renderer with the parameter index. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { fx32 _00, _01, _10, _11; } MtxFx22;
 typedef struct { fx32 x, y; } NNSG2dFVec2;

@@ -13,7 +13,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define DRIFT_FLOOR 0x200
 #define STEP_CAP 0x900

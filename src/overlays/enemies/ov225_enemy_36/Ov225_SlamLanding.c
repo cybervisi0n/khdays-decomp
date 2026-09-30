@@ -5,7 +5,7 @@
  * action ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void VEC_Add(VecFx32 *a, VecFx32 *b, VecFx32 *c);

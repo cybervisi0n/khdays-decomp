@@ -3,7 +3,7 @@
  * offset from its rest position (+0xd0) at +0x1a0 and pushing the new position into the
  * render node (+0x28, 0202b450). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016Follower {

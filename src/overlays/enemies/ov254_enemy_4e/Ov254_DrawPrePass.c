@@ -5,7 +5,7 @@
  * +0x404 the same raised 3.5 (on to +0x3f0). The +0x3fc / +0x400 capsules span the +0x418 ->
  * +0x41c and +0x420 -> +0x424 parts (on to +0x3e8 / +0x3ec). Finally the base pre-pass runs. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int m[4]; VecFx32 trans; int pad[4]; } Srt;

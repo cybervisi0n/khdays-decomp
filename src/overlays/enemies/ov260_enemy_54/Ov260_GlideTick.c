@@ -2,7 +2,7 @@
  * +0x64 heading; once the partner holds no queued move pose 0x13 plays, the part takes motion 9,
  * +0x70 and the +0x7b / +0x78 flags clear and the node moves on to 020ce3dc. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

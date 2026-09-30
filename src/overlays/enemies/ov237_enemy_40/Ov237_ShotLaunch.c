@@ -4,7 +4,7 @@
  * waits on 020d1050. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

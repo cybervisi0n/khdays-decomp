@@ -2,7 +2,7 @@
  * +0x68 takes the flat heading from the +0x10 point to its +0x190 point and the flat distance is
  * returned (0 without a target). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

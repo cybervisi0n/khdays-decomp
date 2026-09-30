@@ -6,7 +6,7 @@
  * accumulates the +8 velocity's length and ends the dash once it passes 0x15000. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Sphere { VecFx32 vCentre; int nRadius; };
 struct Flags17a { u8 b0 : 1, b1 : 1; };

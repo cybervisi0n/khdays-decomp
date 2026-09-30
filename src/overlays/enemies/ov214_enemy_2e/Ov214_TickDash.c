@@ -7,7 +7,7 @@
  * globals are declared with the vector type so their copies come out as the ROM's ldm/stm pairs.
  * Matched byte-exact 2026-07-23, first compile. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     VecFx32 aim;

@@ -4,7 +4,7 @@
  * resets, +0x20 clears, the first-blink flag (+0x26) is set and the node moves on to 020d3d10. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void SrtTransform_SetIdentity(void *srt);
 extern void Srt_SetTranslation(void *srt, const VecFx32 *v);

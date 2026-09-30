@@ -2,7 +2,7 @@
  * creates its models and subitems, its three linked sub-actors and its resources. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Box { VecFx32 min, max; };
 

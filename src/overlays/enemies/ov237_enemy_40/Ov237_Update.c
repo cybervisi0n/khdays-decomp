@@ -8,7 +8,7 @@
  * transform copies the actor's, the +0x470 clock advances by 2.5 and the base update runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 typedef struct { int w[8]; } Pose32;

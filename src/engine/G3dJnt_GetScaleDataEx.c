@@ -1,7 +1,7 @@
 /* NitroSystem G3D: scale pair at a frame with interpolation across the loop point. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct NNSG3dResAnmHeader {
     u8 category0;

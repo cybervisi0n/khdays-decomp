@@ -4,7 +4,7 @@
  * reaction +0x408 (as a halfword) mode 3 fires at the +8 point and the tick hands over to
  * Ov257_UpdateMotionAndFinish. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Bits17a { unsigned char b0 : 1; };

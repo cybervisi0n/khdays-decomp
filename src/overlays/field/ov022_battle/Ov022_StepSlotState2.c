@@ -13,7 +13,7 @@
 /* Ov022ActorSlot */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct ActorSlot {
     u8 pad000[8];

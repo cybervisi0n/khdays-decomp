@@ -17,7 +17,7 @@
  * it; filled afterwards the whole prologue schedules one slot late.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Placement { VecFx32 vec; int scale; };

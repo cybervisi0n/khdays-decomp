@@ -8,7 +8,7 @@
  * heading, negated when the entry's third word is not negative, becomes the new offset. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct MtxFx43 {
     int  a[12];               /* 0x00 */

@@ -3,7 +3,7 @@
  * sub-state -- 0xc below 40; 9 below 80 when the +0x3ec partner is active (bit 1 of its +0x40
  * object's +0x5c) and the path point is closer than 8.0; else 2 -- and the tick ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Bits5c { int b0 : 1, b1 : 1; };

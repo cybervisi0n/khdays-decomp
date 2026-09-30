@@ -8,7 +8,7 @@
  * counters advance. Once the partner holds no queued move it turns toward the origin (020cdb88) and,
  * after 10.0 (15.0 guarded), clears +0x588, plays pose 0x1c and moves on to 020d0220; else pose 0x1b. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

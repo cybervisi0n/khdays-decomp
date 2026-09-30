@@ -13,7 +13,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define ANGLE_BIAS 0x8000
 #define ANGLE_SHIFT 4

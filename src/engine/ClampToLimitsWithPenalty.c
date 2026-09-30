@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 static inline fx32 FX_Mul(fx32 a, fx32 b)
 {

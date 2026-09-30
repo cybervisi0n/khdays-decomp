@@ -5,7 +5,7 @@
  * (Ov027_ConstReturn0) is returned; both screens get the brightness on those frames.  0 to stay. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Fx32Pair {

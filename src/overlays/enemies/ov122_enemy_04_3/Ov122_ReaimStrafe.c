@@ -5,7 +5,7 @@
  *
  * Matched byte-exact 2026-07-23, first compile. One of three byte-identical siblings. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

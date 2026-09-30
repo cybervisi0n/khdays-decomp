@@ -1,6 +1,6 @@
 /* Ov276_DistanceToTarget: ported from a matched sibling family (same shape, constants and offsets adjusted). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject();
 extern int VEC_Subtract();

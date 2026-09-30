@@ -4,7 +4,7 @@
  * centre goes out as the mode-0 message (Ov225_ForwardVecToOwner), reaction 0x14b
  * mode 8 fires at the +8 point and the bit is set. Returns the entity count. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int nRadius; } Sphere;
 

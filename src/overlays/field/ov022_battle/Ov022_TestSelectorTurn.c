@@ -2,7 +2,7 @@
  * right of the local player's facing); returns the new bound. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern const VecFx32 *func_ov022_020881f8(int index);

@@ -6,7 +6,7 @@
  * fire attack 0x17 (020c9264) and hand off to the 020d326c state.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct S210 { char pad[0x14]; VecFx32 a; char pad2[0x34]; VecFx32 b; };

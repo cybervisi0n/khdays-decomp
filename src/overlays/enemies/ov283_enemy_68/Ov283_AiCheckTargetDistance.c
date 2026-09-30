@@ -1,6 +1,6 @@
 /* After 0x2a8 measures the distance from the anchor to the target. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(fx32 *a, fx32 *b, fx32 *out);
 extern fx32 VEC_Normalize(const VecFx32 *source, VecFx32 *destination);

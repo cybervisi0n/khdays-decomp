@@ -10,7 +10,7 @@
  * +8 flags), fills the +0x3a4 table with four Ov192_Actor_New records and loads sound 0x133. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov192Pose {
     VecFx32 position;

@@ -8,7 +8,7 @@
  * re-aimed at the target with a random +-0xc90 spread, the phase and latch reset, bit 1 of
  * +0x39 cleared and the follow-up handler (020d190c) installed. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

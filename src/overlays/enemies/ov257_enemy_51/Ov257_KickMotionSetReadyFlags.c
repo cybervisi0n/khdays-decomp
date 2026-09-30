@@ -4,7 +4,7 @@
  * halfword flags at *(u16*)(state[0]+0x1ae). Hand off via 0203c634 (cb=0).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern VecFx32 data_02041dc8;
 extern void func_ov107_020c0b90(int obj, int mode, VecFx32 v, int flag);

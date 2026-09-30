@@ -7,7 +7,7 @@
  * by up to 1.0 and the owner is announced there (ov107 c5c54). Once the +0xc idle byte clears,
  * sub-state 8 is requested and the action ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov210_BindOwnerAndAttach(int height, int a, int b);

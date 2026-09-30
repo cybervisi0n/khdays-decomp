@@ -6,7 +6,7 @@
  * the tick hands off to the next approach state. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *dist);

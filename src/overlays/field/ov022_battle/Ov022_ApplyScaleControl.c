@@ -1,7 +1,7 @@
 /* Scales a vector's selected components and a scalar by a clamped factor according to the control's
  * flags. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct ScaleControl_020b0c24 {
     unsigned char padding_00[0x13];

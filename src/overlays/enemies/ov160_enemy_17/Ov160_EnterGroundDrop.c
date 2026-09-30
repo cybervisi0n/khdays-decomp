@@ -6,7 +6,7 @@
  * the +0x28 distance, the +0x30 hit mask and the +0x34/+0x38 words are cleared and the drop
  * tick Ov160_GroundDropTick takes the slot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void *Collision_CastRay(void *collision, VecFx32 *origin, VecFx32 *direction);
 extern void SetSubitemState(int item, int channel, short a, int b);

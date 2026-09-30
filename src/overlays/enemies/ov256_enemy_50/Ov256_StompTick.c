@@ -5,7 +5,7 @@
  * ends, otherwise the timer restarts with a new charge and pose 0x19. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov256_PickTarget(int *node);

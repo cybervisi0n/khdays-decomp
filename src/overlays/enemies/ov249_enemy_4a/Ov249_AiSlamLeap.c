@@ -11,7 +11,7 @@
  * While the flag at ctx[1]+0xad is still set the tick ends there and repeats. Once it clears, the
  * hand-off fires modes 0xe/0xb, clears the byte at +0x62 and re-enters at Ov249_SlamSweepTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct {

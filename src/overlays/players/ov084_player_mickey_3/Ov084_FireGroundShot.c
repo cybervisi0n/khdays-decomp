@@ -5,7 +5,7 @@
  * speed of 0x1980 / 0x2200 / 0x2400 by pattern (pattern 2 also sets the homing flag). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

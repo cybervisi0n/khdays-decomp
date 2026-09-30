@@ -7,7 +7,7 @@
  * and marks the player's bit.  Always returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Normalize(VecFx32 *pVec, VecFx32 *pOut);                  /* VEC_Normalize */
 extern void ScaleVec3Fx12(int nScale, const VecFx32 *pVec, VecFx32 *pOut); /* ScaleVec3Fx12 */

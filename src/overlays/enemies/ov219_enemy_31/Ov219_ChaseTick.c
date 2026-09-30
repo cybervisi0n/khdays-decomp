@@ -4,7 +4,7 @@
  * a zero vector with mode 4 (flag 1) and hands off to the next chase state. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Flags17a { u8 b0 : 1, b1 : 1; };

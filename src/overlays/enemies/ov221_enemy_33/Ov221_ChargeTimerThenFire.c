@@ -3,7 +3,7 @@
  * obj[0x1e] flag). Once past it, notify Ov107_PostTagUpdate with mode 0xa/0xe, and when the
  * flag is clear push a shared constant vec (data_02041dc8), then dispatch via SetIndexedSlot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 v, int flag);

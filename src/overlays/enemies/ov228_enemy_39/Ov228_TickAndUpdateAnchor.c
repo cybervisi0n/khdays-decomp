@@ -2,7 +2,7 @@
  * while airborne) and its 0x2000 radius. */
 
 #include "game/actor.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_RefreshAndSelectChild();
 extern int Ov107_ProcessObjectTick();

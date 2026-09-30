@@ -9,7 +9,7 @@
  * over to Ov282_AiRetarget. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int value; } Fx32;
 struct Nib { u8 lo : 4, hi : 4; };

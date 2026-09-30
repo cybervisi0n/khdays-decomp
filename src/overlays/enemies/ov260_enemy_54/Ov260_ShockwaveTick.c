@@ -2,7 +2,7 @@
  * the +0x34 point (rest axes, extent growing to 3.0 over the run, flagged) is swept for hits
  * (020d0e14); after that the next move is 0 and the node ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct BoxQuery {
     VecFx32 vCenter;

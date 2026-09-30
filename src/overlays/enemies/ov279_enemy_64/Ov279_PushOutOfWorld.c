@@ -3,7 +3,7 @@
  * radius less its distance, the unit directions away from the contacts scaled by those weights
  * are summed by their share of the total (64-bit ratios) and the point is moved by that sum. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int nRadius; } Sphere;
 

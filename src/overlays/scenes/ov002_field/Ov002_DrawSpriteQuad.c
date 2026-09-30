@@ -12,7 +12,7 @@
  * frame*width and (frame+1)*width.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     char           _p00[4];

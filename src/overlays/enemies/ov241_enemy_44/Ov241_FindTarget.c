@@ -6,7 +6,7 @@
  * the 0xf74 cosine of the heading, and that Ov241_IsPathToTargetClear accepts with its position and
  * +0x80 radius. Returns the best actor or 0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct flags40 { int bit0 : 1, bit1 : 1; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

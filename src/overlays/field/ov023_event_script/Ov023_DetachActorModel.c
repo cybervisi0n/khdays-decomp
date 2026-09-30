@@ -6,7 +6,7 @@
  * angle offset (+0x15a8) cleared. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023AnimCtl {
     u32  nControl;            /* 0x00 */

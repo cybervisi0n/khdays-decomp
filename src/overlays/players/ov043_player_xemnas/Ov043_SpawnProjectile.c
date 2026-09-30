@@ -4,7 +4,7 @@
  * descriptor's +0x28 vector rotated and normalised. `flag` marks a kind-1/2 shot and bit 1 of
  * the descriptor's +0x14 adds mode bit 0. Always 0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct {

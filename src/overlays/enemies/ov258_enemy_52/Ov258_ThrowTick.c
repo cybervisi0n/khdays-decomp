@@ -5,7 +5,7 @@
  * clears, +0x50 = 1, pose 7 plays and the brain waits on 020cfc20. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov258_SwingHitTest(int *node);

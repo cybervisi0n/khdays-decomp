@@ -9,7 +9,7 @@
    accumulator (field_16c), each side's counter (field_178) is bumped, and
    each side's flag (field_17a bit 4) is marked. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 
 extern void ScaleVec3Fx12(int factor, const VecFx32 *src, VecFx32 *dst); /* scale */

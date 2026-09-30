@@ -8,7 +8,7 @@
  * cached vectors are cleared and the teardown handler runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct PanelBits {
     u8 b0 : 1;

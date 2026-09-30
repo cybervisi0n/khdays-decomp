@@ -2,7 +2,7 @@
 /* Partial AiState, fields from STRUCTS.md; pads are not claims about the object. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct AiState {

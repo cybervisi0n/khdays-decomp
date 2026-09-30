@@ -3,7 +3,7 @@
  * y/z biases (+0x1000, +0x28000), then stores at obj+0x424..: the quotients
  * FX_Div(x, 0x14cd) and FX_Div(y, 0x14cd) of the shadow x and y, and the shadow z minus 0x64000. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int FX_Div(int x, int k);
 

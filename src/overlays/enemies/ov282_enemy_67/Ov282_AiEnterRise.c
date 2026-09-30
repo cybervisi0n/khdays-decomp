@@ -2,7 +2,7 @@
  * scaling the constant axis data_02042264 by 0x1200, clear the counter at +0x2c and hand off to
  * Ov282_AiRiseTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

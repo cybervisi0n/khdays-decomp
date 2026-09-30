@@ -4,7 +4,7 @@
  * spawns effect 8 at the zero vector unless the actor is being torn down (+0x1c4 & 0xa), and
  * moves the node to 020cf5fc. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

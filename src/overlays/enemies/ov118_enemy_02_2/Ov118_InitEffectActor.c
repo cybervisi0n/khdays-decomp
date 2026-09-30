@@ -2,7 +2,7 @@
  * attach slots, and requests its resources. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Obj;

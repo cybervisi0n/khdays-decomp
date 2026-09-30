@@ -5,7 +5,7 @@
  * by up to 4.0 around the +8 target's +0x190, the timer and the +0x28 hit mask clear and the tick
  * hands over to Ov227_RockFlightTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

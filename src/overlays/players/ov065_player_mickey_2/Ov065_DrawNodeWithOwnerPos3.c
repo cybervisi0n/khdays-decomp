@@ -1,7 +1,7 @@
 /* When the effect node is in one of its visible states, places it at the character's position
  * turned with the character and draws it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Scene_DrawNode(int a);
 

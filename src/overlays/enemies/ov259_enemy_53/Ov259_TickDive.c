@@ -9,7 +9,7 @@
  * 0x19, messages 2 and 0xf at the target, wing flap 3, effect 0x14, and 020d13cc runs next. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct b1 { unsigned char b0 : 1; };

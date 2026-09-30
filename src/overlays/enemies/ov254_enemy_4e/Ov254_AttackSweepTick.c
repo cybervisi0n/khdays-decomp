@@ -8,7 +8,7 @@
  * +0xa8 of the item) or 0/0x50 fires at the box. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int ext[3]; } Box;
 

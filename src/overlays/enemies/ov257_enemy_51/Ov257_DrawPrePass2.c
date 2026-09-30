@@ -4,7 +4,7 @@
  * (+0x1c6) is not 0xc a running pair-6 effect is stopped; then the common draw handler runs. The
  * bone arrays are indexed as ((int *)self)[base + i] for the ROM's addressing. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

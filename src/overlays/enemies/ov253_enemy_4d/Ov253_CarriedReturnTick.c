@@ -5,7 +5,7 @@
  * along the segment; once complete the timer and hop count clear, the item sits at the end and
  * the node moves to 020d1660. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int FX_Div(int num, int den);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

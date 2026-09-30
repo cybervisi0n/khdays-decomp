@@ -24,7 +24,7 @@
  *    out by the null-return and the counter branch; the buffers are always the stack slots.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 static inline void VEC_Set(VecFx32 *vec, int x, int y, int z) {
     vec->x = x;

@@ -5,7 +5,7 @@
  * reaction 0x12a mode 5 at the +8 point. Once the +4 item goes idle (+0xad) the +0x78 target
  * flag is set, sub-state 6 is requested and the state ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

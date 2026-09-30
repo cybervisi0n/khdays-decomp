@@ -4,7 +4,7 @@
  * far draws); the pick is recorded in the ring, the +0x10 velocity is zeroed, the actor is
  * placed at the point, the +0x38 timer resets, sub-state 2 is requested and the state ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

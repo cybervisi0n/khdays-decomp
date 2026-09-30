@@ -21,7 +21,7 @@
  * how the original split its random-in-range routine. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct TargetList {
     u8  pad00[0x20];

@@ -58,7 +58,7 @@
  * strb (12-bit range) as the ROM does. The unconditional stores above are plain casts because they
  * share no address with a load. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct {

@@ -3,7 +3,7 @@
  * to 020d1228. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

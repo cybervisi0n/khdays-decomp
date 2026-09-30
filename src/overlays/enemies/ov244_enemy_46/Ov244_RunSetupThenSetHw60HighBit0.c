@@ -1,7 +1,7 @@
 /* Moves the node to `pos` (Ov107_MoveNodeAndRelayout), then sets bit 0 of the high byte of its
  * flags (+0x60). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 void Ov244_RunSetupThenSetHw60HighBit0(int this_, VecFx32 *pos) {

@@ -5,7 +5,7 @@
  * +0x60, with the +0x34 climb following the owner's +0x13c height), and once the +0x50 timer
  * reaches 1.0 the tick hands over to Ov272_EnterPounce. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define ANG2IDX(a) ((unsigned short)(((long long)(a) * 0x28be60db9391LL + 0x80000000000LL) >> 44) >> 4)
 static inline int FX_MUL(int a, int b)

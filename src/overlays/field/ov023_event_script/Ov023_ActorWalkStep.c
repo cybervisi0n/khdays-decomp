@@ -9,7 +9,7 @@
  * (Ov023_ActorPlayMotion 020894c0 with 0 / 10 / 1) and forgets it. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023Entity {
     u8   pad_00[0xa8];

@@ -2,7 +2,7 @@
  * key tables and the six signed unit axes. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define PAD_BUTTON_A      0x0001
 #define PAD_BUTTON_B      0x0002

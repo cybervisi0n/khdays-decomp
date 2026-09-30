@@ -8,7 +8,7 @@
  * at +0x03c HAS it -> bitfield. The vec3 goes to ov107_020c0b90 BY VALUE (r2, r3, [sp+0])
  * with the flag at [sp+4]. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct b8 { unsigned f : 8; };

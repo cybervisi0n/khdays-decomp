@@ -3,7 +3,7 @@
  * the +0x60 high byte cleared; the +0x1c facing aims from the point at the +8 target's +0x74 and
  * is committed to +0xc, the +0x50 timer restarts and the tick hands over to Ov279_AiTimerQueueAction7. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[4]; } Quat;
 typedef struct { unsigned int lo : 8, rest : 24; } Byte8;

@@ -3,7 +3,7 @@
  * 0x15, blend 1 for payload 2, 3 with kind 5, 4 with kind 0x15) under the +0x3c owner into +0x3a0. The base handler always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 

@@ -4,7 +4,7 @@
  * its +0x40 set, the actor pushes pose 1. Once the owner's +0xad byte clears the node runs the
  * base 0203c640 step. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Flags40 { int b0 : 1; int b1 : 1; };
 extern void Srt_SetTranslation(int srt, VecFx32 *pos);

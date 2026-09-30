@@ -8,7 +8,7 @@
  * ends with sub-state 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef void (*Hook)(int obj, int a);

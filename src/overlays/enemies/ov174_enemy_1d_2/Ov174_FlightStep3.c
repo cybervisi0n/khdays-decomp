@@ -4,7 +4,7 @@
  * phase * 0x6488 / 40, halved and scaled by 0x200. Once the +0x58 counter is not positive
  * animation 9 plays and the state advances to Ov174_AiStep_QueueAction5OnAnimEnd. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

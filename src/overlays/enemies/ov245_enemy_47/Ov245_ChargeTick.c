@@ -6,7 +6,7 @@
  * cleared, +0x3c0 zeroed, the goal copied to +0xc, pose 1 set (flag 1), the timer cleared and
  * the node moved to 020d0330. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Ov245Actor { char pad[0x394]; int slots[3]; };

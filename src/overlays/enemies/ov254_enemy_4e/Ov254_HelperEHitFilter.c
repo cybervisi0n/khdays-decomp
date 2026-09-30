@@ -5,7 +5,7 @@
  * mask; an unsourced one adds bit (short)hit[4] to that 64-bit mask. Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct HitWord { unsigned int lo : 16, hi : 16; };
 

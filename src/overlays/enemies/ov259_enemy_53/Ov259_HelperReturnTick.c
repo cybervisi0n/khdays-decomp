@@ -4,7 +4,7 @@
  * anchor's first point at 0.875 and the flight step runs (020d1cc4). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Flag17a { u8 b0 : 1; };
 

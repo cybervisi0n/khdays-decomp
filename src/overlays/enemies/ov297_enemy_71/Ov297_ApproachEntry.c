@@ -2,7 +2,7 @@
  * aims the +0x2c/+0x30 yaws at it (the facing of the +0x2c yaw is dotted against that direction
  * and discarded); one of animations 5/6 plays at random and the tick hands off to d5034. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

@@ -30,7 +30,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct ImpactIdPair {
     u8 v[2];

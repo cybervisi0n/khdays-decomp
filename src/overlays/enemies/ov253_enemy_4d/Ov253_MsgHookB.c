@@ -4,7 +4,7 @@
  * position child at +0xb0 (020d31a0) into +0x3d0, aimed at slot 1 spawns the second one
  * (020c08cc, kind 5, scale 1.0, payload at byte 5) into its +0xc. Then the base hook (020c7500). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_CreateNodeXformTaskFx24(int list, int parent, int kind, int a, int scale, unsigned char *payload);

@@ -6,7 +6,7 @@
  * (02081ca8), the piece flags get 0x48 and the refresh bit (bit 0 of +0x724) is set. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Ov015_ChestUpdate(void);                        /* Ov015_ChestUpdate */

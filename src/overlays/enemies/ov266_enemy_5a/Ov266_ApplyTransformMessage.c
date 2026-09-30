@@ -9,7 +9,7 @@
  * at sp+0xc, and mwcc gives the FIRST-declared local the HIGHEST address -- so `pos`
  * must be declared before the scratch array. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quaternion;
 

@@ -12,7 +12,7 @@
  * both rigs re-init. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[4]; } IdTable4;

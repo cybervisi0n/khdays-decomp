@@ -3,7 +3,7 @@
  * composed with the +0x124 rig rotation, and the +0x14 velocity moves to the actor's +0xf0 and
  * is zeroed. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int v[4]; } Xform;

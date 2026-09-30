@@ -2,7 +2,7 @@
  * point (the second by-value vector; the first is unused) at +0x20, zeroes the +0x14 velocity, +0x44 and the +0x4c byte, sets the
  * +0x2c pose to face the target from data_02042258 (ed60) and requests sub-state 1. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int q[4]; } Quat;
 

@@ -4,7 +4,7 @@
  * clears, a coin flip picks the +0x58 circling direction, animation 0x1b plays, the +0x7c duration
  * is rolled in [0x100, 0x300] and the tick hands over to Ov235_CirclingTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

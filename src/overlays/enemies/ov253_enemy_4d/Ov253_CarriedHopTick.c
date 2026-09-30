@@ -5,7 +5,7 @@
  * and the hop count drops -- at zero bit 1 of the item's +0x5c is raised and the node moves to
  * 020d150c. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov253Items { char pad[0x38c]; int items[4]; };
 struct Ov253ItemsNext { char pad[0x390]; int items[3]; };

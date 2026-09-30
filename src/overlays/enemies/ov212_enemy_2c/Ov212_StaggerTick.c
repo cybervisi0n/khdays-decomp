@@ -2,7 +2,7 @@
  * spawns effect 4 at the zero vector (data_02041dc8), fires reaction 0x128 mode 0xa at the +8
  * point, queues sub-state 0xa and ends the state. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int actor, int a, VecFx32 v, int d);
 extern void Ov107_BuildAndSendUpdate(int actor, int a, int b, void *at);

@@ -1,4 +1,4 @@
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int ScriptVm_ReadOperandInt(int ctx, void *arg);
 extern int ScriptVm_ReadOperandFx32(int ctx, void *arg);

@@ -2,7 +2,7 @@
  * +0x190 point from the +4 position; the surface distance (root minus both +0x80 radii) is
  * measured and, once the +0x20 timer is spent, sub-state 7 is requested and the state ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);
 extern void VEC_Subtract(const void *a, const void *b, VecFx32 *out);

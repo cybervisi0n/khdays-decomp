@@ -5,7 +5,7 @@
  * the +4 item is idle (+0xad), bit 6 of the +0x60 flag high byte clears, the Ov212_FlagSlotsDirty pass
  * runs, animation 0xb (looped) plays, the timer resets and the tick hands off to Ov212_AiHoldTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

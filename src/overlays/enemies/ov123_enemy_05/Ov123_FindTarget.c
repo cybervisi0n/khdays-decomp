@@ -5,7 +5,7 @@
  * squared, floored at zero). Without bit 2 of the 0204c240 flags the first candidate of kind 0
  * wins; with it the nearest of all candidates does. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct flags40 { int bit0 : 1, bit1 : 1; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

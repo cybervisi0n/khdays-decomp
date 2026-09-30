@@ -9,7 +9,7 @@
  * beam releases its owner effect slots (+0x49 and 0x26 / 0x27), hides the glow and ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { int m[9]; } Mtx33;

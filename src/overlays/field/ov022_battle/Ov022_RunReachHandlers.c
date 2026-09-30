@@ -11,7 +11,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Command {
     VecFx32 vecFrom;         /* 0x00 */

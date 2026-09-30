@@ -11,7 +11,7 @@
  * start at 1, +0x3c0 bit 0 is set, the presence hook runs and both rigs re-init. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[5]; } IdTable5;

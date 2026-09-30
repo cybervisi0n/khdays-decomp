@@ -46,7 +46,7 @@
 /* The ROM loads both of these with one `ldm` -- they are adjacent fields, not two
  * independent dereferences of `self`. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     int *scene;

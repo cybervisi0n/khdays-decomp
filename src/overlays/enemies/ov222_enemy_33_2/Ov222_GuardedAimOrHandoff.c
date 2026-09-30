@@ -4,7 +4,7 @@
  * null, otherwise latch owner+0x1c7=2 and dispatch null. If the flag is set, hand the angle
  * to Ov222_Steer. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov222_MeasureTargetGap(int self, int a);
 extern void SetIndexedSlot(int self, int index, void *cb);

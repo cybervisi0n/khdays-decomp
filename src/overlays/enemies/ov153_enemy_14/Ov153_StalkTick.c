@@ -9,7 +9,7 @@
  * `+ (dist - dist)` is the documented copy artifact of RandNextScaled (`adds r0,r0,#0`); the
  * random rearm is the Ov178_CircleTick spelling. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

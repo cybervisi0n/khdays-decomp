@@ -6,7 +6,7 @@
  * is set and the entity's halfword at +4 gets bit 7. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023RotTween {
     VecFx32 vTarget;          /* 0x00 */

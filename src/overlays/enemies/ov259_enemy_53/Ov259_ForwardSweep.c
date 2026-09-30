@@ -1,6 +1,6 @@
 /* Forward a body sweep of the ov259 actor to its +0x214 rig while it is live (+0x50 == 1). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov259_RequestMoveTo(int rig, int a, int b, VecFx32 lift);
 

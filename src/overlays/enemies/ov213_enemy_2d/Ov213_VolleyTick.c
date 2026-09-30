@@ -5,7 +5,7 @@
  * anchors (+0x14) and told to launch through their +0x1cc hook. Unless the +8 flag byte is set,
  * pose request 5 is queued and the node dispatches null. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Pair { int a, b; };

@@ -1,4 +1,4 @@
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern char *data_ov008_02090fac;

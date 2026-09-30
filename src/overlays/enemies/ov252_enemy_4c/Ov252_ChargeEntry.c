@@ -4,7 +4,7 @@
  * +0x60/+0x6c/+0x64 timers clear, +0x88 = 1 and the node moves on to 020cfdd8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov107_BuildAndSendUpdate(int actor, int bank, int variant, void *at);

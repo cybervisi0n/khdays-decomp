@@ -5,7 +5,7 @@
  * the ground-plane heading (+0x2c); within reach (both radii plus 0.0234) the next move is 5, and once
  * the +0x44 timer is out it is 6. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);

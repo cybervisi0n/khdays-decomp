@@ -2,7 +2,7 @@
  * direction off the contact normal, turning and slowing; tracks grounding and bounces. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/ai_task.h"
 #include "game/enemy_common.h"
 

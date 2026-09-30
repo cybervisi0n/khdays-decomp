@@ -6,7 +6,7 @@
  * Any landing hit fires reaction 0/0x51 at the +8 anchor; unless the scene's +0xad flag is set
  * the node moves to 020d5088. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int scale; } Segment;
 struct Capsule { Segment seg; int radius; };

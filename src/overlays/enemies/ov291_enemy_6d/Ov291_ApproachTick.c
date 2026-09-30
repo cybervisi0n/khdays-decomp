@@ -7,7 +7,7 @@
  * once the +0x20 busy byte clears, animation 3 plays, the part runs action 2, the phase resets
  * and the tick hands off to cd2d0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Ov107_BuildAndSendUpdate(int actor, int id, int mode, void *anchor);

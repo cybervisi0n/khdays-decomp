@@ -17,7 +17,7 @@
  *    above the shift.
  * Byte-identical twin of Ov117_AiSlerpHeading. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Quat_Slerp();
 extern int Srt_SetRotationQuat();

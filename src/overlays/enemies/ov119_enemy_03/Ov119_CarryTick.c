@@ -8,7 +8,7 @@
  * target's radius) and given to the partner's +0x20 model and +0x48c point. Once the +0x50 timer
  * reaches 2.0 the owner is set down above it, the partner is released and sub-state 8 requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

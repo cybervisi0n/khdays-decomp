@@ -6,7 +6,7 @@
  * added to the camera's.  Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023Operand {
     s16  nType;               /* 0x00 */

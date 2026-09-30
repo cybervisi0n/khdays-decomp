@@ -8,7 +8,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Shot {
     u8 pad0000[0x1c];

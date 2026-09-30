@@ -3,7 +3,7 @@
  * +4 rig is idle pose 0xe plays, move 0xb starts (020d3028), the +0x62 flag clears and brain
  * slot +0x20 runs 020d4298. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

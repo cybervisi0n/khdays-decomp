@@ -6,7 +6,7 @@
  * min(1.5 x speed, dist / 2) times the (clamped) dot with the offset; +0x28 is 30 x dt / 25.
  * Arriving inside the actor's +0x80 radius requests sub-state 2 and releases the slot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

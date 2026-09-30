@@ -1,7 +1,7 @@
 /* Face tick of the ov146 actor: the +0x2c heading turns toward its partner (+8) on the ground plane;
  * once the partner holds no queued move the next move is 4 and the node ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *out);

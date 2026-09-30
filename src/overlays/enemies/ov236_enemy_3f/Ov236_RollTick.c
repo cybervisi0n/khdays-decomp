@@ -5,7 +5,7 @@
  * that flag clear. Once the child's +0xad byte clears, pose request 0xa (actor's +0x3bd latch),
  * 4 (bit 0 of +0x52) or 6 is queued and the node dispatches null. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Bits52 { unsigned char b0 : 1; };
 

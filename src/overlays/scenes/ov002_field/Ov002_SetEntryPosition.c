@@ -1,7 +1,7 @@
 /* Write a VecFx32 into the entry's object at +0x104, indexing the 0x18-byte entry table at ctx+0x44
  * by the id's resolved slot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int data_ov002_0207fa14;
 extern int Ov002_FindKeyIndex(int arg0);

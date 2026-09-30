@@ -3,7 +3,7 @@
  * Once the +0xc idle byte clears, animation 0xb plays, the +0x3d0 part plays motion 0xa and the tick
  * hands over to Ov257_GlideToLandTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov257_SteerToTarget(int *state, int point, VecFx32 *dir, int *speed);

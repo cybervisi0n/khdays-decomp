@@ -5,7 +5,7 @@
  * otherwise the volley counts; past 0x440 the clock resets and the actor recovers. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int v[2]; } Steps;
 struct Ov283VolleyTmpl { u8 pairs[4]; Steps steps; };

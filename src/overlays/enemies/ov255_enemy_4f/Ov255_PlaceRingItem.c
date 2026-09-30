@@ -4,7 +4,7 @@
  * kept at +0x3b8 and bit 0 of the +0x60 high byte is raised. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int w[4]; } Quat;

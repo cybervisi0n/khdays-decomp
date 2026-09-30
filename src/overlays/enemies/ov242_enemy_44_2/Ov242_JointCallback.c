@@ -6,7 +6,7 @@
  * +0x3a0 item with a pure Y rotation of that heading at (actor +0xb0, subscriber +0x44, actor
  * +0xb8). The other two ids only place the +0x390 / +0x394 items at the joint. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct { int m[9]; VecFx32 t; } MtxFx43;

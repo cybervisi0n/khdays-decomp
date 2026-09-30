@@ -5,7 +5,7 @@
  * cylinder of the ring's radius (flag set) at the +8 point sweeps the +0x388 body's hits, and every hit
  * the body accepts (020cceb0) gets a kind-3 hit of strength 0x10. After 4.0 the node ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int radius; int flag; } Cylinder;

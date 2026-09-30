@@ -7,7 +7,7 @@
  * register the piece (02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov016HazardDef {
     u8 pad_00[0x6e];

@@ -4,7 +4,7 @@
  * its 2.16 to 2.32 window (mode 1, 020cfd3c) and the brain waits on 020ce0a0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { u8 lo : 4; u8 hi : 4; } NibblePair;

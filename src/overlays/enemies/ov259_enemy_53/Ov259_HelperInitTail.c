@@ -3,7 +3,7 @@
  * +0x60 high byte and builds its hit capsule (rest axis, length -0x500, radius 0x700) into a
  * +0x22c pool slot at +0x384, marked with bit 1; +0x388 (busy) clears. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 typedef struct { VecFx32 pos; VecFx32 axis; int length; int radius; } Capsule;

@@ -2,7 +2,7 @@
  * back at the +0xc point (mode 4, 2), the next claw of the +0x43c set (+0x54 counter) is thrown from
  * 2.19 above that point (020d0334), the counter grows and the node moves on to 020cfe2c. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov256_PickTarget(int *node);

@@ -4,7 +4,7 @@
 #pragma opt_common_subs off
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct CollisionObject {
  u8 pad00[0x2c]; VecFx32 position2c; s32 radius38,height3c;

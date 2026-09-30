@@ -9,7 +9,7 @@
  * facing (+0xac), facing-locked, and the taken-sequence bit (bit 0 of +0x14d) cleared. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov015PickupKindRow {

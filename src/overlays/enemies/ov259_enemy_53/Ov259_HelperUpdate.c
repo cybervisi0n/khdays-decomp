@@ -3,7 +3,7 @@
  * rotation at +4; the turn from the rest axis is composed but unused), then the base update runs
  * (020c6980) and the +0xa0 pose is copied into the +0x390 model and on to the +0x38c shape. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int x, y, z, w; } Quat;

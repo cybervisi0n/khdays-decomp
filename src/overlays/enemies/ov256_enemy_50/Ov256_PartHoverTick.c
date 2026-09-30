@@ -3,7 +3,7 @@
  * set, the next move is 2 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov256_RotateByActorHeading(int *out, int param_2, int *vec);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

@@ -10,7 +10,7 @@
  * 0x165 mode 0xf fires and pose 0 is requested. Past 20.0 the dive gives up (pose 0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

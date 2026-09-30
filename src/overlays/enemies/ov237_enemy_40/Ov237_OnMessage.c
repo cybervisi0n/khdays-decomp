@@ -6,7 +6,7 @@
  * base handler always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct EffectPair { int res; int handle; };
 

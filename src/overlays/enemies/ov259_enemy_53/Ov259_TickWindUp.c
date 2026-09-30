@@ -2,7 +2,7 @@
  * effects 0xf and 8 spawn at the +0x10 point, the +0x384 rig opens (020d1764) and brain slot +0x20
  * runs 020cf8e0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);
 extern void Ov259_SwapShells(int rig, int open);

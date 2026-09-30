@@ -8,7 +8,7 @@
  * the velocity's length; past the +0x4c range plus the +0x390 pool's +0x80 it bursts (flag 0,
  * no reaction), else the velocity moves the point. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int nRadius; } Sphere;
 

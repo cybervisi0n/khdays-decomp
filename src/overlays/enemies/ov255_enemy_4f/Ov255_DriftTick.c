@@ -2,7 +2,7 @@
  * orientation and scaled by the +0x18 speed; the +0x1c timer accumulates the frame rate and past
  * 0.25 the owner's sub-state 0 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

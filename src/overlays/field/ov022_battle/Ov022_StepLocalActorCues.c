@@ -16,7 +16,7 @@
 /* Ov022Actor */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Actor {
     u32 nFlags;                      /* 0x0000 */

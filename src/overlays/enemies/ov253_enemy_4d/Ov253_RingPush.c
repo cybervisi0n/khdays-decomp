@@ -2,7 +2,7 @@
  * index: position from `v`, +0x18 cleared, +0x1c = arg; bit 1 of the owner's +0x5c is cleared
  * and the index advances modulo the owner's +0x8c length. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov253Ring { int kind; int pad[5]; int f18; int f1c; int pad2[3]; VecFx32 pos; };
 

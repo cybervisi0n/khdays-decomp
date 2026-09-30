@@ -14,7 +14,7 @@
  * position is a stack copy with y raised in place; the point counter is a signed char. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

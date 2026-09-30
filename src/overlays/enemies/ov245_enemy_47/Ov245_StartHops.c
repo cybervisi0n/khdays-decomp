@@ -2,7 +2,7 @@
  * keeps `speed` at +0x48, faces the +0x18 direction along the `angle` heading (height kept) and
  * requests move 1. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov245_PlanHop(int *state, int a, int b);
 extern const short data_0203d210[];

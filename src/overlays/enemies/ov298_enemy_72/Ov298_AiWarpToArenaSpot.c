@@ -1,6 +1,6 @@
 /* Posts update 0x177/4, stops, moves the actor to the fixed arena spot and queues action 2. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int obj, int flag, VecFx32 v);
 extern void Ov107_BuildAndSendUpdate(int obj, int b, int c, void *d);

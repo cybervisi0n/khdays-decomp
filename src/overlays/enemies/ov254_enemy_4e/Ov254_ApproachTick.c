@@ -5,7 +5,7 @@
  * 5; the +0x70 flag clears and the node moves to 020cf4e8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(const void *a, const void *b, VecFx32 *out);

@@ -3,7 +3,7 @@
  * outside the invulnerable action, and plays the reaction. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct HitState {
     char *pTarget;

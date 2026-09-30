@@ -2,7 +2,7 @@
  * excluded), walks the candidate lists to the next one, and updates the selection state. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov022LowByteBits {
     unsigned short lowByte : 8;

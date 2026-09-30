@@ -1,7 +1,7 @@
 /* Pushes the position away (in view space) from every active animation slot within the radius. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct MtxFx33 {
     int value[9];

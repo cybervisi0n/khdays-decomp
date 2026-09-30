@@ -3,7 +3,7 @@
  * lifetimes. The carrier holds an ARM9 pointer, not a new game-object layout. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct VecFx16 { s16 x,y,z; } VecFx16;
 typedef struct CollisionPlane { VecFx16 normal; s16 pad06; s32 distance; } CollisionPlane;

@@ -5,7 +5,7 @@
  * +0x28 busy byte clears the actor plays animation 0x12 and the tick hands off to d30e0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_ActionResource_GetOffsetAndScale(void *part, VecFx32 *out);

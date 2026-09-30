@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void MTX_Identity33_(int *m);
 extern void NNS_G3dGlbSetBaseTrans(const VecFx32 *target);

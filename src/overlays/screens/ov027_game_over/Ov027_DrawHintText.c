@@ -5,7 +5,7 @@
  * x 0x80, colours 3 / 1, height 0x10 (0202fa38), and the renderer flushed (0202f9f8). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

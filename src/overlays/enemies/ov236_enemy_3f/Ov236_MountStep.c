@@ -4,7 +4,7 @@
  * direction from the +0x34 anchor towards the origin is added to the +0x18 velocity; the +0x54 timer counts the frame step down while positive; the
  * velocity is handed to the actor's +0xf0 motion slot and cleared. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Bits17a { unsigned char b0 : 1, b1 : 1; };
 extern int Angle_TurnToward(int cur, int want, int step, int *state);

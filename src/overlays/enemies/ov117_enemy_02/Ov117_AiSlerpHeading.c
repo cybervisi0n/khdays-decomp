@@ -16,7 +16,7 @@
  *    Split into `sum = ...; mid->f3c = sum;` mwcc hoists the following literal-pool load one slot
  *    above the shift. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Quat_Slerp();
 extern int Srt_SetRotationQuat();

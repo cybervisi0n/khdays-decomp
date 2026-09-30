@@ -18,7 +18,7 @@
  * ctx and delta take declaration-initialisers so they are read before the zeroing, as the ROM
  * does. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     int x;

@@ -6,7 +6,7 @@
  * (0202fa20) and flushed (0202f9f8). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

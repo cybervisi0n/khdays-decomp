@@ -4,7 +4,7 @@
  * actor's +0x124 normal and written to the +0xa0 quaternion; the +4 offset is handed to the
  * actor's +0xf0 vector and reset to the zero vector. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Quat_FromTwoVectors(void *dst, void *src, int m);

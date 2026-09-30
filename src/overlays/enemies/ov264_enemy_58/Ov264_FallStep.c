@@ -22,7 +22,7 @@
  *    zero as a separate fourth argument at [sp+4].
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct {

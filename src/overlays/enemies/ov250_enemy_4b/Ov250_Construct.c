@@ -8,7 +8,7 @@
  * registers reaction 2/2 (id 0x2120) and two placements on the +0x22c/+0x144 lists (+0x388/
  * +0x38c) from the pose at the origin, then loads sound 0x159. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 

@@ -6,7 +6,7 @@
  * and dashes (5), else move 4 (+0x7c = the roll passed 2.36, +0x3c cleared). While walking within
  * twice the +0x80 range a one-time (+0x78) d100 roll over 70 makes the next move 7. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov283_MeasureTargetGap(int *node);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

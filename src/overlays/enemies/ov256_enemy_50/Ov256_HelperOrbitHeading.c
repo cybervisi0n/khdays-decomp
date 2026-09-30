@@ -1,7 +1,7 @@
 /* Heading from an ov256 helper's orbit point (+0xc anchor plus the +0x10 offset) toward its +0x34
  * target, as a flat angle. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Add(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

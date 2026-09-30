@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Srt_SetRotationQuat(int dst, int *src);
 extern int data_02041dc8;

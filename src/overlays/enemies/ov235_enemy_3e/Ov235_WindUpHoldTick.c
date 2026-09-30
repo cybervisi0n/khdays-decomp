@@ -4,7 +4,7 @@
  * step heads for it (Ov235_SteerToTarget), and once the +0xc idle byte clears animation 3 plays,
  * the +0x3a8 part plays motion 2 and the tick hands over to Ov235_ApproachTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

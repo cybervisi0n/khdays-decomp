@@ -6,7 +6,7 @@
  * the index: {ret, param1[1]} = divmod(index+1, capacity=*(*param1+0x8c)) and return the quotient.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct vec4 { int a, b, c, d; };
 extern void Quat_FromTwoVectors(unsigned int *out, void *basis, int *v);

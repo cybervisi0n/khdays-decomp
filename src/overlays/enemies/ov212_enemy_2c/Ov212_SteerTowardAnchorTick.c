@@ -17,7 +17,7 @@
  * One of a 3-member family (ov266/ov267).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 

@@ -10,7 +10,7 @@
  * bound (bit 2 of +0x12). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov017DepositDef {

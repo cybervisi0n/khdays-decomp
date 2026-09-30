@@ -13,7 +13,7 @@
  * Types 0, 1, 5 and anything above 6 do nothing. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016KickableKindRow {

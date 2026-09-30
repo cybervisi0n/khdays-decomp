@@ -9,7 +9,7 @@
  * last word lands exactly where the ABI wants it. Storing it into a temp first instead would change
  * the schedule. See codegen-cracks.md. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int obj, int kind, VecFx32 v, int flag);

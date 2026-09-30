@@ -6,7 +6,7 @@
  * clears and the tick hands off to cd224. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int *dist);

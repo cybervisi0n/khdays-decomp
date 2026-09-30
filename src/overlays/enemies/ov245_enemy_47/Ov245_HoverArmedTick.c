@@ -5,7 +5,7 @@
  * anchor, turns the accumulated height into the +0x30 ratio against 0xe40f (FX_Inv of the
  * negation) and moves the node to the hover tick (020ce2d4) or the strike (020ce33c). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

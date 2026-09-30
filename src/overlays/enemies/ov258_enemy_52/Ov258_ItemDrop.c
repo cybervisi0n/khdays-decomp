@@ -3,7 +3,7 @@
  * callback, and the next move is 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int b0 : 1; int b1 : 1; } Bits;
 typedef void (*ReleaseCb)(char *item, int arg);

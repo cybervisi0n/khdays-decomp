@@ -7,7 +7,7 @@
  * (+0x5c0) to 1.  The cursor's slot blinks every frame (Ov027_BlinkPanelSlot 02083918). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Fx32Pair {

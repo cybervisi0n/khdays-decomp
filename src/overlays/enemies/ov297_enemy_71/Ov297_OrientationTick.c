@@ -5,7 +5,7 @@
  * speed; the +0x40 and +0x58 timers count down while positive and the +0x94 flag mirrors
  * whether +0x58 still runs, resetting +0x78 when it changes. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Srt_SetRotationQuat(void *srt, int *quat);

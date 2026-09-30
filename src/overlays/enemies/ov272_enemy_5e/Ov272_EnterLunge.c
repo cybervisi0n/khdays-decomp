@@ -3,7 +3,7 @@
  * 0 of the +0x388 part's flag byte clears, bits 1 and 2 of the +0x60 high byte are raised, the
  * +0x50 timer restarts and the tick hands over to Ov272_RepositionTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned int lo : 8, rest : 24; } Byte8;

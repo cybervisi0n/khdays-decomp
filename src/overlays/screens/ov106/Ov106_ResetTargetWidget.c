@@ -1,7 +1,7 @@
 /* Reset the ov106 scene's +0x8cd0 widget: it is placed on data_ov106_020b8ae0 at the origin (depth
  * 2.0x, style 5, 020b7758), refreshed (020b7794) and the four queued points are freed. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov106Scene { char pad[0x8dd8]; VecFx32 points[4]; int used[4]; };
 

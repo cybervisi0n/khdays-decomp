@@ -4,7 +4,7 @@
  * move +0x7c is half the frame rate, it faces the target, +0x88 = 3 with a lift height set and the node
  * moves on to 020d1abc. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov252_GuardSweep(int *node);
 extern void Ov107_BuildAndSendUpdate(int actor, int bank, int variant, void *at);

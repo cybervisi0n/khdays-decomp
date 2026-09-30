@@ -3,7 +3,7 @@
  * there and the +0x54 launch count advances; below 16 the launch sound (0x173 variant 4) plays at the
  * +8 point and 1 is returned, the 16th wraps the count and returns 0 (as does finding no idle helper). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov283Helpers { char pad[0x3a4]; int helpers[16]; };
 

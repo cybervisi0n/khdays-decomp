@@ -2,7 +2,7 @@
  * offset, turned by the +0x40 heading, is kept in +0x10; a hit found by 020d2d90 clears +8. Once the
  * +4 rig is idle pose 0xd plays, move 0xa starts (020d3028) and brain slot +0x20 runs 020d4198. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

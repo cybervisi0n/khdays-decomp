@@ -4,7 +4,7 @@
  * about data_02042264. Once the +0xc idle byte clears, animation 0x11 plays, +0x76 clears and the
  * tick hands over to Ov257_StrikeTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

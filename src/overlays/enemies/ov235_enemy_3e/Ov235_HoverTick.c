@@ -7,7 +7,7 @@
  * plays motion 0x15, the owner's +0x64 velocity becomes 1.5 up and the tick hands over to
  * Ov235_TurnTick_2. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

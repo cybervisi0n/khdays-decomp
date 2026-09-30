@@ -10,7 +10,7 @@
  * stays behind the v copy and swaps the registers of the whole handler block. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int a, b, c; } Vec3b;
 typedef struct { VecFx32 vector; int scalar; } CameraWork;

@@ -1,7 +1,7 @@
 /* Hit reaction of an ov256 helper: its owner's +0x398 part is knocked back at the +8 point (mode 4),
  * the owner's next move clears and the hit is taken (1). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int owner, int mode, VecFx32 at, int flag);
 

@@ -3,7 +3,7 @@
  * on the ground (+0x17a bit 0) and 0.02 in the air. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { u8 b0 : 1; } Bit0;
 

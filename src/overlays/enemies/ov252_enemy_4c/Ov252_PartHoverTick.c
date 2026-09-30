@@ -3,7 +3,7 @@
  * point, and at 5.98 pose 0x30 plays, the owner plays effect 0xd at the origin and the node moves on to
  * 020d19b8. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov252_GuardSweep(int *node);

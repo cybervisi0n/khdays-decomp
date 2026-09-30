@@ -2,7 +2,7 @@
  * *(child+0x10) is set, advance the step counter (+0x28): on the 3rd step mark sub-state
  * 2 and dispatch, otherwise re-pose both nodes (ov107 mode counter+0xd). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov280_rotateVecByOwnerYaw(void *out, int a, int b);
 extern int SetIndexedSlot(int a, int b, void *handler);

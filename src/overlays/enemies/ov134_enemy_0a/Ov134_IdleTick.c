@@ -6,7 +6,7 @@
  * [+0x224, +0x228] range and sub-state 6 is requested; above 0x6000 but still inside the +0x2d8
  * range sub-state 4 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Flags42 { unsigned char bCharge : 1; };

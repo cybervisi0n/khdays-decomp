@@ -12,7 +12,7 @@
  * and loads sound 0x148. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int min[3]; int max[3]; } Bounds;

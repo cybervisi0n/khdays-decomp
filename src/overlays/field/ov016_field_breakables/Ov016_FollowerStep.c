@@ -11,7 +11,7 @@
  * bits, Ov016_FollowerComplete (020803b4) fires.  Always returns 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016Follower {

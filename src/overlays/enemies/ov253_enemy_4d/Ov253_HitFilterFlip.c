@@ -2,7 +2,7 @@
  * +0x44 latch is clear, flips the +0x14 direction, latches +0x44 and clears +0x24. Returns 1
  * when handled. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);
 

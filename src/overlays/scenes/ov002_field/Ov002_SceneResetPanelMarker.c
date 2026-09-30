@@ -13,7 +13,7 @@
  * keeps it in a register from the start, which is what the ROM does.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct {

@@ -5,7 +5,7 @@
  * the +0x438 claw, 1 and 15 on the actor's +0xa0 node (byte 4 as the variant). The base handler always
  * runs. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_CreateNodeXformTaskFx24(int model, int parent, int kind, int zero, int scale, void *spot);

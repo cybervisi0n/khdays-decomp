@@ -2,7 +2,7 @@
  * point (020cdafc), its height is set to the anchor's +0x30 and the vector is scaled by the +0x70
  * rate plus 0.5. Once the +4 item's +0xad byte clears the next move is 4. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);
 extern void ScaleVec3Fx12(int scale, VecFx32 *v, VecFx32 *d);

@@ -7,7 +7,7 @@
  * with the +0x44c item's +0x14 anchor), +0x28 is cleared, the actor reset (020cce08) and the
  * node moves to 020ce0d8. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct Ov245Actor { char pad[0x43c]; int parts[3]; };

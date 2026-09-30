@@ -9,7 +9,7 @@
  * requested and the tick hands off to a null callback. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;

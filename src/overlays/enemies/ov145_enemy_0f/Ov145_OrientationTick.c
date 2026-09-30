@@ -5,7 +5,7 @@
  * entry the +0x3c timer counts the frame-time down and, once spent, the sub-state is remembered
  * in +0x50 and sub-state 8 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Srt_SetRotationQuat(void *srt, int *quat);

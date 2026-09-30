@@ -6,7 +6,7 @@
  * heading and stops the sway. The +0x10 velocity is the heading times the climb, turned by the swing
  * angle, and the distance advances by the swung forward step of the frame. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 struct Bits17a { unsigned char bit0 : 1, bit1 : 1; };

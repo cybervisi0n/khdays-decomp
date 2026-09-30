@@ -2,7 +2,7 @@
  * interpolated). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct NNSG3dResJntAnm NNSG3dResJntAnm;
 

@@ -1,6 +1,6 @@
 /* Transforms the offset through the owner's matrix and scales it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_ActionResource_GetOffsetAndScale(void *src, void *out);

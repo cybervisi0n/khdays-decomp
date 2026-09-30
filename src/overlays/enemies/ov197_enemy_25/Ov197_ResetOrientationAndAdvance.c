@@ -1,7 +1,7 @@
 /* hw60 `hi |= 1` takes the EXPLICIT extract/reassemble form; the `|= 1` at +8 is a BYTE
  * field and needs a real bitfield type. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned int lo : 8, rest : 24; } Byte8;
 extern void SetIndexedSlot(int self, int index, void *cb);

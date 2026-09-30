@@ -1,7 +1,7 @@
 /* Transforms a local point by the object's scale, rotation and offset (copies it when the object is
  * flagged). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void VEC_Add(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);

@@ -2,7 +2,7 @@
  * normalised and scaled by 0x600 in sub-state 7 (0x330 otherwise); the +0x2c/+0x30 yaws follow
  * it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

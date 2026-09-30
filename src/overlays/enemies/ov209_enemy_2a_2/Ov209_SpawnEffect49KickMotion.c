@@ -6,7 +6,7 @@
  * 020d362c state.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct b8 { unsigned f : 8; };
 extern void func_ov107_020c0b90(int obj, int mode, VecFx32 v, int flag);

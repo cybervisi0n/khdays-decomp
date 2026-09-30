@@ -6,7 +6,7 @@
  * 0.83 per 0x88 of the step) and the goal eases towards the position (rate 0.5, capped at 0.25
  * per frame), while the goal's +0x3c0..+0x3c8 scale follows 3/4 of the timer capped at 1.5. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov245Actor { char pad[0x394]; int slots[3]; };

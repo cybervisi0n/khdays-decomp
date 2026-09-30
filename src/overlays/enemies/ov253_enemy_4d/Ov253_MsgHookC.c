@@ -4,7 +4,7 @@
  * coordinates (bytes 5..13) as a 4.0 ring entry on the +0x388 item's +0x464 ring (020d1e38).
  * Then the base hook (020c7500). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_CreateNodeXformTaskFx24(int list, int parent, int kind, int a, int scale, unsigned char *payload);
 extern int Ov107_AiState_OnMessage(int self, unsigned char *msg, int extra);

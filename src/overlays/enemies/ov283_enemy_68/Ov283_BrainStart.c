@@ -3,7 +3,7 @@
  * set and the three brain slots start (020cd108 in slot 1, 020ccdfc in slot 0, 020ccfb8 in slot 2). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

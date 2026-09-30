@@ -6,7 +6,7 @@
  * with the unnormalised t instead of the clamped one, as in the ROM. The determinant's absolute
  * value is a ternary: the if form spills it after the 64-bit sign-extended pairs instead of first. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);
 extern fx32 VEC_DotProduct(const VecFx32 *a, const VecFx32 *b);

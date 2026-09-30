@@ -2,7 +2,7 @@
 /* One object slot, 0x18 bytes. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov002ObjectSlot {
     void *pObject;                      /* +0x00 */

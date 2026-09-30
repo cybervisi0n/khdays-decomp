@@ -7,7 +7,7 @@
  * spawns there, animation 0x19 plays, reaction 0x146 mode 0xc fires at it, the timer at +0x4c
  * restarts and the tick hands over to Ov248_AiExpandingSweepTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct {

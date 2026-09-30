@@ -8,7 +8,7 @@
  * timer back at its idle value.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int func_ov022_0209fc78(int self, int a);
 extern int Ov022_IsIndexedRecordBit0Set(int self, int a);

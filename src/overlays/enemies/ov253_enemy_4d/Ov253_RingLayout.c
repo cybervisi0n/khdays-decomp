@@ -5,7 +5,7 @@
  * the owner's +0x88 model rebinds channels 0, 2, 1 and 4 to its +0xe0 and clears them; the
  * node moves to 020d1af4. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov253JointsNext { char *cur[1]; char *next[4]; };
 struct Ov253Links { char pad[0x390]; char *link[4]; };

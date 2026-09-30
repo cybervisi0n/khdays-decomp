@@ -7,7 +7,7 @@
  * requests sub-state 6; otherwise, within range, the next +0x39c path node (modulo the +0x3b8
  * count) becomes the point while its +0xc charge stays at or below 0x100, else sub-state 2. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov144_LureToPiece(int *state, int flag);
 extern int Ov107_ActionResource_GetOffsetAndScale(void *item, int mode);

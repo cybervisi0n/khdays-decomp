@@ -5,7 +5,7 @@
  * radius and a ray cast (each hit scales the velocity by the hit's +0xc fraction), drops the
  * target and advances to Ov173_EndDash. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

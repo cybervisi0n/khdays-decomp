@@ -2,7 +2,7 @@
  * 020d15f4) holds the owner, the effect rig and the position; the rig is moved there (0203ca30).
  * Returns the node handle. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int CreateRegistryEntry(int model, int a, int size, void *start, void *end, int **out);
 extern void Srt_SetTranslation(void *transform, const VecFx32 *translation);

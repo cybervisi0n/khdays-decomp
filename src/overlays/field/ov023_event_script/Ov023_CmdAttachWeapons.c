@@ -10,7 +10,7 @@
  * (variant 0) or "mi/mo/win_we.p2" (variant 1) started on it (02089390).  Returns 1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023SessionSlot {
     int  nField00;            /* 0x00 */

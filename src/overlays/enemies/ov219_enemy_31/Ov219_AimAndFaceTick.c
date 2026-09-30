@@ -10,7 +10,7 @@
  * matches. One of a 5-member family (ov215/216/217/264, byte-identical).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 static inline void VEC_Set(VecFx32 *vec, int x, int y, int z) {
     vec->x = x;

@@ -3,7 +3,7 @@
  * high byte and bit 0 of +0x1ae are raised, reaction 0x167 mode 4 fires at the point, the +0x50
  * timer restarts and the tick hands over to Ov279_TimerReseedRandom. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned int lo : 8, rest : 24; } Byte8;

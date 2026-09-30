@@ -8,7 +8,7 @@
  * +0x2c vector plus the drift, both turned by the heading (Ov232_rotateVecByOwnerYaw). When the +0x10
  * idle byte clears, sub-state 2 is requested and the tick ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 

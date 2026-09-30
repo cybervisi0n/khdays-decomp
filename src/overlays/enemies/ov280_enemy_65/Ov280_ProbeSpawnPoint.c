@@ -16,7 +16,7 @@
  * what makes mwcc load the stack parameter at entry and keep its `& 0xff` in a callee-saved
  * register across the gather call. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_CollectSphereOverlaps(int owner, int kind, void **list);

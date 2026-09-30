@@ -2,7 +2,7 @@
  * 1 on a hit. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Segment {
     VecFx32 p0;

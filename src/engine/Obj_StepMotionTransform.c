@@ -35,7 +35,7 @@
  * it into (angle>>4)*4, moves the shift before the literal pool and permutes the r0/r1 pair.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern short data_0203d210[];   /* global {s16 sin, s16 cos} angle table, 4 bytes per entry */
 extern int  Anim_GetBlendFactor(int curveId, int timerId, int timer);

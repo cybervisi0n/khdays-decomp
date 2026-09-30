@@ -9,7 +9,7 @@
  * the aim point; the timer is cleared and the 020ceb74 state registered.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void VEC_Add(void *a, void *b, void *out);

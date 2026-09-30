@@ -9,7 +9,7 @@
  * 020cf3a4. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Ov254_KnockbackAtFeet(int actor, int side);

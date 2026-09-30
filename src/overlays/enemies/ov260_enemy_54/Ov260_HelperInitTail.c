@@ -4,7 +4,7 @@
  * loads from the +0x38c owner's kit entry 0x31 and registers with the +0x9c scene. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int CreateSubitemInstance0xB4(int item);

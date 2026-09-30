@@ -2,7 +2,7 @@
  * +0x388 shape hides, the +0x10 velocity rests and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

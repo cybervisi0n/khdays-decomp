@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void ScaleVec3Fx12(int s, int dst, int src);
 extern void Ov107_PostTagUpdate(int obj, int a, int b);

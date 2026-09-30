@@ -11,7 +11,7 @@
  * else 0x17a). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[12]; } IdTable;

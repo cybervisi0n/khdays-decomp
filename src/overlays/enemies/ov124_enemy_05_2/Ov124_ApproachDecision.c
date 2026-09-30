@@ -6,7 +6,7 @@
  * +0x228 and sub-state 4 is requested; otherwise the timer counts down and, once spent, does the
  * same -- both only while the +0x394 item's +0x60 low bit is clear. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

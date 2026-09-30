@@ -8,7 +8,7 @@
  * move is 10 when the +0x3bd flag is up, else 8 (consuming +0x52 bit 1) or 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int radius; int flag; } Cyl;
 typedef struct { int value; } Fx32;

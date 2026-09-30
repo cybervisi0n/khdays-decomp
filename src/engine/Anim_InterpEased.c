@@ -4,7 +4,7 @@
  * branch is written inline in the final sum; as a named local the last add swaps its operands. */
 #pragma thumb on
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern fx32 FX_Mul(fx32 a, fx32 b);   /* FX_Mul */
 

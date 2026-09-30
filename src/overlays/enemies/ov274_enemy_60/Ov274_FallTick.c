@@ -4,7 +4,7 @@
  * animation 4 (mode 1), +0x20 and the flag clear and the tick hands over to
  * Ov274_ChargeTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov107_BuildAndSendUpdate(int owner, int id, int mode, void *at);

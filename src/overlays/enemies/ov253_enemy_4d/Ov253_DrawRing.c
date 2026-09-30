@@ -3,7 +3,7 @@
  * marker into the global state's 0xc4/0xc8/0xcc slots, draws the model at the entry's +0x2c
  * with polygon id `i mod 63` on the +0x88 object's +0x78 model and reruns its +0x20 channels. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void MTX_Identity33_(int *m);
 extern void NNS_G3dGlbSetBaseTrans(const VecFx32 *target);

@@ -8,7 +8,7 @@
  * window 0x1c28 / 0x990 of Ov252_BlastTick and the 6.5 hover height of 020cec2c). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { u8 normal[2]; u8 special[2]; int unused[3]; } HitFilterTemplates;
 

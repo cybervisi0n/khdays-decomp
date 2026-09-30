@@ -6,7 +6,7 @@
  * the +4 rig is idle poses 9 / partner 5 play and the brain waits on 020cec58. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int ext[3]; } Box;

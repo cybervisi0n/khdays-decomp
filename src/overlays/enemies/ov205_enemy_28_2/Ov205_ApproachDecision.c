@@ -7,7 +7,7 @@
  * +0x228, the overlay's probe offset is rotated by the target yaw and a 0..100 roll picks
  * sub-state 6 (below 40, when the probe finds nothing), 0xb (70 and up) or 7. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

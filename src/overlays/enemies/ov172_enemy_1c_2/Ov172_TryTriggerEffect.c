@@ -1,7 +1,7 @@
 /* Hit reaction: in action 1, when the hit flags have bits 0 and 4 set, fires the effect at the
  * stored position and queues action 0; returns whether it did. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int func_ov107_020c0b90(int a, int b, VecFx32 v, int c);
 

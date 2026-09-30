@@ -2,7 +2,7 @@
  * (bit 0 of its +8 byte), the +0x10 velocity resets to zero and the node moves to 020d1ae8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

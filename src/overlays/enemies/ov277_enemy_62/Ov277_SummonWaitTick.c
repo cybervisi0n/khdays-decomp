@@ -3,7 +3,7 @@
  * +0x190 point raised by 10.0, the low half of +0x18 counts up and the timer resets. Once that
  * count reaches 8 the +0x384 item's +0xa8 flag clears and the node moves to 020d0c14. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Hw60 { unsigned short lo : 8; unsigned short hi : 8; };
 struct Count18 { int lo : 16; int hi : 16; };

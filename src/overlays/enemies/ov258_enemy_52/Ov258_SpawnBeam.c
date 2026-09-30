@@ -4,7 +4,7 @@
  * is stored in +0x49 and +0x4a marks the second variant. Returns the node handle. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct EffectPair { int res; int handle; };
 struct Ov258Effects { char pad[0x464]; struct EffectPair pair[0x30]; };

@@ -8,7 +8,7 @@
  * of the direction and the tick hands over to Ov268_AdvanceAimGiveUp. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 static inline unsigned short FX_RadToIdx(int rad) {

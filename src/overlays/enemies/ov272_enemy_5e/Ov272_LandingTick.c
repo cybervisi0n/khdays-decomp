@@ -2,7 +2,7 @@
  * placed 1.8 above the +0x48 point, takes its +0x1c9 return sub-state as the requested one
  * (+0x1c7) and the node's slot is released with no follow-up handler. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

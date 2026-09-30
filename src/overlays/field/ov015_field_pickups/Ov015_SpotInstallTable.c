@@ -12,7 +12,7 @@
  * (bit 0 of +0x40) and, without a player (+0x180 == -1), also live (bit 1). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov015SpotEntry {
     s8  nId;                  /* 0x00 */

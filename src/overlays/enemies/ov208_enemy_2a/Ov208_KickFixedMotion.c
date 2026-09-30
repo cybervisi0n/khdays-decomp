@@ -4,7 +4,7 @@
  * Reset state[0xb] = 0 (elapsed) and the *(u8)(state+0x49) flag, then hand off to the 020d22e0 state.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern VecFx32 data_02041dc8;
 extern void func_ov107_020c0b90(int obj, int mode, VecFx32 v, int flag);

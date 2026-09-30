@@ -15,7 +15,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Anim {
     u8 pad0000[0xa4];

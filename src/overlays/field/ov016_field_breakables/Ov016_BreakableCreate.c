@@ -9,7 +9,7 @@
  * the node's +0x148 block to 3 (02029438) and register the piece (02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov016BreakableDef {
     u8 pad_00[0x84];

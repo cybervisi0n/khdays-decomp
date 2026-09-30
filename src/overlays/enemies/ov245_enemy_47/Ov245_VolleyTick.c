@@ -6,7 +6,7 @@
  * the actor's +0x3c4 to -0.375. Unless the scene's +0xad flag is set, shots left restart the
  * timer on 020d2714, otherwise pose 2 and 020d27b4. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Ov245Actor { char pad[0x390]; int slots[10]; };

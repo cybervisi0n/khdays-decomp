@@ -6,7 +6,7 @@
  * tick; beyond 14.0 the tick goes back to Ov279_StalkTick, within 3.0 on to
  * Ov279_BackOffTick, and beyond the owner's +0x2d8 leash sub-state 2 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Bits40 { int b0 : 1, b1 : 1; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

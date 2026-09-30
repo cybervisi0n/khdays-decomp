@@ -23,7 +23,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define ACTION_BIT 4
 #define NODE_NO_ANIM 0x20

@@ -5,7 +5,7 @@
  * lands there; the actor's +0x1c9 move becomes the pending one and the handler is cleared. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Hw60 { u16 lo : 8; u16 hi : 8; };

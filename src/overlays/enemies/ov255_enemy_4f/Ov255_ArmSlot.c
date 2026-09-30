@@ -2,7 +2,7 @@
 /* Arms the slot: clears the timer, marks it active, flags the node dirty, drops the pending
  * target and snapshots the base pose into the working one. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 void Ov255_ArmSlot(int *self) {
     char *node;

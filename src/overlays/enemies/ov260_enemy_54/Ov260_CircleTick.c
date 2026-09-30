@@ -6,7 +6,7 @@
  * is armed (+0xc = 020cebe4) and the node moves on to 020cf484. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

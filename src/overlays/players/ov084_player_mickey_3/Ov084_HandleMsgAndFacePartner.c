@@ -21,7 +21,7 @@
  *    Checklist item 5, and the tell is a `bl` with no visible use of its result.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *dst);
 extern int VEC_Mag(const VecFx32 *v);

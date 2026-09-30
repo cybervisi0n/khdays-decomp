@@ -4,7 +4,7 @@
  * the negated +0x4c8 anchor direction plus -1.5 times the +0x430 item's +0x3bc direction, and if
  * the item has no +0x38c target the actor is reset (020cce28) and the node moves to 020cde98. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov245_AnimGate(int actor);
 extern int FX_Div(int num, int den);

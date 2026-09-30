@@ -14,7 +14,7 @@
  * The tie is retired.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov198_BuildHeadingRotation(int *state, VecFx32 v, int flag);

@@ -4,7 +4,7 @@
  * turned by the +0x1c orientation and stored in *dir, its speed in *speed (either may be null),
  * with or without a target. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

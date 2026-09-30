@@ -6,7 +6,7 @@
  * +0x38c item at (x, actor +0xb4, z), copies its placement to the first +0x390 item, and clears
  * the joint's +0x24 word and +0x92 byte. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct { int m[9]; VecFx32 t; } MtxFx43;

@@ -10,7 +10,7 @@
  * bit 4 raised.  Answers 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016HitInfo {

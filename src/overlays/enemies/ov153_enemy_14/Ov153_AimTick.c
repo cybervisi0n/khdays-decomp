@@ -7,7 +7,7 @@
  * along that vector. Finally the byte behind +0xc (the item's +0xad) being clear ends the aim in
  * sub-state 2. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);

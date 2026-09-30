@@ -6,7 +6,7 @@
  * accumulates the frame rate and past 0.6, or once blocked (+0x17a bit 1), pose 0 is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;
 struct Bits17a { unsigned char b0 : 1, b1 : 1; };

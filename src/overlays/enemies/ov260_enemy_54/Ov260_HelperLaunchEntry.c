@@ -4,7 +4,7 @@
  * node moves on to 020d1fa0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { unsigned f : 8; } B8;

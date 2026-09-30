@@ -5,7 +5,7 @@
  * back again (mode 0xc) and the node moves on to 020cf1d4. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov259_RefreshAim(int *node);

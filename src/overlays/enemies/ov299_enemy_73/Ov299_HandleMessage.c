@@ -4,7 +4,7 @@
  * parts 1/2) under the +0x3c owner, and part 1 spawning within 0xa000 of the player (the
  * manager's first actor +0x88) fires effect 1 on the actor. The base handler always runs. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 

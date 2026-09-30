@@ -2,7 +2,7 @@
  * replacement spawn. Preserve both RNG advances, including the discarded draw. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct ActorTransform {char pad0[0x78];int nSlotTableIndex;} ActorTransform;
 typedef struct ActorXfmBlock {u32 aPrefixWords[4];VecFx32 vPosition;u32 aSuffixWords[4];} ActorXfmBlock;

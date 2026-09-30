@@ -4,7 +4,7 @@
  * (pose 0x15, part motion 0xb, cues re-armed, node 020d16e8); out of charges (+0x2d) the walk resets
  * (pose 0xf, motion 5) and also goes to 020d16e8; otherwise the node goes back to 020d1510. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

@@ -12,7 +12,7 @@
  * once (+0x418 bit 6); beyond it effect 9 is stopped (0xff) and the launch bit clears. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int q[4]; } Quat;
 

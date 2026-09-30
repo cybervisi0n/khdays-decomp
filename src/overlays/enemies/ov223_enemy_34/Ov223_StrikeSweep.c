@@ -9,7 +9,7 @@
  * reaction 0x149 mode 8 fires at the +8 point and the bit is set. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int value; } Fx32;
 typedef struct { int q[4]; } Quat;

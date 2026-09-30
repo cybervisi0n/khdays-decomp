@@ -7,7 +7,7 @@
  * (+0x3d0 / +0x3d2) is left, the actor's +0x3d4 bit 0 is set and the node moves to 020d54e0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct m4 { int w[4]; };

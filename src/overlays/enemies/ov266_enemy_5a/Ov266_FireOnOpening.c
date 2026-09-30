@@ -14,7 +14,7 @@
  * ldm r3, {r2,r3}` straddle -- a 12-byte 3rd argument goes half in r2/r3 and half in the outgoing
  * stack slot, with the 4th argument (1) landing at [sp, #4]. See codegen-cracks.md. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov266_IsState6cActive(int *ctx, int a);
 extern void func_ov107_020c0b90(int obj, int kind, VecFx32 v, int flag);

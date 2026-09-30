@@ -5,7 +5,7 @@
  * owner's +0x74 handler when present; the +0x1c timer clears and slots 1 / 2 take 020d1d28 /
  * 020d1cf0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

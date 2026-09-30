@@ -4,7 +4,7 @@
  * +0x50 = 1, pose 6 plays with effect 0x24 at the +0x1c point and the brain waits on 020cfb10. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { u8 lo : 4; u8 hi : 4; } NibblePair;

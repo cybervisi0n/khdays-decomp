@@ -6,7 +6,7 @@
  * The +0x48 timer advances and, in moves 2-4, the +0x50 countdown runs down to 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

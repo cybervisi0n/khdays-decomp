@@ -6,7 +6,7 @@
  * Ov119_ChooseNextAttack ends the tick; beyond 5.0 the tick goes back to Ov119_CircleTick, and
  * beyond the owner's +0x2d8 leash sub-state 2 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Bits40 { int b0 : 1, b1 : 1; };

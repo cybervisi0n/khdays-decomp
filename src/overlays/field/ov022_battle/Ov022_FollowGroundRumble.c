@@ -12,7 +12,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define FLAT_MIN 0xfc0
 #define RUMBLE_STRENGTH 0x333

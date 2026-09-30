@@ -3,7 +3,7 @@
  * +0x14 timer and +0x18 flag clear, +0x19 is set and the brain waits on 020d0800. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void SrtTransform_SetIdentity(void *transform);
 extern void Srt_SetScaleXYZ(void *transform, int x, int y, int z);

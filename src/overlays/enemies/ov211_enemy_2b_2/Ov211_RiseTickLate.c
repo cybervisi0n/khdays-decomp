@@ -4,7 +4,7 @@
  * 1.0) lifts the +0x34 base down by up to 6.0 and the owner is announced there (ov107 c5c54).
  * Once the +0xc idle byte clears, sub-state 0x12 is requested and the action ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_BuildAndSendUpdate(int a, int b, int c, int d);

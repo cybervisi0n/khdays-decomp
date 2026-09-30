@@ -11,7 +11,7 @@
  * its pool load is created before the actor parameter is homed (r3, not r0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov220ActionState {
     int pOwner;

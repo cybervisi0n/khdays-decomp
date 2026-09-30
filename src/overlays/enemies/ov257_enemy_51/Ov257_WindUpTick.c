@@ -6,7 +6,7 @@
  * or 5.0 on the timer, picks 0xd; within 2.0 the rig's +0xa8 byte clears and the tick hands over to
  * Ov257_WindUpHoldTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Ov107_BuildAndSendUpdate(int owner, int id, int mode, void *at);

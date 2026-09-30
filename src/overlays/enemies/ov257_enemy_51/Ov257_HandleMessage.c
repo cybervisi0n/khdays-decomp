@@ -9,7 +9,7 @@
  * goes to the common handler. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Pair { int res; int handle; };
 

@@ -1,7 +1,7 @@
 /* Spawns the landing effect at the point through a placement message to the battle module, using
  * the stronger variant when flagged. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov022_SendPlacementMessage(int self, void *p);
 

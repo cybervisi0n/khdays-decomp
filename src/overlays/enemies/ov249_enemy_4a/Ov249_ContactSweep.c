@@ -6,7 +6,7 @@
  * (kinds 0/5), mode 6 (kind 1) or reaction 0 mode 0x53 (kind 2) fires at the +0xc position. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 

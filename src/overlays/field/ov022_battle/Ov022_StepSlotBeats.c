@@ -23,7 +23,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 #define BEAT_THRESHOLD 0x23000

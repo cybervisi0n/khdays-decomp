@@ -2,7 +2,7 @@
  * Once the partner holds no queued move, the first time health (+0x21a) is at or below half of the
  * maximum (+0x218) the actor flees (+0x80 set, move 0xd); otherwise it returns to move 4. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void ScaleVec3Fx12(int scale, VecFx32 *v, VecFx32 *d);
 extern void SetIndexedSlot(int *node, int slot, void *cb);

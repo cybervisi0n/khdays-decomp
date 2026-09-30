@@ -1,6 +1,6 @@
 /* Queues action 1 and stores the mode, destination and zero velocity. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern VecFx32 data_02041dc8;
 

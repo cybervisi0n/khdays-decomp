@@ -6,7 +6,7 @@
  * side 0 / 2; the drop count falls, the timer restarts and the side cycles through 0..2.
  * With no drops left the node moves to 020cdbfc. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov245Actor { char pad[0x3fc]; int slots[9]; };
 

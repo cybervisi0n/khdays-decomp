@@ -2,7 +2,7 @@
  * (Ov235_SteerToTarget) into the +0x10 step. Once the +0xc idle byte clears a d101 picks the next
  * sub-state -- 0xc below 40, 9 below 80, else 2 -- and the tick ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Ov235_SteerToTarget(int *state, int point, VecFx32 *dir, int *speed);

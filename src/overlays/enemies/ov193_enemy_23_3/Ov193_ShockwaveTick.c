@@ -4,7 +4,7 @@
  * direction from the state's +4 origin (flags 0x18). The +0x24 timer advances by the node's
  * +0x2c speed and at 0xa00 the sub-state drops to 0 with the slot cleared. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int *List_First(void *list);
 extern int *List_Next(void *list);

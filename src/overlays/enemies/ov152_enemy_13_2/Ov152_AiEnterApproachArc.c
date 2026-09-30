@@ -26,7 +26,7 @@
  * long long, casting its result, or folding the addend to a constant zero all drop
  * the instruction and land at 408 bytes. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

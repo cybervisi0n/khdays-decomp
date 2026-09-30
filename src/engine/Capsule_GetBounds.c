@@ -2,7 +2,7 @@
  * times its length (+0x18), widened on every axis by the radius (+0x1c). The box is
  * min x/y/z then max x/y/z. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     VecFx32 pos;        /* 0x00 */

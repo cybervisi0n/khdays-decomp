@@ -7,7 +7,7 @@
  * position and 0x34 starts the +0x580 sound 0x148/6. The base handler always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 typedef struct { int b0 : 1; int b1 : 1; } Bits;

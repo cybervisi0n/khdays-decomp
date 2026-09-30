@@ -17,7 +17,7 @@
  * step is reset to the zero vector (data_02041dc8) for the next frame. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023Entity {
     int  nFlags;              /* 0x00 */

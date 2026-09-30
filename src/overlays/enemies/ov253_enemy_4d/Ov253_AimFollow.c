@@ -3,7 +3,7 @@
  * scaled by the distance gives an aim point, kept at least 1.0 above the +0x24 height; the
  * rotation is then rebuilt to face that point (0202ed60). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);

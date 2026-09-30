@@ -3,7 +3,7 @@
  * *(owner+0x388)+8, copies the owner's +0x394 facing into +0x18 and scales it by 0x500 into the
  * +0xc velocity, clears bit 0 of the +0x24 flags and the +0x2c timer, then hands off to ce5d4. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo:8, hi:8; };
 struct b8 { unsigned int b:8; };

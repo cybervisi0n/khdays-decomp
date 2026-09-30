@@ -5,7 +5,7 @@
  *
  * Matched byte-exact 2026-07-23, first compile. One of three byte-identical siblings. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov107_BuildAndSendUpdate(int obj, int a, int b, int c);
 extern void ScaleVec3Fx12(int scale, void *in, void *out);

@@ -6,7 +6,7 @@
  * resets and sub-state 6 is configured (part action 2, flag 1) before handing off to cd54c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

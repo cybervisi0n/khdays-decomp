@@ -7,7 +7,7 @@
  * the node moves on to the armed +0xc entry, if any. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { VecFx32 pos; int nRadius; } Sphere;

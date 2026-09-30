@@ -7,7 +7,7 @@
  * +0x3b8. The base hook always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 struct Pair { int res; int handle; };

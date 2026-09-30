@@ -1,7 +1,7 @@
 /* Angle between the `dir` heading and `angle` (0203cd20 of the dot product of their unit vectors),
  * made positive when `absolute` is set. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int func_020050b4(int x, int z);

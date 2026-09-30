@@ -5,7 +5,7 @@
  * tick hands off to the attack tick. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct b8 { unsigned f : 8; };

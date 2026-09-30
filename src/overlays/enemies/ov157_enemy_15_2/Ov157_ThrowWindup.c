@@ -7,7 +7,7 @@
  * goes idle the +0x34 cooldown is rolled between the actor's +0x224/+0x228 bounds, sub-state 2
  * is requested and the state ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
