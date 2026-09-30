@@ -5,7 +5,7 @@
  * velocity, or zero when it is no longer than 0x10 (VEC_Mag). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023Actor {
     u8   pad_0000[0x15cc];

@@ -7,7 +7,7 @@
  * mode 1 (rate 1.8), reserves the +0x22c capsule (+0x388) and one +0x144 capsule (+0x38c, its
  * body at +0x2cc) of length 1.75 and radius 0.9 along +Y, and loads sound 0x167. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { void *node; int pad; } Slot;
 typedef struct { int w[5]; } KindTable;

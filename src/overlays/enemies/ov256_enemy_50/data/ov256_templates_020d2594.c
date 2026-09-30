@@ -3,7 +3,7 @@
  * is why they live here). Objects with a trailing unused vector carry an initializer the function
  * declares but never reads. Q12 fixed point throughout. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 used; VecFx32 unused; } VecPair;
 typedef struct { VecFx32 v[4]; } Vec3x4;

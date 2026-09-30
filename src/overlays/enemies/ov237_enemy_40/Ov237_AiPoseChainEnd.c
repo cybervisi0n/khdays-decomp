@@ -1,6 +1,6 @@
 /* Fetch the target vector via 020cdb50 into +0x3c; unless busy mark state 2 and dispatch. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern VecFx32 Ov237_RotateByActorHeading(int *node, VecFx32 *target);
 extern int SetIndexedSlot(int, int, int);

@@ -7,7 +7,7 @@
  * 0x10 (too far); if no target, next-state 0x10. Hand off via 0203c634 (cb=0).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int  Ov107_FindNearestObject(int obj, int *out);

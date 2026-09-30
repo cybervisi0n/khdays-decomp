@@ -8,7 +8,7 @@
  * Latched, for 0xdd0 more (+0x28) a sphere at +0x18 grows to 10.0 and is tested instead. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[4]; VecFx32 trans; int pad[4]; } Srt;

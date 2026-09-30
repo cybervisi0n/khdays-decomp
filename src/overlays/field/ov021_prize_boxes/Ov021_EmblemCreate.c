@@ -6,7 +6,7 @@
  * and registers it (ov002 02076480). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov021Emblem {
     u8   pad_000[0xc];

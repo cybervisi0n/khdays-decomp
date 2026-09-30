@@ -11,7 +11,7 @@
  * of shuffling.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;
 

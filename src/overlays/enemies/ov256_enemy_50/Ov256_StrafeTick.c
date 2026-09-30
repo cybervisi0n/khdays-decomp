@@ -5,7 +5,7 @@
  * partner's +0x3c item's +0xad byte clears, or the partner's +0x3a0 request is empty, the request
  * clears and the next move is 1. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

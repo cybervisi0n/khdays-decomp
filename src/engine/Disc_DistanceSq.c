@@ -6,7 +6,7 @@
  * rim point is returned. A point on the ring's axis is radius^2 + height^2 away. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Disc {
     VecFx32 centre;                     /* +0x00 */

@@ -2,7 +2,7 @@
 /* Stores the caller's vector into the slot and records the mode; mode 0 also clears the owner's
  * pending-target field. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 int Ov218_StoreTargetVector(char *self, int mode, char *src) {
     char *slot = *(char **)(self + 0x214);

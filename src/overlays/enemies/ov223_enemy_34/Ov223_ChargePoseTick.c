@@ -2,7 +2,7 @@
  * in variants 0 and 1, the owner's +0xa0 pose is scaled by 2.0 x +0x40 (y by the inverse of
  * 0x733 over 1.0) and set to face the +0x20 target from data_02042240 (ed60). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int q[4]; } Quat;
 

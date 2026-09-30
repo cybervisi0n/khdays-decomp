@@ -7,7 +7,7 @@
  * origin are registered in the +0x22c (16) and +0x144 (4) pools; the second is kept in +0x3b0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 typedef struct { char data[0x24]; } AnimSlot;

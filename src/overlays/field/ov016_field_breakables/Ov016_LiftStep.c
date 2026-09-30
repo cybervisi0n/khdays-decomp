@@ -12,7 +12,7 @@
  * (0202aa9c) while the model is bound (bit 2 of +0x12).  Always 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016LiftMessage {

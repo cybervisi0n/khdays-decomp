@@ -3,7 +3,7 @@
  * pose, the +0x58 timer accumulates the frame rate and the +0x54 cooldown counts down while not
  * negative; the +0x10 step is handed to the owner's +0xf0 velocity and cleared. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[4]; } Quat;
 

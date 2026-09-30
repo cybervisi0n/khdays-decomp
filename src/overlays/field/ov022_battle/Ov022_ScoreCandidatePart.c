@@ -2,7 +2,7 @@
  * line of sight); returns whether one was selected. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov022LowByte32 {
     unsigned int lowByte : 8;

@@ -5,7 +5,7 @@
 /* One object, not two: the position vector is its head and the projectile fields are its
  * tail, which is why the ROM passes a single pointer. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct FireParams {
     VecFx32 vPos;

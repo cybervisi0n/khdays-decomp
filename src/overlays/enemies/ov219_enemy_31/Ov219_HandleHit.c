@@ -11,7 +11,7 @@
  * the actor parameter is homed (r3, not r0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov219ActionState {
     int pOwner;

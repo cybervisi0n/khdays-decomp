@@ -2,7 +2,7 @@
  * (+0x17a bits 0 / 1), it turns to the +8 target (+0x78 / +0x7c heading) and the next move is 0xa. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Flag17a { u8 b0 : 1; u8 b1 : 1; };
 

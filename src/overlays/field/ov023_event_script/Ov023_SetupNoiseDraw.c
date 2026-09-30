@@ -8,7 +8,7 @@
  * into data_02047428 with MI_Copy36B); the matching dirty bits are cleared each time. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct MtxFx33 {
     int  a[9];                /* 0x00 */

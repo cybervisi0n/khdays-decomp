@@ -12,7 +12,7 @@
  * Returns the chest. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov015SeqNode {
     u16  nFlags;              /* 0x00 */

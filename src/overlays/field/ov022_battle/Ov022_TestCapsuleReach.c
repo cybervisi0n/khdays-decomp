@@ -8,7 +8,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define END_COUNT 2
 #define SEGMENT_END 0x1000

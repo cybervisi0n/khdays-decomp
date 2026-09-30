@@ -9,7 +9,7 @@
  *
  * One of five byte-identical siblings. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void ScaleVec3Fx12(int a, void *b, void *c);

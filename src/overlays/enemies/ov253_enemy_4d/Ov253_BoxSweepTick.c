@@ -4,7 +4,7 @@
  * from the item; the +0x24 timer runs up and past 6.0 sub-state 0 is requested and the node
  * slot released. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int List_First(int list);
 extern int List_Next(int list);

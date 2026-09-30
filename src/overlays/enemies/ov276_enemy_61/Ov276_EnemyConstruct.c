@@ -11,7 +11,7 @@
  * +0x22c/+0x144 lists (+0x3ac/+0x3b0) at the zero vector, then loads sound 0x164. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Box {
     int xmin, ymin, zmin;

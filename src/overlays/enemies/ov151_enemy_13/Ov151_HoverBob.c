@@ -3,7 +3,7 @@
  * lifts the +0x10 height; the +0xc offset is handed to the actor's +0xf0 vector and reset to
  * the zero vector. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern const short data_0203d210[];
 extern const VecFx32 data_02041dc8;

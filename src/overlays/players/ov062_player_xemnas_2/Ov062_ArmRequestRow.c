@@ -3,7 +3,7 @@
  * rewound, then the row is marked live, its +0xa8 / +0x224 vectors copied from the two
  * arguments and its +0x1b0 vector computed from the slot's world position (4ef0). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void BindAnimTrack(void *animation, int track, void *table, short mode);   /* BindAnimTrack */
 extern void Anim_SetFrameWrapped(void *animation, int track, int frame);                /* Anim_SetFrameWrapped */

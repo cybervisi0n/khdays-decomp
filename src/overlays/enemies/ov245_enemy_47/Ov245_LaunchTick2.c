@@ -3,7 +3,7 @@
  * scales it by the speed; once the +4 item's animation is no longer busy (+0xad) pose 9 plays
  * (flag 1), +0x40 clears, bit 6 of the +0x60 high byte clears and the node moves to 020d6f30. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

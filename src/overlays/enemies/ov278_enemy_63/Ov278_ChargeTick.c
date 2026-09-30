@@ -5,7 +5,7 @@
  * timer runs down instead and at its end the actor requests move 9. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct PartFlags { unsigned int lo : 8; };
 

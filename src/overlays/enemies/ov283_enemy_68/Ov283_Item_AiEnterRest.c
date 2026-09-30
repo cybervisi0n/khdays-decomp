@@ -1,6 +1,6 @@
 /* Clears the holder link, sets the 0x80 stance flag and clears bit 0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern const VecFx32 data_02041dc8;
 extern void SetIndexedSlot(int *a, int i, int v);

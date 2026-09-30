@@ -5,7 +5,7 @@
  * move is 1 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov256_AttackHitTestB(int *node, int a, int b);
 extern void ScaleVec3Fx12(int scale, VecFx32 *v, VecFx32 *d);

@@ -6,7 +6,7 @@
  * pushed to the render hook (cmd 1), pose 2 plays and the release handler (020cee40) follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Vec4;

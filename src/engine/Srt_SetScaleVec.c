@@ -1,6 +1,6 @@
 /* Sets an SRT's scale from a vector and marks it non-identity and non-uniform. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Obj {
     char pad[0x1c];

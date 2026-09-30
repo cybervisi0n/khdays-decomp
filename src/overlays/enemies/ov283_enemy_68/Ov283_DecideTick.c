@@ -5,7 +5,7 @@
  * +0x60 timer spent 5, else 4 (+0x7c = the roll passed 2.36, +0x3c cleared). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { u8 b0 : 1; u8 b1 : 1; } Bits;

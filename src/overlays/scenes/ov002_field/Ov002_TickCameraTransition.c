@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int QueryActiveStateOrDelegate(void);
 extern int *GetEntryField20ByIndex(int nPlayer);

@@ -14,7 +14,7 @@
  * `add r0,r0,#0x14 ; str r0,[r6,#0x2cc]` comes back.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov142Pose {
     VecFx32 position;

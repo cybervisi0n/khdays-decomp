@@ -16,7 +16,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     char pad000[0x78];

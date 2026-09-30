@@ -3,7 +3,7 @@
  * by 0x800 becomes the +0x18 goal and the +0xc target (reporting 1) when its flat distance from
  * the actor's +0x74 position is within the range. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov002_List_GetMode(void);
 extern int Ov144_ChargeRange(int *state, int flag);

@@ -11,7 +11,7 @@
  * animation is free (+0xad), remaining +0x28 swings without a landing re-plan the turn
  * (020d40e8); otherwise pose 2 and the node moves to 020d462c. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int scale; } Segment;
 struct Capsule { Segment seg; int radius; };

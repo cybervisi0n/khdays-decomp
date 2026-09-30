@@ -2,7 +2,7 @@
  * slots, registers its sequence and requests its resources. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { void *node; int pad; } Slot;
 typedef struct { int w[5]; } KindTable;

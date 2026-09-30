@@ -3,7 +3,7 @@
  * +0x39c and +0x398 joints' +0x14 anchors at +8 / +0x14, clears +0x20 and moves the node to
  * 020d1248. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[11]; } Pose44;
 struct Ov253Item { char pad[0x30]; Pose44 pose; };

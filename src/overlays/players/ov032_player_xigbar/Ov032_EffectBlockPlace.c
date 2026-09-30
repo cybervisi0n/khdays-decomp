@@ -4,7 +4,7 @@
  * hands in the local offset {0x148, 0x1429, 0x6e1} rotated by the heading and added to the
  * actor's +0x48c position at +0xb0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct b1 { unsigned char b0 : 1; };
 

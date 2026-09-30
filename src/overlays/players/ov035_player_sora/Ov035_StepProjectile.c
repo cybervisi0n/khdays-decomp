@@ -17,7 +17,7 @@
  * the source.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Bit0 { unsigned char b : 1; };
 

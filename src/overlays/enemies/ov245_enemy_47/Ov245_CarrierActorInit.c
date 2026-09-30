@@ -8,7 +8,7 @@
  * list with bit 1 of its +8 low byte, +0x38c on the +0x144 list) and three +0x394 slots (020d07f0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 struct w8 { unsigned int lo : 8, rest : 24; };

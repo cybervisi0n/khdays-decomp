@@ -4,7 +4,7 @@
  * +0x434 route list is copied to +0x18, +0x6c advances modulo the +0x454 count and 1 is returned;
  * 0 when the route is empty. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov107_FindNearestObject(int obj, int flag);

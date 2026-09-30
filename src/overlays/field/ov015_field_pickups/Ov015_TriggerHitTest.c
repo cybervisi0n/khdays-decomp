@@ -5,7 +5,7 @@
  * and answers 1 / 0; any other kind answers -1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov002_PointWithinBoxRange(VecFx32 *pCentre, VecFx32 *pExtent, VecFx32 *pPoint, int nRadius); /* point within the box */

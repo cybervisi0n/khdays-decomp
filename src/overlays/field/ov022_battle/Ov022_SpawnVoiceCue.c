@@ -9,7 +9,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Actor {
     unsigned int nFlags;         /* 0x0000 */

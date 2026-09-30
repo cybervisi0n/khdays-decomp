@@ -13,7 +13,7 @@
 /* Ov022AnimBlock */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct AnimBlock {
     u16 nFlags;                  /* 0x00 */

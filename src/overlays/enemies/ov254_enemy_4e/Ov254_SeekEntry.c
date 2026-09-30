@@ -5,7 +5,7 @@
  * counters and +0x71 flag clear and the node moves to 020ce7a0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov254_PickRoutePoint(int *state);
 extern void Ov107_PostTagUpdate(int actor, int pose, int flag);

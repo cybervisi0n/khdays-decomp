@@ -4,7 +4,7 @@
  * 2 and the +0x3a4 part's motion 1 play looped, +0x50 and +0x66 clear and the tick hands over to
  * Ov255_WindUpTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);

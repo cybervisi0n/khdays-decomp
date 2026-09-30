@@ -11,7 +11,7 @@
  * is the 64-bit AND truncated to int (low word in r1). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Emit {
     char pad00[0xc];

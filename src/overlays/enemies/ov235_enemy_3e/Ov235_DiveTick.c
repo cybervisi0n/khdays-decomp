@@ -4,7 +4,7 @@
  * idle byte clears and the owner is grounded (+0x17a bit 0), animation 6 plays, the +0x3a8 part
  * plays motion 5 and the tick hands over to Ov235_DecideTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Bits17a { unsigned char b0 : 1; };

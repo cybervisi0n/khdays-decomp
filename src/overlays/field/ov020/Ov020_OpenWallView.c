@@ -11,7 +11,7 @@
  * declared before the node pointer so the two land in the original's registers.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov020WallQuery {

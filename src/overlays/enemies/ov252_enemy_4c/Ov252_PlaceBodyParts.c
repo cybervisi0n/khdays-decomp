@@ -7,7 +7,7 @@
  * +0xa0 state, drops the +0x580 effect when out of phase 5, finishes the +0x6a8 task once the
  * part is gone and runs the common actor update. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Srt {
     int     aRot[4];

@@ -17,7 +17,7 @@
  * the second cast is an int (an s16 delays the fall load past the spill stores). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct CollCastParams {
     VecFx32 *origin;                    /* +0x00 */

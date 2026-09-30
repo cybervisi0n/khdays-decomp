@@ -6,7 +6,7 @@
  * edge with the face normal (func_01ffcf48) and whose distance is taken at the edge's first
  * vertex. The first parameter is unused. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { fx16 x, y, z; } VecFx16;
 

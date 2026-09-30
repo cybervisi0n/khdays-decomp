@@ -3,7 +3,7 @@
  * high byte around raising bit 0 of +0x1ae, clear the +0x48 counter and advance to
  * Ov174_DashTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void func_ov107_020c0b90(int obj, int a, VecFx32 v, int d);

@@ -7,7 +7,7 @@
  * Once the +4 rig is idle, a pending +0x2d hand-over runs 020d2020, otherwise the clock resets,
  * +0x31 becomes 2 and message 7 / phase 7 follow. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { VecFx32 pos; int nRadius; } Sphere;

@@ -23,7 +23,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define CAST_FLAGS 0xf
 #define GROUND_BAND 0x100

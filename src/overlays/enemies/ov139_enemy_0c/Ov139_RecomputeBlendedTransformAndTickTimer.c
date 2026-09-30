@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Quat_FromTwoVectors(int *out, int *tbl, int v);

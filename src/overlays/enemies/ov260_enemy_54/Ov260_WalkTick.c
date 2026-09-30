@@ -7,7 +7,7 @@
  * holds no queued move pose 2 plays, the part takes motion 1 and the timer and cues restart. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

@@ -2,7 +2,7 @@
  * requests sub-state 2 and returns -1), aims the +0x10 yaw from the +0xb0 position at the
  * target's +0x190 point and returns the flat distance. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);
 extern void VEC_Subtract(void *a, void *b, VecFx32 *d);

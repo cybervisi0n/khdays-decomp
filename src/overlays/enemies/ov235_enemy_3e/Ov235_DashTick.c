@@ -9,7 +9,7 @@
  * Ov235_HoverTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int value; } Fx32;
 typedef struct { u16 lo; u16 hi; } Cmd4;

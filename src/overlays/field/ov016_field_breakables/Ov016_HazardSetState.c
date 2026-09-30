@@ -6,7 +6,7 @@
  * switching off) that drop is spawned at the hazard's position (+0xe0, 02033d0c). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov016HazardDef {
     u8 pad_00[0x68];

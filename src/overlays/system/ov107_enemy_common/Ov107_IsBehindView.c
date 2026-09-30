@@ -1,6 +1,6 @@
 /* Whether the point lies outside the node's 60-degree view cone. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(int *a, int *b, int *out);
 extern fx32 VEC_Mag(const VecFx32 *v);

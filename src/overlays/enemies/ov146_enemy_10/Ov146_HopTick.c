@@ -5,7 +5,7 @@
  * bit 1 clear), and the next move is 8 while carrying, else 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

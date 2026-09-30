@@ -1,7 +1,7 @@
 /* Thrown-card arc step: advances the shot's timer, resolves hits until close to the end of its
  * animation, and marks it finished (state 3, then 4) when the animation ends, releasing it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Anim_GetLengthQ12(int a, int b);
 extern void Ov022_ResolveShotHit(int self, char *node, void *v, void *w);

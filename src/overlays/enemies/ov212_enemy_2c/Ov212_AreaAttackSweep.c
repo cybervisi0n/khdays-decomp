@@ -12,7 +12,7 @@
  * at 0 before the count test and the flag is set before spawned.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int  Ov107_CollectSphereOverlaps(int obj, int kind, int *list);
 extern void VEC_Subtract(void *a, void *b, void *c);

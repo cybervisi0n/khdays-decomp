@@ -6,7 +6,7 @@
  * pair -- while the depth chain is three separate re-reading assignments, same as
  * Ov002_RetargetWidget. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void RegisterSeqAndInit(void *self, int owner, int flags, int style);
 

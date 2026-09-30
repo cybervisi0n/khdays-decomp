@@ -1,7 +1,7 @@
 /* state entry for this boss: per message the flags/animation setup and the step function handed
  * back (0x21 -> Ov074_StepRiseState, 0x22 -> Ov074_VolleyStep). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov022_IsSlotReady(unsigned int *obj);
 extern int *Anim_SetFrameWrapped(int node, int index, int value);

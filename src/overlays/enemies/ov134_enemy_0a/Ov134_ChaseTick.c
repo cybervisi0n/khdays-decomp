@@ -6,7 +6,7 @@
  * [0x6000, +0x2d8] band, clearing the +0xa8 byte of the +4 sub-item and advancing to
  * Ov134_AimSpinPickAttack. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Flags42 { unsigned char bCharge : 1; };

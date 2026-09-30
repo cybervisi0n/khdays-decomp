@@ -8,7 +8,7 @@
  * mode 4 (when in +0x40), 0x218, and marked in +0x42. Once the +4 item's animation is free
  * (+0xad) the owner is released (020d4870), sub-state 2 set and the node slot freed. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov245Query { VecFx32 pos; int w[12]; };
 

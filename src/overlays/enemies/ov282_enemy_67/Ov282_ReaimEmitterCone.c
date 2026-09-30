@@ -8,7 +8,7 @@
  * 0203c9d0(node, &m).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct xform4 { int w[4]; };

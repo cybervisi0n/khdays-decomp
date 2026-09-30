@@ -21,7 +21,7 @@
  * not the encoding.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int VEC_Mag(const VecFx32 *v);
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *unit);

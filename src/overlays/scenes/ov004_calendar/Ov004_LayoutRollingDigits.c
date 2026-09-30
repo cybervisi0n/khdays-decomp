@@ -4,7 +4,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned char opaque[0x108]; } Ov004DigitGlyph;
 typedef struct {

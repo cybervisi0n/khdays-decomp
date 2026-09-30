@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern char *data_ov002_0207fa10;

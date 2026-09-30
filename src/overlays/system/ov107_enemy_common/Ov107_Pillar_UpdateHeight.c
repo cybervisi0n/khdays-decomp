@@ -5,7 +5,7 @@
 
 /* Partial layouts for the node, its source, and its attached shape. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct Source {

@@ -1,7 +1,7 @@
 /* Facing step of an ov260 part: when its +0x28 drift has a length the +0xa0 pose turns from the
  * rest axis to the drift direction; +0xf0 keeps the drift. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quat;
 

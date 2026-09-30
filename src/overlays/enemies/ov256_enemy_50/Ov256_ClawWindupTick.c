@@ -4,7 +4,7 @@
  * +0x438) aim at the +0x34 direction (020d108c), pose 0xc plays and the node moves on to 020cf88c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov256_PickTarget(int *node);

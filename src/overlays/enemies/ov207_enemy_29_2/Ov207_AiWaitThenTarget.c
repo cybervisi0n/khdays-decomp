@@ -11,7 +11,7 @@
  * emits a redundant `lsl #0x10 ; lsr #0x10` truncation, which this function HAS and 020cd464 does
  * not. Match the presence of that pair to pick the form -- see codegen-cracks.md. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct {

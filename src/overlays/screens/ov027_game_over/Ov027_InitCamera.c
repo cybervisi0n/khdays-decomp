@@ -4,7 +4,7 @@
  * far (+0x4d8 / +0x4dc) to 0x579 / 0xf09, and the camera committed (02023cc0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Fx32Pair {

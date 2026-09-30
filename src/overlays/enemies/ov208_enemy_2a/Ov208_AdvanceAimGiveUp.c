@@ -5,7 +5,7 @@
  * (field-to-field). Once state[0x16] goes negative, mark *state+0x1c7 = 0xb.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct S208 { char pad[0x14]; VecFx32 a; char pad2[0x34]; VecFx32 b; };
 extern int func_020050b4(int x, int z);

@@ -8,7 +8,7 @@
  * hit effects. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 p0; VecFx32 dir; int nLength; int nRadius; } Segment;
 typedef struct { u16 lo : 8; u16 hi : 8; } Hw60;

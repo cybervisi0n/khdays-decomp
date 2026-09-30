@@ -2,7 +2,7 @@
  * turned by the +0x64 heading; once the partner holds no queued move the node ends, queueing move 2
  * unless the target check (020cd540) already picked one. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

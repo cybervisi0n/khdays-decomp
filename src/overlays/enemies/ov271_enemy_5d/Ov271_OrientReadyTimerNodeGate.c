@@ -17,7 +17,7 @@
  * it to a local pointer and copying THROUGH that pointer makes it live from the top of the block.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct h2 { unsigned short a, b; };

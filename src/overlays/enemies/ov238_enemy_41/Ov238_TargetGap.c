@@ -3,7 +3,7 @@
  * +0x190 point and the owner's +0xb0 point less both +0x80 radii (never negative) is returned and
  * the heading to it (020050b4) is stored in +0x14. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int a, int b);
 extern void VEC_Subtract(VecFx32 *a, VecFx32 *b, VecFx32 *out);

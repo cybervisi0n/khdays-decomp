@@ -5,7 +5,7 @@
  * once spent (or at once when bit 0 of +0x52 is set) the +4 child's +0xa8 flag clears and the
  * node moves to 020d1704. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

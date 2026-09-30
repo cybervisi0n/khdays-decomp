@@ -4,7 +4,7 @@
  * pulled back along its +0x64 direction by its +0x70 reach, turned by that transform. The base
  * update (020c7ca4) follows. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 

@@ -3,7 +3,7 @@
  * 0x170/4 there; the +0x24 timer and the +0xc velocity are cleared before handing off to the
  * d45d4 tick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int actor, int a, VecFx32 v, int d);
 extern void Ov107_BuildAndSendUpdate(int actor, int id, int mode, void *anchor);

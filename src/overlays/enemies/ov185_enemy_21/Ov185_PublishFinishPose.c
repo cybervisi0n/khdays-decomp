@@ -10,7 +10,7 @@
  *
  * One of four byte-identical siblings. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int a, b, c, d; } Ov185Quad;

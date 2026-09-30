@@ -6,7 +6,7 @@
  * the point is raised to the ground and handed to the spawner with the rig. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int m[9]; } Mtx33;

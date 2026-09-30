@@ -3,7 +3,7 @@
  * +0xa0 orientation, shifts the +0x10 offset into the actor's +0xf0 and reloads the zero vector
  * into it (the Ov120_RecomputeNodeVectorAndReloadTriple shape). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Srt_SetRotationQuat(int dst, int *src);

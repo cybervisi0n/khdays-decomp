@@ -4,7 +4,7 @@
  * the +0x3c owner with kind 5 into +0x398. The base handler always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 struct b2 { int b0 : 1, b1 : 1; };

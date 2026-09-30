@@ -7,7 +7,7 @@
  * hit bits. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern const VecFx32 data_02042258;
 extern int Ov107_CollectCapsuleOverlaps(int owner, void *box, int *hits);

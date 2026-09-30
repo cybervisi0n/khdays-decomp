@@ -2,7 +2,7 @@
  * runs 020d0360 at once. Otherwise, once the +4 rig is idle, pose 9 plays, effect 8 spawns in place,
  * move 0x15 starts (020cd148 with the +0x10 argument) and 020d0360 follows. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);

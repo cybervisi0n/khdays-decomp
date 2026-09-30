@@ -2,7 +2,7 @@
  * stored position, bit 1 of the rig's +0x5c flags clears, tracks 0 and 2 play and the brain waits on
  * 020d1618. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void SrtTransform_SetIdentity(void *transform);
 extern void Srt_SetScaleXYZ(void *transform, int x, int y, int z);

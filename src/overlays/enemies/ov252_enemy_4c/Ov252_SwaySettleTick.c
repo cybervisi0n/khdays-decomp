@@ -7,7 +7,7 @@
  * and motion 2 start and the phase becomes 0 (reward) or 5; otherwise the node goes back to 020cf3b8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);

@@ -4,7 +4,7 @@
  * Returns 1 when the remaining distance (VEC_Mag) is below 0x19a. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023Actor {
     u8   pad_0000[0x15c0];

@@ -5,7 +5,7 @@
  * reset (c7ac 0). Reaction 0x11d mode 7 fires at the anchor, the +0x28 rate becomes 0x400, and
  * the drop tick Ov138_GroundDropTick runs once before it takes the slot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void *Collision_CastRay(void *collision, VecFx32 *origin, VecFx32 *direction);
 extern void SetSubitemState(int item, int channel, short a, int b);

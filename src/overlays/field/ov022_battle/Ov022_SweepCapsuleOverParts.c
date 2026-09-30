@@ -15,7 +15,7 @@
 /* Ov022Capsule */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Capsule {
     VecFx32 vecA;                /* 0x00 */

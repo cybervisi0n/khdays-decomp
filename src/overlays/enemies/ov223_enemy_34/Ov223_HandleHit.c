@@ -9,7 +9,7 @@
  * the hit is otherwise accepted. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 
 struct Ov223ModePair { u8 nFirst; u8 nSecond; };

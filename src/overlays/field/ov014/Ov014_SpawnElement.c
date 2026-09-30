@@ -1,7 +1,7 @@
 /* Spawns an element from the pool: places its node, sets its position, heading and motion, puts it
  * in its bucket and sets its height per mode. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct {

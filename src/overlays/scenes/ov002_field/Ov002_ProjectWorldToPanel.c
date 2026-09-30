@@ -10,7 +10,7 @@
  * ARM.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     fx32 a[12];

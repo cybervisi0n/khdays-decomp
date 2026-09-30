@@ -5,7 +5,7 @@
  * +0x28 velocity rests, +0x1c starts at the +0x390 part's position and the node moves on to 020d13ac. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { unsigned f : 8; } B8;

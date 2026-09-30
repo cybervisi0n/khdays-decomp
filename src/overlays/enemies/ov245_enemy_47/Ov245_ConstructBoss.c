@@ -11,7 +11,7 @@
  * +0x43c riders (020d54f0), the four +0x42c..+0x438 helpers and loads sound 0x15a. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 struct Flags5c { int bit0 : 1; };

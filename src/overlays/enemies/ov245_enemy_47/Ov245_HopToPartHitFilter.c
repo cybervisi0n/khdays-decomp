@@ -8,7 +8,7 @@
  * read before the test swaps its register with the &v address). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov245Owner { char pad[0x420]; int parts[3]; };

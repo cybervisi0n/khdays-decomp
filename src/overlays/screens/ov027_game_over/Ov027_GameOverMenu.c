@@ -10,7 +10,7 @@
  * 02083cb8), the character and camera updated, and Ov027_GameOverChoice (02082fb4) follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

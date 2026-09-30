@@ -1,6 +1,6 @@
 /* Applies gravity and damping; lands when the animation ends and grounded. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct b1 { unsigned char b:1; };
 

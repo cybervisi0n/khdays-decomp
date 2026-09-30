@@ -8,7 +8,7 @@
  * Ov213_RetreatTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

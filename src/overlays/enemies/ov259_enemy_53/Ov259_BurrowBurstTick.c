@@ -6,7 +6,7 @@
  * Once the +4 part's rig is idle (+0xad), pose 2 is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 

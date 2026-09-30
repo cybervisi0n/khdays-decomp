@@ -3,7 +3,7 @@
  * lowered to y = 0x200, scaled in x/z by 1.0 - height(+0x13c)/20 (at least 1/16), push the
  * +0xa0 pose into the +0x3b8 clip's +4 slot and run the base update. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct blk11 { int w[11]; };
 struct Flags5c { int b0 : 1; int b1 : 1; };

@@ -7,7 +7,7 @@
  * (+0x5c), and sync flag bit 0 (+0x61c) is raised. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016KickableDef {

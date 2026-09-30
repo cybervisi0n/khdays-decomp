@@ -13,7 +13,7 @@
 /* Ov022ScreenPos: an fx32 screen position */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct ScreenPos {
     int x;

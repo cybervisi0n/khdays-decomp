@@ -5,7 +5,7 @@
  * Codegen: the partner position is held as a pointer variable (`pos`); a plain `int part` local
  * leaves the /15 quotient in ip instead of the ROM's r6. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

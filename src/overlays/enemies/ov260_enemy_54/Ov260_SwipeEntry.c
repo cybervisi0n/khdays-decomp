@@ -2,7 +2,7 @@
  * direction to the target, dot product >= 0) pose 4 plays, otherwise pose 5; effect 0x1b starts at
  * the +0x10 point and the node moves on to 020d06ec. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

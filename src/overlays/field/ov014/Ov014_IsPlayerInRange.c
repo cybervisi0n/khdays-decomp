@@ -1,7 +1,7 @@
 /* Whether the active player is in the element's group and within its range. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int QueryActiveStateOrDelegate(void);
 extern void *GetEntryField20ByIndex(int index);

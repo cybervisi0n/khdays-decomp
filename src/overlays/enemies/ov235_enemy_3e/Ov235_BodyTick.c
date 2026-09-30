@@ -4,7 +4,7 @@
  * origin the +0x10 step is pushed outwards by the missing distance; the step then becomes the
  * owner's +0xf0 velocity and resets. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[4]; } Quat;
 

@@ -4,7 +4,7 @@
  * the +0x6c flag clear and the node moves on to 020d1c50. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);

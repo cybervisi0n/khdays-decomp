@@ -10,7 +10,7 @@
  * Y axis, radius 0x1000, height 0x1c00) on the +0x144 list (+0x38c); +0x3a0 is built by
  * Ov158_Actor_New and sound 0x150 is loaded. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov158Capsule {
     VecFx32 vPos;

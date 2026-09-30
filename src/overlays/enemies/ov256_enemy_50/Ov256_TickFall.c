@@ -4,7 +4,7 @@
  * 0xc and the node moves on to 020d0144. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Flag17a { u8 b0 : 1; };

@@ -10,7 +10,7 @@
  * for the dispatch instead of reusing the loop test's load, hence the volatile read. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct ScriptValue {
     s16 type;                           /* +0x00 */

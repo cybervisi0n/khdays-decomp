@@ -3,7 +3,7 @@
  * while bit 1 of +0x40 is set, the +0x384 rig is reset (0203c7ac) and, while the chain is out
  * (+0x50 == 1), the +0x214 part follows (Ov227_PickTarget). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int b0 : 1, b1 : 1; } Bits32;

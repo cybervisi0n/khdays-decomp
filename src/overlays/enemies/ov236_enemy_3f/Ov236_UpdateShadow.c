@@ -2,7 +2,7 @@
  * the actor's +0xa0 pose at the +0x74 position lowered to y = 0x200, scaled in x/z by
  * 1.0 - height(+0x13c)/20 (at least 1/16), and run the base update. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Srt_SetRotationQuat(int srt, void *pose);

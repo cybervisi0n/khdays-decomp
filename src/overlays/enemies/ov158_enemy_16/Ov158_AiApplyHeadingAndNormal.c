@@ -6,7 +6,7 @@
  * Finally the cached offset at +0x18 is published to the owner at +0xf0 and reset to the
  * neutral constant. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct {

@@ -8,7 +8,7 @@
  * otherwise a follow-up (020cd2cc, without a +0x38 delay) or move 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov258_StepCue(int *node, int step, int phase, unsigned int variant);

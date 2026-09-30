@@ -5,7 +5,7 @@
  * fiftieth of the distance, its +0x40 rise is 0.75 minus that fiftieth (at least 1/16), and the
  * node moves to 020cff4c. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov107_BuildAndSendUpdate(int actor, int id, int kind, void *anchor);

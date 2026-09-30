@@ -9,7 +9,7 @@
  * flagged; a placement at the origin (scale 1.0) fills +0x3b4, +0x3c0 clears and sound 0x16c loads. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[5]; } IdTable;

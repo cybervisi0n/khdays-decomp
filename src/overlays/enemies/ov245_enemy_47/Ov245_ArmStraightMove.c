@@ -2,7 +2,7 @@
  * +0x14, clear the elapsed counter at +0x1c, reset the owner's velocity at +0x3bc to the shared
  * zero constant and put it in state 1. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int data_02041dc8;
 

@@ -3,7 +3,7 @@
  * the node moves on to 020cd3a8, otherwise the next move is 4 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { u16 lo : 8; u16 hi : 8; } flags16;

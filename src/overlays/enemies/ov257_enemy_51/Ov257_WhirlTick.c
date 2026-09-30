@@ -9,7 +9,7 @@
  * drawn from the owner's [+0x224, +0x228] range and sub-state 2 is requested. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

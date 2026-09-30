@@ -10,7 +10,7 @@
  *
  * One of four byte-identical siblings. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned short a, b; } Ev;
 

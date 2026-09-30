@@ -1,7 +1,7 @@
 /* Copy the working VecFx32 after decrementing the node timer, guard on the actor bit, run
  * pose/subaction setup, and advance to the next state callback. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void SetIndexedSlot(void *node, int idx, void *next);

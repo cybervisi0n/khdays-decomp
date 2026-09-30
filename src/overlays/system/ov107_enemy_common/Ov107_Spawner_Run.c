@@ -14,7 +14,7 @@
  * Ov107_Spawner_AddDataBlock and Ov107_InitMovementNode. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct AiState AiState;

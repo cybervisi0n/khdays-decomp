@@ -2,7 +2,7 @@
  * distance, or NULL. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h
 
 typedef struct CollCastParams {
     VecFx32 *origin;

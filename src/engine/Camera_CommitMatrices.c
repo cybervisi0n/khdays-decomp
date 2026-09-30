@@ -26,7 +26,7 @@
 
 /* Camera actor: projection setup words at the top, then the look-at points. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h
 
 typedef struct {
     int     projParams[4];  /* +0x00: perspective build inputs */

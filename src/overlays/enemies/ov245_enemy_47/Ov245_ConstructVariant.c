@@ -6,7 +6,7 @@
  * data_02042258 with rate 7.0 / value 2.0, ten +0x390 slots from 020d284c, and clears +0x38c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; VecFx32 axis; int rate; int value; } ShapeRequest;
 typedef void (*Callback)(void);

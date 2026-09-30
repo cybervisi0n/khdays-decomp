@@ -9,7 +9,7 @@
  * on to 020d38e8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 

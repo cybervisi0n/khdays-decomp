@@ -3,7 +3,7 @@
  * state and published at the actor's +0x448; its unit direction is dotted against the four
  * data_ov253_020d4910 axes and the best-facing one becomes the actor's +0x451 side. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov253Axes { VecFx32 v[4]; };

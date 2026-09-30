@@ -9,7 +9,7 @@
  * check quiet plays animation 5. When a sub-state was queued animation 0x10 plays, the sub-state
  * is remembered at +0x5d and cleared, and the tick hands off to 020d1124. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Hw60 { unsigned short lo : 8, hi : 8; };

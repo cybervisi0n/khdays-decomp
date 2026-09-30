@@ -1,7 +1,7 @@
 /* Follows the bound joint's position, updating the node's previous position and motion delta. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { fx32 rot[9]; VecFx32 pos; } MtxFx43;

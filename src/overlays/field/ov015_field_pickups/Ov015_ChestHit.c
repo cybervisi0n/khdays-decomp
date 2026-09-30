@@ -9,7 +9,7 @@
  * clears the ack mask (+0x725), raises the opening flag and answers 0.  Otherwise 8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov015HitInfo {
     VecFx32 position;         /* 0x00 */

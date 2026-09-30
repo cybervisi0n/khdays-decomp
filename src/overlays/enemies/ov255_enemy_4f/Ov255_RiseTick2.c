@@ -3,7 +3,7 @@
  * byte is set, animation 0x1c plays, the part plays motion 0x17 and the tick hands over to
  * Ov255_HoverInTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Bits4 { unsigned char b0 : 1, b1 : 1; };

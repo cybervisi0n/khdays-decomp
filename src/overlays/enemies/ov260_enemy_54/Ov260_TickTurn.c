@@ -3,7 +3,7 @@
  * spawns in place, move 0xa starts (020cd148 with the +0x10 argument), the +0x79 flag clears and
  * 020ce9d4 runs next. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int m[9]; } Mtx33;

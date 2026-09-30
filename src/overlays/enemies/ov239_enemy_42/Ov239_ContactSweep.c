@@ -5,7 +5,7 @@
  * When anything was hit, reaction 0x138 mode 6 fires at the +8 point. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 

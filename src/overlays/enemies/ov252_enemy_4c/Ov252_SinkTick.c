@@ -8,7 +8,7 @@
  * placed 3.0 below the origin (020c5c54) and the node moves on to 020d0f14. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { unsigned f : 8; } B8;

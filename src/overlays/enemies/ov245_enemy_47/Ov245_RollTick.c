@@ -8,7 +8,7 @@
  * distance accumulates in +0x24 and past 32.0 the roll ends with effect 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Sphere { VecFx32 centre; int radius; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

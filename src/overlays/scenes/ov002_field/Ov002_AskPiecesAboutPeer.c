@@ -1,5 +1,5 @@
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov002Piece Ov002Piece;

@@ -2,7 +2,7 @@
  * selection; clears three BG screen buffers and restores brightness. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct {

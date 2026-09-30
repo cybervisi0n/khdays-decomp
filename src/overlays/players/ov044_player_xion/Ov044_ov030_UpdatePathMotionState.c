@@ -2,7 +2,7 @@
  * spins it up, orbits it around the owner (radius 0x1800) snapped to the ground, then launches it
  * along its heading, requesting hit spawns on the way and ending in state 5. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void MTX_RotY33_();
 extern void ScaleVec3Fx12();

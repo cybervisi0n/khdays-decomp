@@ -22,7 +22,7 @@
  * offset, and the ROM keeps origin low.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     char pad00[0x7c];

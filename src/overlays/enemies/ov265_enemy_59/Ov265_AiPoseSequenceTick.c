@@ -2,7 +2,7 @@
  * *(child+0x10) is set, advance the step counter (+0x28): steps 0-1 pose both nodes with
  * anim 1, step 2 with anim 0xc, and from step 3 mark sub-state 2 and dispatch. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov265_rotateVecByOwnerYaw(void *out, int a, int b);
 extern void Ov107_PostTagUpdate(int a, int b, int c);

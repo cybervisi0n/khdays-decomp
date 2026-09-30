@@ -5,7 +5,7 @@
  * returns the search result, 0 for an invalid id. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Subtract(void *a, void *b, void *d);
 extern int Ov261_FindGrabPath(int *state, int slot, u16 *order, unsigned int id, u8 depth, u16 *out, int *limit);

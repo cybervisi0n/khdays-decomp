@@ -9,7 +9,7 @@
  * (1.57 to 3.14) and one time in five the actor faces the target (+0x38 / +0x40) and dashes (5). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov283_MapHeldItemKindToAnim(int actor, int part);
 extern int Ov283_MeasureTargetGap(int *node);

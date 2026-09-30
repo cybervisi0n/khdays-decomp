@@ -3,7 +3,7 @@
  * advanced by one frame (0202a818 with 1.0) and its state applied (0202aa9c). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

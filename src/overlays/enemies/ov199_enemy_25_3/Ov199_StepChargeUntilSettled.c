@@ -17,7 +17,7 @@
  * `*ctx` load out of the loop by itself; doing it by hand is not needed.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov199_BuildHeadingRotation(int *ctx, VecFx32 v, int flag);

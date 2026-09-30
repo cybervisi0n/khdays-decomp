@@ -2,7 +2,7 @@
  * three times the frame step), the owner's +0xa0 transform takes that yaw, and the owner's +0x3bc
  * velocity loses 15.6 % per 1/30 s slice of the frame. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

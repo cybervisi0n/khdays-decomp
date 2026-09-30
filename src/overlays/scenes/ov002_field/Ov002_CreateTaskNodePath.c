@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov002TaskNodePath {
     void *pHook0;

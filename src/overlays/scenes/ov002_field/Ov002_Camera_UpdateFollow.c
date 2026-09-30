@@ -1,4 +1,4 @@
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef unsigned int uint;
 typedef unsigned short ushort;

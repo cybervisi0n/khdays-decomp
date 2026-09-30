@@ -7,7 +7,7 @@
  * 0/1 otherwise) at the +0xc position. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov156ActionState {
     int pOwner;

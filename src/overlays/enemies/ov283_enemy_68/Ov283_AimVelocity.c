@@ -1,7 +1,7 @@
 /* Aim the ov283 actor's +0x10 velocity: a diagonal unit step turned by the +0x44 heading, normalised and
  * scaled to 0.25; both headings (+0x38, +0x40) point along it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

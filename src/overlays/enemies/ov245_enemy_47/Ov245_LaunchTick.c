@@ -3,7 +3,7 @@
  * scales it by the speed; once the +4 item's animation is no longer busy (+0xad) the direction
  * is copied to +0x28 and the node moves to 020d6e00. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

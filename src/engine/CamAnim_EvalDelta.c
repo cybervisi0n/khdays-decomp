@@ -1,7 +1,7 @@
 /* Evaluates the animation and returns how far the camera moved (position, target, up, fovy) since
  * the last frame. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h
 
 extern void MI_CpuCopy8(const void *src, void *dst, unsigned int size);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *ab);

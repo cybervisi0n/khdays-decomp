@@ -2,7 +2,7 @@
  * spawn reaction 0x112 at the target position, and report whether any hit was accepted. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int value; } Fx32;
 typedef struct { Fx32 x, y, z; } FxVec;

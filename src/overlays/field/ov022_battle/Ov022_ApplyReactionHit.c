@@ -15,7 +15,7 @@
 /* the damage-over-time record after the actor body */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct DotRecord {
     int nTimer;                      /* 0x00 */

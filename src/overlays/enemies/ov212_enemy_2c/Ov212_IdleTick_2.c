@@ -5,7 +5,7 @@
  * +0x5ac one spawns it at +0x5b4 and queues 7, and a bare +0x5d8 flag queues 7; when a sub-state
  * was queued the +0x5d4 handle is released (020d38cc) and the state ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void SetIndexedSlot(int *node, int slot, void *cb);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

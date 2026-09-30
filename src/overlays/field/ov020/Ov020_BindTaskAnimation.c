@@ -16,7 +16,7 @@
  * argument is computed, exactly as the original does.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov020ScriptTask {

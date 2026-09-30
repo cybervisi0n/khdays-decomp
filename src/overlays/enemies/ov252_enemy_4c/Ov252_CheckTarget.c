@@ -4,7 +4,7 @@
  * `delta` (when given) receives the ground-plane offset to it. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int actor, int *distOut);
 extern void VEC_Subtract(const VecFx32 *a, const VecFx32 *b, VecFx32 *out);

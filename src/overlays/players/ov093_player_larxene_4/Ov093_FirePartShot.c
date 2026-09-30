@@ -6,7 +6,7 @@
  * part's +0x14 byte. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { u8 b0 : 1, b1 : 1; } PartBits;

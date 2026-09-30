@@ -4,7 +4,7 @@
  * 0.3125, kind 1) with effect 1 and hit sound 0x12d variant 8; the +0x20 age runs up at the frame rate
  * and past 4.0 the record fades (phase 2: the scale drops by a fifth each frame, dying under 1/16). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { VecFx32 pos; VecFx32 axis[3]; int ext[3]; } Box;

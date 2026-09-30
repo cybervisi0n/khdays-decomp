@@ -8,7 +8,7 @@
  * mode alternating (2/3 for flags 0x22, 1/0 otherwise) at the +4 position. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov210ActionState {
     int pOwner;

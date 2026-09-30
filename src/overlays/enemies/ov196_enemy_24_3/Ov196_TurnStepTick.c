@@ -5,7 +5,7 @@
  * 0..1, scales the +0x3d0 resource's forward speed into the +0x18 step. Once the +4 item's
  * +0xad byte clears, a positive +0x44 timer requests sub-state 7 and otherwise 2. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov107_FindNearestObject(int actor, int mode);

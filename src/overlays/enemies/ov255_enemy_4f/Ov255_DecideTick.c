@@ -7,7 +7,7 @@
  * with the partner active. Otherwise a target 8.0 away brings 4, and within 2.0 a 1-in-11 chance
  * picks one of 5, 6 and 7. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int w[4]; } Quat;

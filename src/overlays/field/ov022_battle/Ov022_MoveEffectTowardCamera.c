@@ -12,7 +12,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define ANCHOR_RAISE 0x200
 #define ANCHOR_REACH 0x800

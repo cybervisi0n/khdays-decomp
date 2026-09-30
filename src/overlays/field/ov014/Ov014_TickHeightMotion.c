@@ -2,7 +2,7 @@
  * syncs the actor; at 0 the local player sends record 2 once. With flag 0x80 hands over to
  * Ov014_ActorStepProgress. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct {

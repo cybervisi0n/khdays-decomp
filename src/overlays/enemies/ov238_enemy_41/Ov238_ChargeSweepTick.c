@@ -9,7 +9,7 @@
  * marked on acceptance. Once the clock reaches 2.0 +0x390 clears and sub-state 0 follows. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 #include "game/engine.h"
 

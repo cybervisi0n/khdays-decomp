@@ -1,7 +1,7 @@
 
 /* Starts a two-point move: marks the owner busy, stores both endpoints and sets phase 1. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 void Ov245_StartTwoPointMove(int *self, VecFx32 *from, VecFx32 *to) {
     *(int *)(*self + 0x38c) = 1;

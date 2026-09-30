@@ -13,7 +13,7 @@
 /* Ov022SlotTail: the owner the part hangs off. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct SlotTail {
     u8 pad00[0x1c];

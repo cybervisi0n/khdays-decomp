@@ -17,7 +17,7 @@
  * the ROM's callee-saved assignment (nLen r6, nBest r7, bHit1 r8, r1/bHit2 r5, owner/r2 sb). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int value; } Fx32;
 typedef struct { int q[4]; } Quat;

@@ -15,7 +15,7 @@
  * ARM.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     int nMode;

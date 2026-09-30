@@ -5,7 +5,7 @@
  * turns toward the goal and orients the pose about up. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int x, y, z, w; } Quat;

@@ -7,7 +7,7 @@
  * reaction 0x147 mode 9 on the +0xa0 pose into +0x4a4. The base hook always runs. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } Srt;
 

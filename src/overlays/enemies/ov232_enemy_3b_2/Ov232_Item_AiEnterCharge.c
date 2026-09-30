@@ -12,7 +12,7 @@
  *   - `hi &= ~0x8c` DOES have the trunc pair -> the bitfield form.
  * Reading the pair off the disassembly is the whole trick; do not guess from the operator. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     unsigned short lo : 8;

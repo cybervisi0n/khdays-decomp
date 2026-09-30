@@ -6,7 +6,7 @@
  * (+0x18). Either way the driver is re-armed through Ov265_PlayPoseAnims with
  * Ov265_AiDiveTick as the continuation. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov265_rotateVecByOwnerYaw(VecFx32 *out, int self, int rig);
 extern int Ov265_AcquireTarget(int self);

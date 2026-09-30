@@ -16,7 +16,7 @@
  * `int *self` declaration frees r0 and mwcc emits the ROM's
  * `add r0,r0,#0x14 ; str r0,[r6,#0x2cc]`. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov149Pose {
     VecFx32 position;

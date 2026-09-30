@@ -11,7 +11,7 @@
  * Same shape as ov122_020d12f4: Fx32-wrapped coordinates, `long` counters, two point cursors. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/ai_task.h"
 #include "game/engine.h"
 

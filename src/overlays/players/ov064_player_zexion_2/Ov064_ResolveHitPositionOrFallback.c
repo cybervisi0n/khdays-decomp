@@ -1,7 +1,7 @@
 /* Finds the ground under the point with a downward cast: returns the hit point slightly raised, or
  * the point 0x5000 higher when nothing is hit. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void *EntityMgr_RunCastSimple(int a, void *b, void *c, int d);

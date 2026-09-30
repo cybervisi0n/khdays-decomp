@@ -21,7 +21,7 @@
  * Ghidra carries this as Ov002_SetRosterSlotTargets over Ov002RosterSlot and VecFx32.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     VecFx32 vecBase;               /* +0x00 default triple */

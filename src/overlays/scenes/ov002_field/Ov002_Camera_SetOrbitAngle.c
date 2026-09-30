@@ -1,6 +1,6 @@
 /* Sets the orbit angle, recomputes the camera position and re-aims. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     int radius;

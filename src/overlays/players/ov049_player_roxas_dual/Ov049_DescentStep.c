@@ -8,7 +8,7 @@
  * goes to state 0 when grounded). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov022_StepAnchorDelta(char *self, void *out);

@@ -3,7 +3,7 @@
  * along the unit direction of the move, at `origin` plus the direction scaled by what was left
  * over from the previous drop (0x2000 - carry), consuming 0x2000 per drop. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int VEC_Normalize(const VecFx32 *v, VecFx32 *unit);
 extern int VEC_Mag(const VecFx32 *v);

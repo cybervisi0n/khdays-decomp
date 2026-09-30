@@ -9,7 +9,7 @@
  * (2/3 for flags 0x22, 1/0 otherwise). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov204ActionState {
     int pOwner;

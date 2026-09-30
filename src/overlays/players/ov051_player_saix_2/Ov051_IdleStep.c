@@ -8,7 +8,7 @@
  * state 0x23, and a +0x1c state of 5 or 6 to state 0x22. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;

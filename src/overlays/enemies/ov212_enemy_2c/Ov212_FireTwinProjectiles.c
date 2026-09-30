@@ -14,7 +14,7 @@
  * the callee spells that parameter `int b`; it matches there, but callers need the
  * pointer. See codegen-cracks.md. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov212_MoveNotifyForward(int obj, int a, VecFx32 *v, int c);
 extern void SetIndexedSlot(void *self, int idx, void *cb);

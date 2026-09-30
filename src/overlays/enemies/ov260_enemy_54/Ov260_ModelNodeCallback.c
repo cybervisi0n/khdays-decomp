@@ -4,7 +4,7 @@
  * +0x3b8 transform. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct MtxFx43 { int m[9]; VecFx32 t; };
 

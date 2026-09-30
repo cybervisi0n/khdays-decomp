@@ -1,7 +1,7 @@
 /* vecAim + phase.vecMark rotated about Y by the node heading (angle - 0x8000 + 0x8000, /16 into the
  * sin/cos table); struct return. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } MtxFx33;
 

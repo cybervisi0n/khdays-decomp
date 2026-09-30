@@ -3,7 +3,7 @@
  * feet (+0x74 lowered by the +0x13c height, mode 4), +0x74 clears and the node moves on to 020ce8b0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern void Ov260_PlaySound(int owner, int mode, int arg);

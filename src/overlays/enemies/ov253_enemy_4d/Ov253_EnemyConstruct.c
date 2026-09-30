@@ -14,7 +14,7 @@
  * halfword is read through an explicit int conversion. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[2]; } IdTable;

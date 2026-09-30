@@ -4,7 +4,7 @@
  * offset by half the actor's +0x70 scale along the direction 2*pi*i/3 (sine table); the node
  * moves to 020d1d98. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

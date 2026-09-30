@@ -4,7 +4,7 @@
  * bands, wrapping to 0). While the shared rig's +0x2cd4 flag is clear one event is pushed from
  * the single-row table; once it is set both anchors get one, each from its own row. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int v[15]; } Ov039BandRow;
 

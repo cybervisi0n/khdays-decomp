@@ -14,7 +14,7 @@
  * the side test, and the command byte is spelled `flip == 0 ? 0 : 2`. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int value; } Fx32;
 typedef struct { Fx32 x, y, z; } FxVec;

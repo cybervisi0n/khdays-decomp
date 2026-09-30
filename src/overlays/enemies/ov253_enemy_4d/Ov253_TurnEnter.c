@@ -7,7 +7,7 @@
  * 0x16c/7 fires at the +4 anchor and the node moves to 020cfa44. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

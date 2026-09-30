@@ -3,7 +3,7 @@
  * about data_02042264); then each of the four +0x3ac chains refreshes its three +0x58 segments
  * (start at joint i's anchor, +0xc direction to joint i+1, +0x18 length). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct vec4 { int a, b, c, d; };

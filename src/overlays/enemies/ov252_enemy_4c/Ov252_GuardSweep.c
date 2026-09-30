@@ -4,7 +4,7 @@
  * +0x85 hit mask keeps only the targets that were hit. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 typedef struct { u16 lo : 8; u16 hi : 8; } flags16;

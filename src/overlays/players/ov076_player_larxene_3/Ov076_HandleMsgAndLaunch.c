@@ -13,7 +13,7 @@
  * not a separate source construct.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov022_FillEightHalvesMinus1At0x2bd4(char *self);
 extern void Anim_SetFrameWrapped(char *p, int i, int v);

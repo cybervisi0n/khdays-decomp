@@ -1,7 +1,7 @@
 /* Ov002_FlushPendingObjectCommands: clear queued commands only after submission. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov002PartRetireCmd {u8 nKind,nEntryIndex,nGroupIndex;} Ov002PartRetireCmd;
 typedef struct Ov002SessionSlotCmd {u8 nKind,nSlot;} Ov002SessionSlotCmd;

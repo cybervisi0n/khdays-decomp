@@ -8,7 +8,7 @@
  * point 0xb, and the node moves on to 020d08ec. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

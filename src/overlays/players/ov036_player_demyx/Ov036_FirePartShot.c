@@ -5,7 +5,7 @@
  * caller asks for the alternate shot and bit 1 of the part's +0x14 byte for the homing variant. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { u8 b0 : 1, b1 : 1; } PartBits;

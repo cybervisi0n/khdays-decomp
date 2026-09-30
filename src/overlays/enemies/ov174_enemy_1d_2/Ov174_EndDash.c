@@ -2,7 +2,7 @@
  * restarts and the dash tick (Ov174_DashTick) runs again; otherwise the +8 position is
  * pushed to the actor (mode 5), reaction 0x141 mode 7 fires there and sub-state 2 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int obj, int a, VecFx32 v, int d);
 extern void Ov107_BuildAndSendUpdate(int obj, int a, int b, void *at);

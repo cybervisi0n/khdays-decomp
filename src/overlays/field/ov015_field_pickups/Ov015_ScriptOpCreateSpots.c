@@ -9,7 +9,7 @@
  * stored on the target (ov002 0207643c).  Always consumes the op (1). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov015SpotEntry {
     s8  nId;                  /* 0x00 */

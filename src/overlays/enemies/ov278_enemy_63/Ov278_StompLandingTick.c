@@ -7,7 +7,7 @@
  * its mask bit. Once the +0x24 flag byte clears the next move is 9. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; VecFx32 axis[3]; int ext[3]; } Box;
 typedef struct { int value; } Fx32;

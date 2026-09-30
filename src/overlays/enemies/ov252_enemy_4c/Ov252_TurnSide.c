@@ -3,7 +3,7 @@
  * side and 1 for the other (turn from the +0x54 heading, 0203cd20). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int func_020050b4(int x, int z);

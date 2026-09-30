@@ -5,7 +5,7 @@
  * says the facing is locked; then hands over to the per-frame step. Other messages are refused. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov022_IsSlotReady(void *context);
 extern int Ov022_ValidateTargetRef(char *self);

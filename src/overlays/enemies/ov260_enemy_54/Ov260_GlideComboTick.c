@@ -8,7 +8,7 @@
  * pose 0x13 + 2 x stage, motion 9 + 2 x stage and effect 0x17 (stage 1) or 0x1a. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { VecFx32 pos; VecFx32 axis; int length; int radius; } Capsule;

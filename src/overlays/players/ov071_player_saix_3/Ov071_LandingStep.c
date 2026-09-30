@@ -6,7 +6,7 @@
  * raised and the enemy hands over to state 0 when grounded (also telling the slot callback 0),
  * otherwise to state 2; a hand-over also drops bit 16 of the +0x46c flags. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;

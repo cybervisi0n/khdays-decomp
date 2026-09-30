@@ -16,7 +16,7 @@
  * artefact to reproduce by hand.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int Ov002_GetCtxTableByte(int slot);

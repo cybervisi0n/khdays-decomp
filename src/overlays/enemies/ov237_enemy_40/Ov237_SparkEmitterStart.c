@@ -3,7 +3,7 @@
  * node's +0x2c and every record of the +0x90 ring (+0x8c of them) is reset to kind 0, scale 1.0, the
  * identity rotation and the +0xc owner's +0xb0 pose; the cursor (+4) rewinds. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int x, y, z, w; } Quat;
 typedef struct { int kind; int scale; Quat rot; int a; int value; int c; char pad24[8]; VecFx32 pos; } Particle;

@@ -5,7 +5,7 @@
  * +0xad flag drops, the actor's +0x1c7 request becomes 2 and the tick is cleared. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int radius; } Sphere;
 

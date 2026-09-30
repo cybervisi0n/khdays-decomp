@@ -10,7 +10,7 @@
  * bit 1 of the second one, creates the four +0x3ec helpers (020d3e24) and loads sound 0x149. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { int id[8]; } IdTable8;

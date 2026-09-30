@@ -7,7 +7,7 @@
  * radius (floored at 0). At t = 1.0 the step clears and the tick hands over to
  * Ov282_AiReturnToIdleWhenClear. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 static inline int FX_MUL(int a, int b)
 {

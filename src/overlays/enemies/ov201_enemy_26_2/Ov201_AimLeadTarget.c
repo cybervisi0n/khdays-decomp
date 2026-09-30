@@ -6,7 +6,7 @@
  * stored at *(*state+0x3ac).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int  Ov107_FindNearestObject(int obj, int flag);
 extern void VEC_Subtract(void *a, void *b, void *c);

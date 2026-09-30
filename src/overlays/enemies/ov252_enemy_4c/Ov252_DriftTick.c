@@ -2,7 +2,7 @@
  * part's +0x2c vector turned by the +0x54 heading (020cdafc); once the partner holds no queued move the
  * queued +0x90 move becomes next and the node ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov252_CheckTarget(int *node, int a, int b);
 extern VecFx32 Ov252_TurnVecY(int angle, VecFx32 *vec);

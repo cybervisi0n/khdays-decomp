@@ -1,7 +1,7 @@
 /* Place the widget: copy the caller's position into +0xa4 as one three-word
  * move, apply the anchor, drive sub-node 3 to the given value and refresh. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Widget_SetTagWord(void *self, int anchor);
 extern void Anim_SetFrameWrapped(void *self, int slot, int value);

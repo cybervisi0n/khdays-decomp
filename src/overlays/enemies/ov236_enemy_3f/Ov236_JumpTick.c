@@ -4,7 +4,7 @@
  * fires at the +0x38 anchor, pose request 5 is queued and the node dispatches null. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Bits17a { u8 b0 : 1; };
 

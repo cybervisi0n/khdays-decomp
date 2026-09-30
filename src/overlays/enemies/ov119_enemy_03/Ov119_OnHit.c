@@ -7,7 +7,7 @@
  * 2/3 (bits 1/5) or 0/1 picked by it. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct ActorHitEvent {
     unsigned int uFlagsLo : 16;

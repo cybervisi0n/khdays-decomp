@@ -6,7 +6,7 @@
  * registers effect 0x143 (kind 5 or 6 by the message's +4 slot) on the +0xa0 node into the
  * +0x3a0 slot. The base handler always runs. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

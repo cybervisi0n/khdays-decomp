@@ -2,7 +2,7 @@
  * frames and 0x12e/4 after 15, the +0xc velocity follows the +0x3e0 part's +0x2c vector turned by the
  * heading (020d07f0); once the partner holds no queued move the next move is 2 and the node ends. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov238_TimedCue(int *node, int ticks, int cue, int variant);
 extern void Ov238_TurnVelocity(int *node, VecFx32 *vec);

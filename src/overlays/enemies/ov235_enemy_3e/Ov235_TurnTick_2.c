@@ -3,7 +3,7 @@
  * frame rate x 3; once the +0xc idle byte clears, animation 0x1d plays, the +0x3a8 part plays
  * motion 0x16 and the tick hands over to Ov235_AiEnterGroundAttackB. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

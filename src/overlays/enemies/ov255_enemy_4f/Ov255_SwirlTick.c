@@ -4,7 +4,7 @@
  * added to its +0xe4 push. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { void *item; } ListNode;

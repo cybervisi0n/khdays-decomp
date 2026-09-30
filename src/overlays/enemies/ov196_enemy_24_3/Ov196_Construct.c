@@ -10,7 +10,7 @@
  * 0x134 is loaded. (The ov120 initializer shape: the +0x2cc store needs the tail in its own
  * block with its own `int *self` -- see Ov120_InitializeActor.) */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov194Pose {
     VecFx32 position;

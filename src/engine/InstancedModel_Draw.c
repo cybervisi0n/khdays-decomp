@@ -1,7 +1,7 @@
 /* Draws the model once per live instance with its scale, orientation, position, alpha and polygon
  * id. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     fx32 w, x, y, z;

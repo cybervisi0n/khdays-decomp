@@ -5,7 +5,7 @@
  * that hides it.  Answers &position (+0x488). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016Kickable {

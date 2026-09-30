@@ -24,7 +24,7 @@
  * one(0x20) -> flag25(0x25) -> b10(0x10); the `t = reqB.flag25` read only has to precede its
  * write, so the b10 store goes last. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int VEC_Mag();
 extern int VEC_Normalize();

@@ -3,7 +3,7 @@
  * byte-for-byte the same size but schedules the vec3 ldm at the END, while the ROM (and
  * this form) hoists it above the hw60 work. House style copied from ov149_020cfd84. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/ai_task.h"
 
 extern const VecFx32 data_02041dc8;

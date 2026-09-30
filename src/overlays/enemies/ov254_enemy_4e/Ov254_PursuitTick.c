@@ -12,7 +12,7 @@
  * +0x76+1 follows (the climb resets while flying). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { VecFx32 pos; int nRadius; } Sphere;

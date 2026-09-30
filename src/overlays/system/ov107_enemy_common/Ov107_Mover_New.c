@@ -5,7 +5,7 @@
  * caller's target delta (+0xc), and folds the caller's own position into it. Returns the
  * new record. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[8]; } Blk32;
 typedef struct { unsigned char lo : 4; unsigned char hi : 4; } NibblePair;

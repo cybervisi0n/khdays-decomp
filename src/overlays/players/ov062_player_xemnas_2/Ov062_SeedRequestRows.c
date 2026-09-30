@@ -3,7 +3,7 @@
  * and +0x220 value come from data_ov062_020b7fa4 / 576c / 577c by row index, and the +0x23c
  * counter is cleared. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 v[4]; } VecTable4;

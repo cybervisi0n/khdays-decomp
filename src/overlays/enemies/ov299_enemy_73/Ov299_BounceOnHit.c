@@ -1,7 +1,7 @@
 /* Hit callback: once, launches away from the hit (or back along the velocity) at 0x600 plus 0x500
  * upward. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int VEC_Normalize(const VecFx32 *source, VecFx32 *dest);
 extern void VEC_Subtract(VecFx32 *a, VecFx32 *b, VecFx32 *out);

@@ -1,7 +1,7 @@
 /* Finds the ground under the point with a long downward ray cast from above it: returns the hit
  * point slightly raised, or the point lowered by the search height when nothing is hit. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void *EntityMgr_RunRayCast(int a, void *b, void *c, int d);

@@ -3,7 +3,7 @@
  * The +0x84 list scales each node's own factor at +0x180 by `scale` in 1.19.12
  * fixed point before dispatching; the +0x64 list passes `scale` through. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern int data_0204c208;

@@ -22,7 +22,7 @@
  *    extra push -- 12 bytes.  Same lever as the Tally families.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int v[4]; } Xform;

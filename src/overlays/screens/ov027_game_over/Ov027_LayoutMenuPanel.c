@@ -5,7 +5,7 @@
  * prompt strip (slot 2) at row 14, line 0 at row 16 and line 1 at row 18. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

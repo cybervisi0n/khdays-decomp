@@ -5,7 +5,7 @@
  * code they map to (LookupPairKey returns the code, -1 if absent). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct BgScreenSize {
     u16 width;

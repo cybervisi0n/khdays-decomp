@@ -1,6 +1,6 @@
 /* Stores the listener position and its normalised up vector (cross product of the two axes). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_CrossProduct();
 extern void VEC_Normalize();

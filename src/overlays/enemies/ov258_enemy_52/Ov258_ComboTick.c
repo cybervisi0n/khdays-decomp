@@ -7,7 +7,7 @@
  * is 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { u8 lo : 4; u8 hi : 4; } NibblePair;
 

@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void *Ov002_LookupChannelEntry(char *pChannel);

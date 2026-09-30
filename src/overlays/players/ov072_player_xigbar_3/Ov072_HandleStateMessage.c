@@ -10,7 +10,7 @@
  * +0x64 halfword to 0x1800, tells 0x30 (+0x2e78 set) or 0x32 and hands over to the shot. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct ActorBits {

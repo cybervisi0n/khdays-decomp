@@ -2,7 +2,7 @@
  * (*(owner+0x490)+0x2c) into a vec, push it to the owner via func_ov107_020c0b90, arm
  * Ov107_BuildAndSendUpdate(owner, 0, 0x48, &vec), and dispatch via SetIndexedSlot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void VEC_Add(int *a, int *b, VecFx32 *out);
 extern void func_ov107_020c0b90(int owner, int a, VecFx32 v, int flag);

@@ -1,7 +1,7 @@
 /* d0e14 */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_CollectEntitiesTouchingDisc(int owner, void *cyl, int *hits);
 extern int Ov107_CollectSphereOverlaps(int owner, void *sphere, int *hits);

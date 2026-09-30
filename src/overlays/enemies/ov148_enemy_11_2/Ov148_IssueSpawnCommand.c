@@ -1,7 +1,7 @@
 /* Message override: message 5 carries a packed position; it spawns a node-transform task at that
  * position and a spawn task; other messages go to the shared handler (Ov107_AiState_OnMessage). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[11]; } SrtTransform;

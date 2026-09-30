@@ -7,7 +7,7 @@
  * emitter runs until it reports done. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Mtx33 { int m[9]; };
 

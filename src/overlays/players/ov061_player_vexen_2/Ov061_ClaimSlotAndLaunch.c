@@ -20,7 +20,7 @@
  *    swapped -- and that was the last two bytes.
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void BindAnimTrack(char *p, int i, char *tbl, short m);
 extern void Anim_SetFrameWrapped(char *p, int i, int z);

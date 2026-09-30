@@ -3,7 +3,7 @@
  * walker); returns whether it hit. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct CollisionRegion { s32 centerX00; s32 centerZ04; s32 size08; } CollisionRegion;
 

@@ -5,7 +5,7 @@
  * moves on to 020ccfe8. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { unsigned f : 8; } B8;

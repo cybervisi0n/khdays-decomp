@@ -4,7 +4,7 @@
  * then placed at the actor's +0x3cc item's +0x14 point raised by 0x200 plus the actor's +0xb4
  * height, with entry[3] holding its "DM002" joint handle. Returns the spawn result. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int CreateRegistryEntry(int list, int a, int b, void *cb2, void *cb1, int **out);
 extern int FindResourceIndexByName(int owner, const char *name);

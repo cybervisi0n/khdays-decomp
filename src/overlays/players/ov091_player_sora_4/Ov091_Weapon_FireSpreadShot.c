@@ -1,7 +1,7 @@
 /* Sends a placement for a shot from the muzzle with a random spread (wider when charged). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { VecFx32 p; short a,b,c; short scale; int f14,f18,f1c,f20,f24,f28; } Placement;

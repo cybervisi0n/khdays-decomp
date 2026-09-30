@@ -10,7 +10,7 @@
  * with effect 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Sphere { VecFx32 centre; int radius; };
 struct hw60 { unsigned short lo : 8, hi : 8; };

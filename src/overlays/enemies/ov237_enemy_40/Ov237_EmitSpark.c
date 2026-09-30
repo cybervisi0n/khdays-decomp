@@ -2,7 +2,7 @@
  * takes kind 0x10, the position and the given +0x1c value (+0x18 / +0x20 cleared), the owner's +0x5c
  * bit 1 is cleared and the cursor advances modulo the +0x8c ring size. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int kind; char pad4[0x14]; int a; int value; int c; char pad24[8]; VecFx32 pos; } Particle;

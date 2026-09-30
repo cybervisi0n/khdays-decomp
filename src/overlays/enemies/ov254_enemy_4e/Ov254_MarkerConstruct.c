@@ -3,7 +3,7 @@
  * scale), builds the +0x384 item from pose 0x45 of the +0x388 pool and subscribes it to +0x9c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 

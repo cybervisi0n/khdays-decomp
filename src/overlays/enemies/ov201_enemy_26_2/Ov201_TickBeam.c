@@ -12,7 +12,7 @@
  * nothing was hit). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Quat { int x, y, z, w; } Quat;
 typedef struct Segment { VecFx32 p0; VecFx32 dir; int scale; } Segment;

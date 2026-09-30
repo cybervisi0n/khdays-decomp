@@ -7,7 +7,7 @@
  * in the same stack aggregate as the pushed vector (the ROM stores it at [sp+0x14] and reloads
  * *state after that store). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int actor, int effect, VecFx32 v, int flag);
 extern void Ov107_BuildAndSendUpdate(int actor, int id, int kind, void *anchor);

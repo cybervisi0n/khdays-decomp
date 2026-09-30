@@ -5,7 +5,7 @@
  * whose track position has a y of 0xcd or more; its slot index is returned, else -1. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov023MotionTrack {
     VecFx32 vPos;             /* 0x00 */

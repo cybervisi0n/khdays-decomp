@@ -10,7 +10,7 @@
  * (cdee4) into an 8-byte table (+0x3a4) and loads sound 0x13d. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 

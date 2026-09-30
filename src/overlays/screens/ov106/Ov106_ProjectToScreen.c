@@ -2,7 +2,7 @@
  * +0x14) is concatenated with the scene's +0x8b84 projection and the result is scaled to 12.8 x 9.6
  * screen units into `out`. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[12]; } MtxFx43;
 typedef struct { int m[16]; } MtxFx44;

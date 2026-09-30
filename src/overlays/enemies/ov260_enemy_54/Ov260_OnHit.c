@@ -11,7 +11,7 @@
  * sub-state 12 request on a +0x470 carrier is undone. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct ActorHitEvent {

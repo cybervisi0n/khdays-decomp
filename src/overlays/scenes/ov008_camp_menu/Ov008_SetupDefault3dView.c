@@ -2,7 +2,7 @@
  * zero translation and a camera looking down the Z axis. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct MtxFx33 {
     int m[9];

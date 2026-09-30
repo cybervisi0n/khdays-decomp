@@ -9,7 +9,7 @@
  * idle aim node) or 7; otherwise past 0x2000 sub-state 4 is queued.
  * `+ (dist - dist)` is the documented copy artifact of RandNextScaled (`add r5,r0,#0`). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int obj, int b);
 extern void SetIndexedSlot(int node, int slot, void *cb);

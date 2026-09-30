@@ -2,7 +2,7 @@
  * sub-state is reset to 0 and the tick ends. Otherwise the part is placed at its +0x18 point with a
  * scale growing from 0 to 2.67 over the first 0x440 of the timer (Ov227_HitSweep). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int scale; } Placement;
 

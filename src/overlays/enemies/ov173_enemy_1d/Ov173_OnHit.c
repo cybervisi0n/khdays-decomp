@@ -8,7 +8,7 @@
  * outside sub-state 8, an 0x8000 hit goes to 0xd from 0xc/0xd and to 0xc otherwise. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov173ActionState {

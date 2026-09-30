@@ -3,7 +3,7 @@
  * and, unless the +8 flag byte is set, writes pose kind 5 into the actor's +0x1c7 and
  * dispatches with a null handler. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern VecFx32 data_02042258;

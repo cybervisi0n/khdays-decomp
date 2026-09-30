@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct {
     u8 gap0000[0x60];

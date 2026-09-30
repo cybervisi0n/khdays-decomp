@@ -3,7 +3,7 @@
  * velocity is the +0x398 part's +0x2c motion turned by the +0x10 yaw and the idle countdown may
  * end the state. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

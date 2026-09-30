@@ -3,7 +3,7 @@
  * effect model of their +0x394 slot there (mode 0x17 under the +0x3c owner, message byte 4 as the
  * variant) into the slot's +0x398 handle. The base handler always runs. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int w[11]; } SrtTransform;
 

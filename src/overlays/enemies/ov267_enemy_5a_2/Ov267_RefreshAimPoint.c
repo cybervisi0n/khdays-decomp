@@ -1,4 +1,4 @@
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { char pad0[0x24]; VecFx32 pos; } Probe;

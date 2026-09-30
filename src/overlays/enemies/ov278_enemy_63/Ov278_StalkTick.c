@@ -13,7 +13,7 @@
  * step timer, the +0x388 part's +0xa8 flag clears and the tick hands over to Ov278_AiEnterStomp. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

@@ -1,7 +1,7 @@
 /* Re-evaluates the element's game-state gate, then rebinds its model sequence and animation. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern unsigned int GameState_GetField(int bitOffset, int bitCount);
 extern void Ov014_ActorRelease(int this_);

@@ -10,7 +10,7 @@
  * field_310 is signed: the ROM stores it as -1, derived from the preceding constant 2. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct AiState AiState;
 typedef struct CreatedItem CreatedItem;

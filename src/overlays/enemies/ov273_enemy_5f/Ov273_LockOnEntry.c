@@ -8,7 +8,7 @@
  * and the node moves to 020ceb2c. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 typedef struct { int w[4]; } Quat;

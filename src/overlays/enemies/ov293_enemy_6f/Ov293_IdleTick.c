@@ -10,7 +10,7 @@
  * ((int *)&record)[2]) for the owner comparison; a plain field re-read is CSE'd into one load. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Ov293Owner {

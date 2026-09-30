@@ -1,6 +1,6 @@
 /* Turns toward the heading (3x rate), composes it with the surface-normal tilt and applies it. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Quat_FromTwoVectors(void *dst, void *src, int m);

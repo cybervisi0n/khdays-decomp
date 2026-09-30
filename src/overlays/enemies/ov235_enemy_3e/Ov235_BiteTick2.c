@@ -11,7 +11,7 @@
  * the tick hands over to Ov235_BiteTick3. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

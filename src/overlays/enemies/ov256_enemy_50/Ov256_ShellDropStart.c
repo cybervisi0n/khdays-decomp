@@ -4,7 +4,7 @@
  * 0/2/4/3/1 are disabled and its animation stopped; the +0x18 clock and +0x1c flag reset and brain
  * slot +0x20 runs 020d0e5c. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Collision_CastRay(int collision, VecFx32 *start, VecFx32 *ray);
 extern void SrtTransform_SetIdentity(void *transform);

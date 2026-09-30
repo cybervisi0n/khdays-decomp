@@ -6,7 +6,7 @@
  * 0x136 mode 5 fires at the +8 position when anything was hit. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Sphere { VecFx32 pos; int radius; };
 

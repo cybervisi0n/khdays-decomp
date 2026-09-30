@@ -8,7 +8,7 @@
  * farther the same test gives sub-state 5 or a second roll (under 50: 0xa, else 9). Every
  * decision ends the state. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

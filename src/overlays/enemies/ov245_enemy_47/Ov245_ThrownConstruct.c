@@ -5,7 +5,7 @@
  * (attached, bit 1 of +0x5c), and from a pose 1.5 up at scale 2.6 a +0x22c placement (+0x388,
  * bit 1 of its +8 low byte) and a +0x144 placement (+0x38c); +0x390 starts empty. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int scale; } Pose;
 typedef void (*Callback)(void);

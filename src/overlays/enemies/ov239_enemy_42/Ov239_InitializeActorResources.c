@@ -2,7 +2,7 @@
  * request pair 0x138. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov239ResourceTransform {
     VecFx32 position;

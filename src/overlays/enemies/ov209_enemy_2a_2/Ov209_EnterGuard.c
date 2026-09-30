@@ -5,7 +5,7 @@
  * +0x24, clears the +0x45 byte and hands the tick over to Ov209_ItemSweepTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };
 struct w8 { unsigned int lo : 8, rest : 24; };

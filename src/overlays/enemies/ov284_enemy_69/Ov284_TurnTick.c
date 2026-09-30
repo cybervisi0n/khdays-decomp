@@ -2,7 +2,7 @@
  * frame-time down while positive, the +0x10 yaw steps towards the +0x14 target yaw by the rate
  * and the actor's +0xa0 orientation is rebuilt from the yaw about world Y. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Angle_TurnToward(int cur, int want, int step, int *state);
 extern void Srt_SetRotationAxisAngle(void *quat, const VecFx32 *axis, int angle);

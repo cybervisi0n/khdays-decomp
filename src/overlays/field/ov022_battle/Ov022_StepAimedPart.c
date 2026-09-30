@@ -17,7 +17,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define KIND_UNAIMED 0x19
 #define ANGLE_BIAS 0x8000

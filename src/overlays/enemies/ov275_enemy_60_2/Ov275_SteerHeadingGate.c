@@ -9,7 +9,7 @@
  * (0203c634 with the 020cdd78 continuation).
  */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

@@ -7,7 +7,7 @@
  * re-armed between the actor's +0x224 and +0x228, sub-state 2 is requested and the action ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int value; } Fx32;

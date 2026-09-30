@@ -7,7 +7,7 @@
  * a kind-0x10 message {4, hit position} is queued on the piece (ov002 020766e0).  0 either way. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov016Hit {
     VecFx32 position;         /* 0x00 */

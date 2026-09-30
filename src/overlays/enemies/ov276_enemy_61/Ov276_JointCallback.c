@@ -3,7 +3,7 @@
  * 0x433 and 0x866 ahead of it along the actor's +0xa0 orientation; when it reports the +0x3b8
  * joint, its translation becomes that of the +0x444 transform. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct MtxFx43 { int m[9]; VecFx32 t; };

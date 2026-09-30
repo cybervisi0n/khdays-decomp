@@ -1,7 +1,7 @@
 /* Draws the status-effect model on every visible member with the given status bit, facing the
  * camera. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 
 typedef struct {

@@ -2,7 +2,7 @@
  * runs the attack sweep (Ov170_AttackSweep) with a query built from the +8 position raised by
  * 0xc00, the up axis, a 0x3000 range and a 0xc00 radius; afterwards sub-state 0 is requested. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov169SweepQuery {
     VecFx32 vPos;

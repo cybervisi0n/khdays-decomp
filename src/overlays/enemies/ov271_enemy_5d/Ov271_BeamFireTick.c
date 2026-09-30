@@ -5,7 +5,7 @@
  * The +4 node is scaled by 4 x (1.5 without a +0x14 target, 1.0 with) on x/z and 0.1 of the
  * length on y, and the beam runs through Ov271_TickBeam with the length and mode 1. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 #define FX_MUL(a, b) ((int)(((long long)(a) * (b) + 0x800) >> 12))
 

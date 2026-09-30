@@ -1,7 +1,7 @@
 /* Initialises the cast state from the parameters and resets the shared hit record. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h
 
 typedef struct CollCastParams {
     VecFx32 *origin;

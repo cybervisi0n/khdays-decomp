@@ -9,7 +9,7 @@
  * origin (scale 0.5) go on the +0x22c list (+0x388) and the +0x144 list (+0x38c); sound 0x11a
  * is loaded. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 pos; int scale; } Pose;
 typedef void (*Callback)(void);

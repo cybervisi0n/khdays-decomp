@@ -4,7 +4,7 @@
  * sound 0/0x4a plays at the actor, the +0x3bc effect stops, the next move is 0 and the node ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { unsigned f : 8; } B8;
 

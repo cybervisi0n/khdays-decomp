@@ -2,7 +2,7 @@
  * yaw and scaled by 0.75, kept level. Once the +4 item's +0xad byte clears and no move is pending,
  * a missing target (020cd080) requests move 2; the handler is then cleared. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

@@ -5,7 +5,7 @@
  *
  * Matched byte-exact 2026-07-23, first compile. One of four byte-identical siblings. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov107_020c0b90(int obj, int a, VecFx32 v, int d);
 extern void Ov188_ProcessHitTargets(int *state, int a, int b, int p, int q);

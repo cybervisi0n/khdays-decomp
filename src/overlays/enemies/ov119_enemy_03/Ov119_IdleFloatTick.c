@@ -6,7 +6,7 @@
  * [+0x224, +0x228], the +0x2c rate becomes the frame rate x 3, the +0x1c facing turns to a random
  * heading and the tick hands over to Ov119_HoverTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

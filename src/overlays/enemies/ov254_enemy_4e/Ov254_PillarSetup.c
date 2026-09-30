@@ -8,7 +8,7 @@
  * through LoadPtr; the plain spellings colour the constant and copy registers differently. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef void (*Callback)(void);
 typedef struct { VecFx32 pos; VecFx32 axis[3]; VecFx32 half; } Box;

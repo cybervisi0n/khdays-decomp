@@ -6,7 +6,7 @@
  * player, sets bit 1 of +0x464. Once that bit is set the enemy hands over to state 0x21 while
  * the emitter at +0x22f8 is busy, otherwise to state 0x25. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { unsigned char b0 : 1, b1 : 1; } Flags;

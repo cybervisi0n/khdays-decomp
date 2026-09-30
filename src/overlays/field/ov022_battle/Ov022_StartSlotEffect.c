@@ -9,7 +9,7 @@
  */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct SlotEffect {
     u8 nFlags;                   /* 0x0000, bit 0 marks the effect live */

@@ -7,7 +7,7 @@
  * `ldr r0, [r4], #0xc`. Writing `state + 3`, or a separate cursor local, splits it into a load
  * plus an add. Same idiom as Ov247_AiApplyHeadingAndNormal. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Quat_Slerp(void *a, int s, void *b, void *m);

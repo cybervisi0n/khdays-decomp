@@ -3,7 +3,7 @@
  * 0x11,0), push the owner's local-offset vec (owner+0x494) via func_ov107_020c0b90 mode 4,
  * clear obj+0x61 and obj[2], and dispatch via SetIndexedSlot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 extern int Ov228_MeasureTargetGap(int self);

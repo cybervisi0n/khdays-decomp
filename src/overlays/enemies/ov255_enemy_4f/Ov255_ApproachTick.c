@@ -4,7 +4,7 @@
  * next sub-state is 0xc when the +0x54 cooldown has run out and the gap between the two collision
  * radii exceeds 4.0, else 2. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov107_FindNearestObject(int obj, int kind);
 extern void Ov255_SteerToTarget(int *state, int point, VecFx32 *dir, int *speed);

@@ -5,7 +5,7 @@
  * the +0x10 / +0x14 headings take another draw from the same bounds, the sub-state takes the
  * +0x1c9 byte and the node slot is released. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

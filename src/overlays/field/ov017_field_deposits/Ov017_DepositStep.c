@@ -23,7 +23,7 @@
  * drawn (0202aa9c) and the hit effect / cracks too while their flags are set.  Returns 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov017DepositDef {

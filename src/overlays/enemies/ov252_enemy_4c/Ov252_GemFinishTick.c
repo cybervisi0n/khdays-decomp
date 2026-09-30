@@ -3,7 +3,7 @@
  * +0x6f8 slot clears and the node ends (0203c640). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 struct Ov252Slots { char pad[0x640]; struct { int handle; int pad; } slot[0x40]; };

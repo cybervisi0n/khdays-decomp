@@ -9,7 +9,7 @@
  * is requested and the state ends. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { u8 hi, mid, lo; } Fx24;
 typedef struct { int value; } Fx32;

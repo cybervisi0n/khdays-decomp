@@ -1,7 +1,7 @@
 /* Compute the offset vector (020cca74) from the owner spline at *(*child+0x388)+0x2c into
  * (child)+0x30; unless the gate byte at *(child+0x10) is set, mark sub-state 2 and dispatch. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void Ov263_rotateVecByOwnerYaw(void *out, int a, int b);
 extern int SetIndexedSlot(int a, int b, void *handler);

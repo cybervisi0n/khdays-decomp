@@ -6,7 +6,7 @@
  * corners (+0x1c,+0x1d) and (+0x1e,+0x1f). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h
 
 typedef struct { fx32 _00, _01, _02, _10, _11, _12, _20, _21, _22, _30, _31, _32; } MtxFx43;
 

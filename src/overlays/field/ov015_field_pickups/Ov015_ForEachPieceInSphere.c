@@ -6,7 +6,7 @@
  * (0207386c == -1) or the seat has no owner. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct SphereFx32 {

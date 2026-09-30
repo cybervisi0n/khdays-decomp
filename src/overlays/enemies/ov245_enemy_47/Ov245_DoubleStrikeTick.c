@@ -9,7 +9,7 @@
  * 0x11a/5 at the centre. Once the +4 item's animation is free (+0xad) the direction is copied
  * to +0x28 and the node moves to 020d6c78. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 #include "game/engine.h"
 

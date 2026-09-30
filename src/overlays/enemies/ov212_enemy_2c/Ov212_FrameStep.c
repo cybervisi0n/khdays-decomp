@@ -6,7 +6,7 @@
  * (data_02041dc8); if the 020cf3fc check passes the +0x44 timer resets, otherwise it counts
  * the rate up to 0xf000, and the rate is recorded at +0x580. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int q[4]; } Quat;

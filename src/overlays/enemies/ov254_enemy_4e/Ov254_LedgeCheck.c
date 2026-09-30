@@ -5,7 +5,7 @@
  * place (mode 0xa), the next move is 0xa and 1 is returned; otherwise 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Flag17a { u8 b0 : 1; u8 b1 : 1; };
 

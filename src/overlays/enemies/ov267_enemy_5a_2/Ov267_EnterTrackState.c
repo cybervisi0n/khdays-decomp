@@ -8,7 +8,7 @@
  * base and re-adds +0x40 each iteration; a pre-offset walking pointer is 1 instruction
  * short. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct Ctx2 { char pad[0x40]; VecFx32 arr[3]; };

@@ -8,7 +8,7 @@
  * message 1 / 0 and sound 0x11; after 5.0 it expires with message 0. Otherwise +0x1c keeps the
  * position. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct { int w[4]; } Quat;

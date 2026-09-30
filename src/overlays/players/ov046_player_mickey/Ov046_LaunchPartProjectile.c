@@ -5,7 +5,7 @@
  * with both busy bits cleared, and the spin comes from the object's 0x2400 pair. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Launch {
     VecFx32 vFrom;

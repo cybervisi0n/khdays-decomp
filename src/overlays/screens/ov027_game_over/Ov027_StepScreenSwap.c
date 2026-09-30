@@ -4,7 +4,7 @@
  * the counter is a multiple of 15 (the remainder of func_02020400). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Fx32Pair {
     int  x;                   /* 0x00 */

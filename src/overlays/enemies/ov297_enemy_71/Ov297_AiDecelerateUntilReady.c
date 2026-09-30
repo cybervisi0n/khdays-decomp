@@ -1,7 +1,7 @@
 /* Slows the drift; once the ready flag is set plays the held-item anim 3 and anim 4 and installs
  * the next step. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Flags17a { char pad[0x17a]; unsigned char ready : 1; };
 

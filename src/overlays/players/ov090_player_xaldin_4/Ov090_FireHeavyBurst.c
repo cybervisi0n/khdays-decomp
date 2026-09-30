@@ -7,7 +7,7 @@
  * 1) at the +0x26c8 muzzle with the actor's heading and arms the +0x47a/+0x47b pair. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Emit {
     char pad00[0xc];

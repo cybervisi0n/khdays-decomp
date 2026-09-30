@@ -8,7 +8,7 @@
  * insert keeps the fca8 argument setup out of the update. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 typedef struct { unsigned f : 8; } B8;

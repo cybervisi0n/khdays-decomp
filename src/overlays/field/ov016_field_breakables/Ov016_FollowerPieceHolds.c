@@ -5,7 +5,7 @@
  * (pFrom - pAt) and (piece - pAt) is inside the half-cone nCone / 2 (cos from the sin/cos table).  nAngle is not used. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct Ov016LiveFlags {
     unsigned short lowByte : 8;

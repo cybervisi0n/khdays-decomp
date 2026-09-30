@@ -6,7 +6,7 @@
  * becomes 0.5, the target's height is kept at +0x6c and the tick hands over to
  * Ov279_CarryTick. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int w[4]; } Quat;

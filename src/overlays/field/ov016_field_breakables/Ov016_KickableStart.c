@@ -7,7 +7,7 @@
  * its two animation words (+0x624 / +0x620) through Ov016_KickableSetAnim (020815e8). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 typedef struct Ov016KickableDef {

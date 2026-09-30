@@ -6,7 +6,7 @@
  * +0x1c distance accumulates the step length; past 21.0 the shot fizzles (effect 0, pose 0). */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { VecFx32 center; int nRadius; } Sphere;
 

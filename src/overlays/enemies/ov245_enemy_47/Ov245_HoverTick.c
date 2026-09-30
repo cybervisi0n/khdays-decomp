@@ -3,7 +3,7 @@
  * negated +0x30 speed otherwise; then, when the animation gate (020cce48) reports idle, requests
  * sub-state 2 and releases the node's slot. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void ScaleVec3Fx12(int scale, const VecFx32 *v, VecFx32 *out);
 extern int Ov245_AnimGate(int self);

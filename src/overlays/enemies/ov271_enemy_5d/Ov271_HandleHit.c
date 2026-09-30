@@ -8,7 +8,7 @@
  * idle pair at the +0x48 point, then flips the side. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov271ActionState {
     int pOwner;

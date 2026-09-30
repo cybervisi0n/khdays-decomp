@@ -3,7 +3,7 @@
 #pragma opt_propagation off
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 struct Ov022ColorBuffer {
     u8 channel[6];

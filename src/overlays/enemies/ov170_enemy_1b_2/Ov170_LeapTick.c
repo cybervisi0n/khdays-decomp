@@ -11,7 +11,7 @@
  * (the reaction only when those bits are clear) and ends with sub-state 0. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct hw60 { unsigned short lo : 8, hi : 8; };

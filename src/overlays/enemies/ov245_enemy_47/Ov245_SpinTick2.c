@@ -5,7 +5,7 @@
  * Codegen: the shared +0x1c address is a named pointer so the copy evaluates its destination
  * address first (ip) and the source (lr) second. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/engine.h"
 
 extern void Quat_FromTwoVectors(void *out, const VecFx32 *a, const VecFx32 *b);

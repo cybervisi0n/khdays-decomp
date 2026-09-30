@@ -1,7 +1,7 @@
 /* Aim refresh of the ov259 actor: the +0x14 velocity is the +0x414 partner's +0x2c vector turned
  * by the +0x78 heading. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } Mtx33;
 

@@ -1,7 +1,7 @@
 /* Finds the nearest target (queues action 2 when none), returns the gap minus both radii and stores
  * the heading. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/actor.h"
 
 extern int Ov107_FindNearestObject();

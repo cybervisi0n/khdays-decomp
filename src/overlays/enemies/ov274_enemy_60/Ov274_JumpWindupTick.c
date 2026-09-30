@@ -9,7 +9,7 @@
  * heading of the direction and the tick hands over to Ov274_AiBallisticTick. */
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 typedef struct { int value; } Fx32;

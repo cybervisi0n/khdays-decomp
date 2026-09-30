@@ -1,7 +1,7 @@
 /* Spawns the attack effect at the character's weapon anchor through a placement message to the
  * battle module. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern void func_ov022_020ad44c(void *out, int self);
 extern void Ov022_SendPlacementMessage(int self, void *p);

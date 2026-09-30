@@ -1,6 +1,6 @@
 
 #include "nitro/types.h"
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int Ov002_LookupChannelEntry(void *pName);
 extern void RegisterSeqAndInit(char *pNode, int nRes, int a, int b);

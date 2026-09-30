@@ -1,6 +1,6 @@
 /* In action 1 reacts to the hit message flags (bounce on bit 0 / 4). */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 extern int func_ov107_020c0b90(int a, int b, VecFx32 v, int c);
 

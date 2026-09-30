@@ -8,7 +8,7 @@
  * BEFORE `state` to colour r4/r5 the way the ROM does, and the 0x24-byte matrix has to be
  * declared before the 3-word vector so the frame comes out as sp+0xc / sp+0. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } MtxFx33;
 

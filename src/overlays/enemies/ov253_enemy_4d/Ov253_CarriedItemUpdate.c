@@ -4,7 +4,7 @@
  * matrix, composed with the data_ov253_020d4834 rotation and normalised, and copied into the
  * +0x440 item and from there into the +0x444 slot's item. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 
 typedef struct { int m[9]; } MtxFx33;
 typedef struct { MtxFx33 rotation; VecFx32 translation; } MtxFx43;

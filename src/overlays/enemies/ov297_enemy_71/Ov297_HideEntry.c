@@ -3,7 +3,7 @@
  * the +0x10 velocity, places the actor at the point, resets the +0x38 and +0x7c timers, requests
  * sub-state 2 and ends the state. */
 
-#include "nitro/fx_types.h"
+#include "nitro/fx/fx.h"
 #include "game/enemy_common.h"
 
 struct HideTable { VecFx32 p[2]; };
